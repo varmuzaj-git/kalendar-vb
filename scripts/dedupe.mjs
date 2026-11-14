@@ -41,7 +41,8 @@ export async function mergeDuplicates(events, sources, { ai }) {
     for (let a = 0; a < idx.length; a++) {
       for (let b = a + 1; b < idx.length; b++) {
         const i = idx[a], j = idx[b], A = events[i], B = events[j];
-        if (A.source === B.source || find(i) === find(j)) continue;
+        // stejný zdroj slučujeme jen u zpravodaje (stejná akce v několika vydáních)
+        if ((A.source === B.source && A.source !== 'zpravodaj') || find(i) === find(j)) continue;
         if (!timesCompatible(A, B)) continue;
         if (similar(A, B)) { union(i, j); continue; }
         // AI jen pro páry, kde aspoň jeden pochází z textového zdroje (zpravodaj, weby souborů)
@@ -72,6 +73,7 @@ export async function mergeDuplicates(events, sources, { ai }) {
     base.sources = [...new Set(g.flatMap((x) => x.sources || [x.source]))];
     base.categories = [...new Set(g.flatMap((x) => x.categories))].filter((c, _, arr) => c !== 'ostatni' || arr.length === 1);
     base.tags = [...new Set(g.flatMap((x) => x.tags || []))];
+    base.organizers = [...new Set(g.flatMap((x) => x.organizers || []))];
     base.altTitles = [...new Set(base.altTitles)].filter((x) => normalize(x) !== normalize(base.title));
     if (!base.altTitles.length) delete base.altTitles;
     out.push(base);

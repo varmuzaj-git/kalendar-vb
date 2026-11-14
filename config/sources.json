@@ -52,7 +52,18 @@
         "^trojak\\s*$"
       ],
       "categories": [],
-      "priority": 2
+      "priority": 2,
+      "organizer": false,
+      "categoryRules": [
+        {
+          "$comment": "pravidelné zkoušky souborů nejsou kulturní akce",
+          "title": "trojak",
+          "recurringOnly": true,
+          "remove": [
+            "kultura"
+          ]
+        }
+      ]
     },
     {
       "id": "farnost",
@@ -109,7 +120,21 @@
       "type": "zpravodaj",
       "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
       "priority": 1,
-      "categories": []
+      "categories": [],
+      "organizer": false
+    },
+    {
+      "id": "fotbal",
+      "name": "Fotbal muži",
+      "fullName": "Fotbal – muži Valašská Bystřice (domácí zápasy)",
+      "color": "#2f6b47",
+      "link": "https://www.fotbal.cz/souteze/turnaje/zapas/3b5a8ae7-c6a2-4155-99f1-4c648b2283d4?programFilter-team-id=13ffbe30-980f-4862-90c9-1f1778be3cbb",
+      "type": "static",
+      "file": "config/manual/fotbal.json",
+      "priority": 3,
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "svatky",
@@ -120,5 +145,8 @@
       "display": "dayLabel",
       "priority": 0
     }
-  ]
+  ],
+  "titleFixes": {
+    "\\bjoga\\b": "Jóga"
+  }
 }

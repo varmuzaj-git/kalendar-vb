@@ -4,35 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalendář akcí – Valašská Bystřice</title>
-<meta name="description" content="Všechny akce ve Valašské Bystřici na jednom místě – Společenský dům U Pernických, farnost a další.">
+<meta name="description" content="Všechny akce ve Valašské Bystřici na jednom místě – farnost, divadlo CHAOS, Troják, fotbal, Společenský dům U Pernických a další.">
 <link rel="stylesheet" href="css/style.css?v=dev">
 </head>
 <body>
 <div class="wrap">
   <header class="head">
     <h1>Kalendář akcí ve Valašské Bystřici</h1>
-    <p class="lead">Akce pořadatelů z obce na jednom místě, aktualizované každý den.</p>
+    <p class="lead">Farnost, divadlo, Troják, fotbal a další – všechno na jednom místě.</p>
   </header>
 
-  <section class="filters" aria-label="Hledání a filtry">
-    <div class="row">
-      <input type="search" id="q" placeholder="Hledat akci…" aria-label="Hledat akci">
-      <div class="views" role="tablist" aria-label="Zobrazení">
-        <button type="button" role="tab" data-view="list" aria-selected="true">Seznam</button>
-        <button type="button" role="tab" data-view="month" aria-selected="false">Měsíc</button>
+  <section class="card filters" aria-label="Hledání a filtry">
+    <button type="button" class="ftoggle" id="ftoggle" aria-expanded="true" aria-controls="fbody">
+      <span>🔍 Hledání a filtry</span><span class="chev" aria-hidden="true">⌄</span>
+    </button>
+    <div id="fbody" class="fbody">
+      <div class="frow"><span class="flabel">Pořadatel</span><div class="chips" id="srcs"></div></div>
+      <div class="frow"><span class="flabel">Kategorie</span><div class="chips" id="cats"></div>
+        <label class="chk"><input type="checkbox" id="showRecurring" checked> Pravidelné</label></div>
+      <div class="fbottom">
+        <input type="search" id="q" placeholder="Hledat akci…" aria-label="Hledat akci">
+        <a href="#odber" class="link">📅 Přidat do kalendáře</a>
       </div>
-    </div>
-    <div class="chips" id="cats" aria-label="Kategorie"><span class="lbl">Kategorie:</span></div>
-    <div class="chips" id="srcs" aria-label="Pořadatel"><span class="lbl">Pořadatel:</span></div>
-    <div class="row small">
-      <label><input type="checkbox" id="showRecurring" checked> Pravidelné akce (kroužky, cvičení)</label>
-      <button type="button" class="link" id="reset" hidden>Zrušit filtry</button>
+      <p class="count small muted" id="count"></p>
+      <button type="button" class="link small" id="reset" hidden>Zrušit filtry</button>
     </div>
   </section>
 
-  <main id="out" aria-live="polite"><p class="muted">Načítám akce…</p></main>
+  <section class="month" id="month" aria-label="Měsíční přehled"></section>
 
-  <section class="subscribe">
+  <p class="toggles small"><button type="button" class="link" id="pastBtn"></button></p>
+
+  <main id="list" aria-live="polite"><p class="muted">Načítám akce…</p></main>
+
+  <section class="card subscribe" id="odber">
     <h2>Akce ve vašem kalendáři</h2>
     <p>Odběr kalendáře: akce se vám budou samy objevovat a aktualizovat v telefonu nebo v počítači.</p>
     <p class="btns">

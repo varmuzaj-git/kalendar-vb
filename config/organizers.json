@@ -1,0 +1,114 @@
+{
+  "$comment": "Pořadatelé akcí (filtr „Pořadatel“ na webu). Akce dostane pořadatele: 1) podle zdroje (sources = id zdrojů, které pořadatel sám vede), 2) podle názvu akce nebo pořadatele uvedeného ve zdroji (match = regulární výrazy BEZ diakritiky, malými písmeny). Akce může mít víc pořadatelů. Akce bez pořadatele se zobrazí, jen ji nejde vyfiltrovat podle pořadatele. Pravidlo může mít i „rules“: [{match, location}] – platí jen když název odpovídá match A ZÁROVEŇ místo odpovídá location.",
+  "organizers": [
+    {
+      "id": "farnost",
+      "name": "Farnost",
+      "color": "#8a6d1f",
+      "link": "https://farnostvb.cz/",
+      "sources": [
+        "farnost"
+      ],
+      "match": [
+        "\\bfarn",
+        "\\bmse\\b",
+        "bohosluzb"
+      ]
+    },
+    {
+      "id": "chaos",
+      "name": "Divadlo CHAOS",
+      "color": "#c2185b",
+      "link": "https://divadlochaos.cz/",
+      "sources": [
+        "chaos"
+      ],
+      "match": [
+        "\\bchaos",
+        "divadelni podzim"
+      ],
+      "rules": [
+        {
+          "$comment": "CHAOS pořádá všechna divadelní představení U Pernických (i hostující soubory)",
+          "match": [
+            "divad",
+            "predstaveni",
+            "premier",
+            "repriz",
+            "dernier"
+          ],
+          "location": "pernick"
+        }
+      ]
+    },
+    {
+      "id": "trojak",
+      "name": "Troják",
+      "color": "#2e7d32",
+      "link": "https://vstrojak.cz/",
+      "sources": [
+        "trojak"
+      ],
+      "match": [
+        "trojak",
+        "koncinov",
+        "kac[ae]ni maj"
+      ]
+    },
+    {
+      "id": "portasi",
+      "name": "Valašský sbor portášů",
+      "color": "#7b3f00",
+      "link": null,
+      "sources": [],
+      "match": [
+        "portas"
+      ]
+    },
+    {
+      "id": "fotbal",
+      "name": "Fotbal muži",
+      "color": "#1b6e3a",
+      "link": null,
+      "sources": [
+        "fotbal"
+      ],
+      "match": []
+    },
+    {
+      "id": "seniori",
+      "name": "Sdružení důchodců",
+      "color": "#6b4ea0",
+      "link": null,
+      "sources": [],
+      "match": [
+        "duchodc",
+        "^vychazka\\b",
+        "silvestrovsky vyslap"
+      ]
+    },
+    {
+      "id": "obec",
+      "name": "Obec",
+      "color": "#1f5c99",
+      "link": "https://www.valasskabystrice.cz/",
+      "sources": [],
+      "match": [
+        "zastupitel",
+        "\\bvolby\\b",
+        "vitani obcank",
+        "obecni slavnost"
+      ]
+    },
+    {
+      "id": "sachy",
+      "name": "Šachisté",
+      "color": "#455a64",
+      "link": null,
+      "sources": [],
+      "match": [
+        "\\bsach"
+      ]
+    }
+  ]
+}

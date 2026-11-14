@@ -8,19 +8,22 @@ import { collectHolidays } from './adapters/holidays.mjs';
 import { collectZpravodaj, collectAiHtml, collectAiWp } from './adapters/ai-sources.mjs';
 import { saveCache, aiAvailable, aiCalls } from './ai.mjs';
 import { mergeDuplicates } from './dedupe.mjs';
+import { collectStatic } from './adapters/static.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
-const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays, zpravodaj: collectZpravodaj, 'ai-html': collectAiHtml, 'ai-wp': collectAiWp };
+const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays, zpravodaj: collectZpravodaj, 'ai-html': collectAiHtml, 'ai-wp': collectAiWp, static: collectStatic };
 const only = process.argv.find((a) => a.startsWith('--only='))?.slice(7);
 
 const readJson = async (p, fallback) => { try { return JSON.parse(await readFile(ROOT + p, 'utf8')); } catch { return fallback; } };
 const sourcesCfg = await readJson('config/sources.json');
 const catCfg = await readJson('config/categories.json');
+const orgCfg = await readJson('config/organizers.json', { organizers: [] });
 // nesloučené akce po zdrojích z minulého běhu (archiv a záloha při výpadku zdroje)
 const previous = await readJson('cache/raw-events.json', { events: [] });
 const prevStatus = await readJson('public/data/status.json', { sources: [] });
 
 const rx = (list) => (list || []).map((k) => new RegExp(k, 'i'));
+const orgRules = orgCfg.organizers.map((o) => ({ ...o, re: rx(o.match) }));
 const catRules = catCfg.categories.map((c) => ({ id: c.id, patterns: rx(c.keywords) }));
 const tagRules = Object.entries(catCfg.tags || {}).map(([k, tag]) => ({ re: new RegExp(k, 'i'), tag }));
 const compact = (s) => normalize(s).replace(/[^a-z0-9]/g, '');
@@ -37,7 +40,12 @@ function extractHashTags(description) {
   return { cats: [...cats], tags: [...tags], description: text };
 }
 
+// opravy názvů ve všech zdrojích (např. „Joga“ → „Jóga“); klíč = regex bez ohledu na velikost písmen
+const titleFixes = Object.entries(sourcesCfg.titleFixes || {}).map(([k, v]) => [new RegExp(k, 'giu'), v]);
+const fixTitle = (s) => titleFixes.reduce((acc, [re, v]) => acc.replace(re, (m) => (m[0] === m[0].toLowerCase() ? v.toLowerCase() : v)), s);
+
 function enrich(ev, source) {
+  ev = { ...ev, title: fixTitle(ev.title), description: fixTitle(ev.description || '') };
   const { cats: hashCats, tags: hashTags, description } = extractHashTags(ev.description);
   const text = normalize(`${ev.title}\n${description}`);
   const cats = new Set(source.categories || []);
@@ -45,13 +53,24 @@ function enrich(ev, source) {
   for (const c of ev.aiCategories || []) if (tagMap.has(compact(c))) cats.add(tagMap.get(compact(c)));
   if (hashCats.length) hashCats.forEach((c) => cats.add(c));
   else for (const r of catRules) if (r.patterns.some((p) => p.test(text))) cats.add(r.id);
+  for (const r of source.categoryRules || []) {
+    if (r.recurringOnly && !recurringOf(ev, source)) continue;
+    if (!new RegExp(r.title, 'i').test(normalize(ev.title))) continue;
+    (r.remove || []).forEach((c) => cats.delete(c));
+    (r.add || []).forEach((c) => cats.add(c));
+  }
   if (cats.size > 1) cats.delete('ostatni');
   if (!cats.size) cats.add('ostatni');
   const tags = new Set([...hashTags, ...(ev.sourceTags || []).map((t) => t.toLowerCase())]);
   for (const r of tagRules) if (r.re.test(text)) tags.add(r.tag);
   // podle názvu jen u akcí s časem (celodenní „Troják“ = vystoupení, ne zkouška)
-  const recurring = ev.recurring || (!ev.allDay && rx(source.recurringTitles).some((p) => p.test(normalize(ev.title))));
+  const recurring = recurringOf(ev, source);
+  const orgText = normalize(`${ev.title}\n${ev.organizerHint || ''}`);
+  const where = normalize(ev.location || source.defaultLocation || '');
+  const organizers = orgRules.filter((o) => (o.sources || []).includes(source.id) || o.re.some((p) => p.test(orgText))
+    || (o.rules || []).some((r) => rx(r.match).some((p) => p.test(orgText)) && (!r.location || new RegExp(r.location, 'i').test(where)))).map((o) => o.id);
   const out = {
+    organizers,
     id: `${source.id}-${hash(`${ev.uid}|${ev.start}`)}`,
     source: source.id,
     sources: [source.id],
@@ -69,6 +88,11 @@ function enrich(ev, source) {
   };
   for (const k of ['url', 'description', 'image', 'location']) if (!out[k]) delete out[k];
   return out;
+}
+
+function recurringOf(ev, source) {
+  // podle názvu jen u akcí s časem (celodenní „Troják“ = vystoupení, ne zkouška)
+  return ev.recurring || (!ev.allDay && rx(source.recurringTitles).some((p) => p.test(normalize(ev.title))));
 }
 
 const isExcluded = (title, source) => {
@@ -129,11 +153,12 @@ await saveCache();
 if (aiCalls()) console.log(`AI: ${aiCalls()} dotazů`);
 
 const publicSources = sourcesCfg.sources.filter((s) => s.enabled !== false)
-  .map(({ id, name, fullName, color, link, display }) => ({ id, name, fullName, color, link: link || null, display: display || 'events' }));
+  .map(({ id, name, fullName, color, link, display, organizer }) => ({ id, name, fullName, color, link: link || null, display: display || 'events', organizer: organizer !== false }));
+const publicOrgs = orgCfg.organizers.map(({ id, name, color, link }) => ({ id, name, color, link: link || null }));
 const publicCats = catCfg.categories.map(({ id, label, color }) => ({ id, label, color }));
 
 await mkdir(ROOT + 'public/data', { recursive: true });
-await writeFile(ROOT + 'public/data/events.json', JSON.stringify({ calendarName: 'Kalendář akcí ve Valašské Bystřici', sources: publicSources, categories: publicCats, events }, null, 1) + '\n');
+await writeFile(ROOT + 'public/data/events.json', JSON.stringify({ calendarName: 'Kalendář akcí ve Valašské Bystřici', sources: publicSources, organizers: publicOrgs, categories: publicCats, events }, null, 1) + '\n');
 await writeFile(ROOT + 'public/data/status.json', JSON.stringify({ generatedAt: new Date().toISOString(), sources: status }, null, 1) + '\n');
 
 // ---- .ics pro odběr ----------------------------------------------------------

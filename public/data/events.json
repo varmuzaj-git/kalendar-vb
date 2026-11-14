@@ -7,7 +7,8 @@
    "fullName": "Společenský dům U Pernických",
    "color": "#b5452b",
    "link": "https://spolakupernickych.cz/index.html#kalendar",
-   "display": "events"
+   "display": "events",
+   "organizer": false
   },
   {
    "id": "farnost",
@@ -15,7 +16,8 @@
    "fullName": "Římskokatolická farnost Valašská Bystřice",
    "color": "#8a6d1f",
    "link": "https://farnostvb.cz/akce/",
-   "display": "events"
+   "display": "events",
+   "organizer": true
   },
   {
    "id": "chaos",
@@ -23,7 +25,8 @@
    "fullName": "Divadelní soubor CHAOS",
    "color": "#c2185b",
    "link": "https://divadlochaos.cz/",
-   "display": "events"
+   "display": "events",
+   "organizer": true
   },
   {
    "id": "trojak",
@@ -31,7 +34,8 @@
    "fullName": "Valašský soubor Troják",
    "color": "#2e7d32",
    "link": "https://vstrojak.cz/aktuality/",
-   "display": "events"
+   "display": "events",
+   "organizer": true
   },
   {
    "id": "zpravodaj",
@@ -39,7 +43,17 @@
    "fullName": "Valašskobystřický zpravodaj",
    "color": "#1f5c99",
    "link": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
-   "display": "events"
+   "display": "events",
+   "organizer": false
+  },
+  {
+   "id": "fotbal",
+   "name": "Fotbal muži",
+   "fullName": "Fotbal – muži Valašská Bystřice (domácí zápasy)",
+   "color": "#2f6b47",
+   "link": "https://www.fotbal.cz/souteze/turnaje/zapas/3b5a8ae7-c6a2-4155-99f1-4c648b2283d4?programFilter-team-id=13ffbe30-980f-4862-90c9-1f1778be3cbb",
+   "display": "events",
+   "organizer": true
   },
   {
    "id": "svatky",
@@ -47,7 +61,58 @@
    "fullName": "Státní svátky ČR",
    "color": "#7a7f87",
    "link": null,
-   "display": "dayLabel"
+   "display": "dayLabel",
+   "organizer": true
+  }
+ ],
+ "organizers": [
+  {
+   "id": "farnost",
+   "name": "Farnost",
+   "color": "#8a6d1f",
+   "link": "https://farnostvb.cz/"
+  },
+  {
+   "id": "chaos",
+   "name": "Divadlo CHAOS",
+   "color": "#c2185b",
+   "link": "https://divadlochaos.cz/"
+  },
+  {
+   "id": "trojak",
+   "name": "Troják",
+   "color": "#2e7d32",
+   "link": "https://vstrojak.cz/"
+  },
+  {
+   "id": "portasi",
+   "name": "Valašský sbor portášů",
+   "color": "#7b3f00",
+   "link": null
+  },
+  {
+   "id": "fotbal",
+   "name": "Fotbal muži",
+   "color": "#1b6e3a",
+   "link": null
+  },
+  {
+   "id": "seniori",
+   "name": "Sdružení důchodců",
+   "color": "#6b4ea0",
+   "link": null
+  },
+  {
+   "id": "obec",
+   "name": "Obec",
+   "color": "#1f5c99",
+   "link": "https://www.valasskabystrice.cz/"
+  },
+  {
+   "id": "sachy",
+   "name": "Šachisté",
+   "color": "#455a64",
+   "link": null
   }
  ],
  "categories": [
@@ -94,12 +159,13 @@
  ],
  "events": [
   {
+   "organizers": [],
    "id": "pernicti-395a94c759",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-02T19:00",
    "end": "2026-07-02T20:00",
    "allDay": false,
@@ -113,6 +179,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-1d82aa8fa3",
    "source": "svatky",
    "sources": [
@@ -127,6 +194,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-16ddb2d756",
    "source": "farnost",
    "sources": [
@@ -146,6 +216,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-63930b6713",
    "source": "svatky",
    "sources": [
@@ -160,12 +231,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-66818e7858",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-06T19:00",
    "end": "2026-07-06T20:00",
    "allDay": false,
@@ -179,12 +251,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-9c3f0293bc",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-09T19:00",
    "end": "2026-07-09T20:00",
    "allDay": false,
@@ -198,6 +271,9 @@
    ]
   },
   {
+   "organizers": [
+    "portasi"
+   ],
    "id": "zpravodaj-2e57238293",
    "source": "zpravodaj",
    "sources": [
@@ -223,6 +299,9 @@
    ]
   },
   {
+   "organizers": [
+    "portasi"
+   ],
    "id": "pernicti-3e2677247d",
    "source": "pernicti",
    "sources": [
@@ -253,6 +332,9 @@
    ]
   },
   {
+   "organizers": [
+    "portasi"
+   ],
    "id": "pernicti-8438b745cf",
    "source": "pernicti",
    "sources": [
@@ -272,12 +354,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-360228ad27",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-13T19:00",
    "end": "2026-07-13T20:00",
    "allDay": false,
@@ -291,12 +374,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f801bfbff9",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-16T19:00",
    "end": "2026-07-16T20:00",
    "allDay": false,
@@ -310,6 +394,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-6c16195061",
    "source": "pernicti",
    "sources": [
@@ -322,19 +409,20 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-9e14b141b3",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-20T19:00",
    "end": "2026-07-20T20:00",
    "allDay": false,
@@ -348,12 +436,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f12b5dd515",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-23T19:00",
    "end": "2026-07-23T20:00",
    "allDay": false,
@@ -367,6 +456,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-a555148e38",
    "source": "zpravodaj",
    "sources": [
@@ -389,6 +479,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-fb4072abe5",
    "source": "pernicti",
    "sources": [
@@ -408,6 +499,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-90e02f2441",
    "source": "pernicti",
    "sources": [
@@ -420,13 +514,14 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f65a9c81ba",
    "source": "pernicti",
    "sources": [
@@ -446,12 +541,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-894e8447ff",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-27T19:00",
    "end": "2026-07-27T20:00",
    "allDay": false,
@@ -465,12 +561,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f793da5c84",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-07-30T19:00",
    "end": "2026-07-30T20:00",
    "allDay": false,
@@ -484,6 +581,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-58e78f8b9a",
    "source": "pernicti",
    "sources": [
@@ -496,19 +596,20 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-c74225f416",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-03T19:00",
    "end": "2026-08-03T20:00",
    "allDay": false,
@@ -522,6 +623,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-bf187751eb",
    "source": "farnost",
    "sources": [
@@ -539,6 +643,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-c6449a6d02",
    "source": "pernicti",
    "sources": [
@@ -559,6 +666,9 @@
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-f321736ad5",
    "source": "pernicti",
    "sources": [
@@ -578,12 +688,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-7ff673073a",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-06T19:00",
    "end": "2026-08-06T20:00",
    "allDay": false,
@@ -597,6 +708,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-1e495b1589",
    "source": "pernicti",
    "sources": [
@@ -609,19 +723,20 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-0c6cc5e642",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-10T19:00",
    "end": "2026-08-10T20:00",
    "allDay": false,
@@ -635,6 +750,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-bf011aaefd",
    "source": "farnost",
    "sources": [
@@ -652,12 +770,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-d15ec4c815",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-13T19:00",
    "end": "2026-08-13T20:00",
    "allDay": false,
@@ -671,6 +790,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-3716f73865",
    "source": "pernicti",
    "sources": [
@@ -683,13 +805,14 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-0ed8630cd4",
    "source": "pernicti",
    "sources": [
@@ -709,6 +832,30 @@
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-2703c94428",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Halenkov",
+   "start": "2026-08-15T16:30",
+   "end": "2026-08-15T18:30",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "3. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-c626f28e41",
    "source": "farnost",
    "sources": [
@@ -735,12 +882,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-1f35014c95",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-17T19:00",
    "end": "2026-08-17T20:00",
    "allDay": false,
@@ -754,12 +902,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-a60802f4b9",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-20T19:00",
    "end": "2026-08-20T20:00",
    "allDay": false,
@@ -773,12 +922,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-10c8702bcb",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-24T19:00",
    "end": "2026-08-24T20:00",
    "allDay": false,
@@ -792,12 +942,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-d6de87dc01",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-27T19:00",
    "end": "2026-08-27T20:00",
    "allDay": false,
@@ -811,6 +962,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-b2ebe724bc",
    "source": "zpravodaj",
    "sources": [
@@ -833,6 +985,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-33d5aad6c1",
    "source": "pernicti",
    "sources": [
@@ -852,6 +1005,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-88938e3fe1",
    "source": "pernicti",
    "sources": [
@@ -864,19 +1020,41 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-9730cf4c6c",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Val. Příkazy",
+   "start": "2026-08-30T16:30",
+   "end": "2026-08-30T18:30",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "5. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [],
    "id": "pernicti-ea2e51b710",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-08-31T19:00",
    "end": "2026-08-31T20:00",
    "allDay": false,
@@ -890,6 +1068,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-10d0a9352c",
    "source": "pernicti",
    "sources": [
@@ -910,6 +1089,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f9a6aeb533",
    "source": "pernicti",
    "sources": [
@@ -929,6 +1109,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-0aa733271b",
    "source": "zpravodaj",
    "sources": [
@@ -942,27 +1125,6 @@
    "description": "Sdružení důchodců uspořádalo výlet do Pusteven 2. září 2026, doprava autobusem.",
    "recurring": false,
    "categories": [
-    "seniori"
-   ],
-   "tags": [
-    "vychazka",
-    "pustevny"
-   ]
-  },
-  {
-   "id": "zpravodaj-da45acf1b7",
-   "source": "zpravodaj",
-   "sources": [
-    "zpravodaj"
-   ],
-   "title": "Vycházka: Pustevny",
-   "start": "2026-09-02",
-   "end": "2026-09-02",
-   "allDay": true,
-   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
-   "description": "Vycházka pro členy Sdružení důchodců do Pusteven, dopravou autobusem.",
-   "recurring": false,
-   "categories": [
     "seniori",
     "sport"
    ],
@@ -970,9 +1132,15 @@
     "vychazka",
     "pustevny",
     "seniori"
+   ],
+   "altTitles": [
+    "Vycházka: Pustevny"
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-92f7d0cca0",
    "source": "pernicti",
    "sources": [
@@ -992,6 +1160,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-2a97b026c8",
    "source": "pernicti",
    "sources": [
@@ -1004,7 +1175,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -1012,12 +1182,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-de2e4faa96",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-03T19:00",
    "end": "2026-09-03T20:00",
    "allDay": false,
@@ -1031,6 +1202,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-f17a9b64d7",
    "source": "pernicti",
    "sources": [
@@ -1043,13 +1217,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-5d4243d78b",
    "source": "pernicti",
    "sources": [
@@ -1080,6 +1257,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "zpravodaj-50723d6591",
    "source": "zpravodaj",
    "sources": [
@@ -1102,6 +1282,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "zpravodaj-ab6135885e",
    "source": "zpravodaj",
    "sources": [
@@ -1125,6 +1308,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-d27a78837b",
    "source": "zpravodaj",
    "sources": [
@@ -1148,12 +1332,34 @@
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-f67ad34c35",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Ústí",
+   "start": "2026-09-13T16:00",
+   "end": "2026-09-13T18:00",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "7. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [],
    "id": "pernicti-88355a05f2",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-14T19:00",
    "end": "2026-09-14T20:00",
    "allDay": false,
@@ -1167,6 +1373,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-dddc192c04",
    "source": "zpravodaj",
    "sources": [
@@ -1191,6 +1398,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-9bee828685",
    "source": "pernicti",
    "sources": [
@@ -1211,6 +1419,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-744b5bac4b",
    "source": "pernicti",
    "sources": [
@@ -1230,6 +1439,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-59d073dc09",
    "source": "zpravodaj",
    "sources": [
@@ -1243,27 +1455,6 @@
    "description": "Výlet sdružení důchodců do Luhačovic 16. září 2026, doprava auty a autobusem.",
    "recurring": false,
    "categories": [
-    "seniori"
-   ],
-   "tags": [
-    "vychazka",
-    "luhačovice"
-   ]
-  },
-  {
-   "id": "zpravodaj-d2fdbcf75a",
-   "source": "zpravodaj",
-   "sources": [
-    "zpravodaj"
-   ],
-   "title": "Vycházka: Luhačovice",
-   "start": "2026-09-16",
-   "end": "2026-09-16",
-   "allDay": true,
-   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
-   "description": "Vycházka pro seniory do Luhačovic, dopravou autem i autobusem.",
-   "recurring": false,
-   "categories": [
     "seniori",
     "sport"
    ],
@@ -1271,9 +1462,13 @@
     "vychazka",
     "luhačovice",
     "seniori"
+   ],
+   "altTitles": [
+    "Vycházka: Luhačovice"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-efeb8eb81b",
    "source": "pernicti",
    "sources": [
@@ -1293,6 +1488,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-4a9c2abc26",
    "source": "pernicti",
    "sources": [
@@ -1305,7 +1503,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -1313,12 +1510,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-e0be80201f",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-17T19:00",
    "end": "2026-09-17T20:00",
    "allDay": false,
@@ -1332,6 +1530,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-067079e0b8",
    "source": "pernicti",
    "sources": [
@@ -1351,6 +1552,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-67ffe97098",
    "source": "pernicti",
    "sources": [
@@ -1363,13 +1567,14 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-3599f1e79b",
    "source": "pernicti",
    "sources": [
@@ -1387,12 +1592,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-603d2baef9",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-21T19:00",
    "end": "2026-09-21T20:00",
    "allDay": false,
@@ -1406,6 +1612,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-97d8157df5",
    "source": "pernicti",
    "sources": [
@@ -1426,6 +1633,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-4bf2cd8438",
    "source": "pernicti",
    "sources": [
@@ -1445,6 +1653,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-8eca25e129",
    "source": "zpravodaj",
    "sources": [
@@ -1465,30 +1674,13 @@
     "bowling",
     "rožnov",
     "seniori"
+   ],
+   "altTitles": [
+    "Bowling – Rožnov pod Radhoštěm"
    ]
   },
   {
-   "id": "zpravodaj-59608892ff",
-   "source": "zpravodaj",
-   "sources": [
-    "zpravodaj"
-   ],
-   "title": "Bowling – Rožnov pod Radhoštěm",
-   "start": "2026-09-23",
-   "end": "2026-09-23",
-   "allDay": true,
-   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
-   "description": "Sdružení důchodců se sešlo na bowling v Rožnově pod Radhoštěm 23. září 2026.",
-   "recurring": false,
-   "categories": [
-    "seniori"
-   ],
-   "tags": [
-    "bowling",
-    "rožnov"
-   ]
-  },
-  {
+   "organizers": [],
    "id": "pernicti-a6b6f7015f",
    "source": "pernicti",
    "sources": [
@@ -1508,6 +1700,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-aa51e2d0ca",
    "source": "pernicti",
    "sources": [
@@ -1520,7 +1715,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -1528,6 +1722,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-11c84fac8b",
    "source": "pernicti",
    "sources": [
@@ -1548,12 +1745,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-aa568b4bba",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-24T19:00",
    "end": "2026-09-24T20:00",
    "allDay": false,
@@ -1567,6 +1765,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-3fff46ee44",
    "source": "pernicti",
    "sources": [
@@ -1584,6 +1785,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-5e4d1aa498",
    "source": "pernicti",
    "sources": [
@@ -1596,13 +1800,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-65170c4058",
    "source": "pernicti",
    "sources": [
@@ -1630,6 +1837,9 @@
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "zpravodaj-89f69e8fa7",
    "source": "zpravodaj",
    "sources": [
@@ -1652,6 +1862,28 @@
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-817a92efba",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Poličná",
+   "start": "2026-09-27T15:30",
+   "end": "2026-09-27T17:30",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "9. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [],
    "id": "svatky-ef5b7e5789",
    "source": "svatky",
    "sources": [
@@ -1666,6 +1898,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-9000a8a5ed",
    "source": "pernicti",
    "sources": [
@@ -1683,12 +1916,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-93ea2799a0",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-09-28T19:00",
    "end": "2026-09-28T20:00",
    "allDay": false,
@@ -1702,6 +1936,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-9dbc7d4b66",
    "source": "pernicti",
    "sources": [
@@ -1722,6 +1957,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-3fea262cb7",
    "source": "pernicti",
    "sources": [
@@ -1741,6 +1977,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-cdbb3819df",
    "source": "zpravodaj",
    "sources": [
@@ -1754,27 +1993,6 @@
    "description": "Výlet na Bumbálku a Masarykovu chatu 30. září 2026, doprava auty a autobusem.",
    "recurring": false,
    "categories": [
-    "seniori"
-   ],
-   "tags": [
-    "vychazka",
-    "bumbalka"
-   ]
-  },
-  {
-   "id": "zpravodaj-e44111f4c7",
-   "source": "zpravodaj",
-   "sources": [
-    "zpravodaj"
-   ],
-   "title": "Vycházka: Bumbálka, Masarykova chata",
-   "start": "2026-09-30",
-   "end": "2026-09-30",
-   "allDay": true,
-   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
-   "description": "Vycházka na Bumbálku k Masarykově chatě, trasa 3,3 km, dopravou autem i autobusem.",
-   "recurring": false,
-   "categories": [
     "seniori",
     "sport"
    ],
@@ -1782,9 +2000,13 @@
     "vychazka",
     "bumbalka",
     "masarykova-chata"
+   ],
+   "altTitles": [
+    "Vycházka: Bumbálka, Masarykova chata"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-594ccd4d31",
    "source": "pernicti",
    "sources": [
@@ -1804,6 +2026,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-67e3a3e17d",
    "source": "pernicti",
    "sources": [
@@ -1816,7 +2041,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -1824,12 +2048,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-60cf2837ff",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-01T19:00",
    "end": "2026-10-01T20:00",
    "allDay": false,
@@ -1843,6 +2068,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-b29e0ecf1a",
    "source": "pernicti",
    "sources": [
@@ -1862,6 +2090,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-5c7a3ee99c",
    "source": "pernicti",
    "sources": [
@@ -1874,13 +2105,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-592380f0dc",
    "source": "pernicti",
    "sources": [
@@ -1900,6 +2134,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b4530e5bef",
    "source": "pernicti",
    "sources": [
@@ -1919,6 +2154,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-fd325a24c8",
    "source": "zpravodaj",
    "sources": [
@@ -1942,6 +2178,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-09f12cad97",
    "source": "pernicti",
    "sources": [
@@ -1959,12 +2196,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-d106ba4de3",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-05T19:00",
    "end": "2026-10-05T20:00",
    "allDay": false,
@@ -1978,6 +2216,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b96ff9481a",
    "source": "pernicti",
    "sources": [
@@ -1998,6 +2237,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-81992f7753",
    "source": "pernicti",
    "sources": [
@@ -2017,6 +2257,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-cc0448a1aa",
    "source": "zpravodaj",
    "sources": [
@@ -2037,6 +2280,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-1b4434eb99",
    "source": "pernicti",
    "sources": [
@@ -2056,6 +2300,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-4549e37275",
    "source": "pernicti",
    "sources": [
@@ -2068,7 +2315,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -2076,12 +2322,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-191eef8b43",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-08T19:00",
    "end": "2026-10-08T20:00",
    "allDay": false,
@@ -2095,6 +2342,9 @@
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "zpravodaj-404fb7c63e",
    "source": "zpravodaj",
    "sources": [
@@ -2116,6 +2366,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-904448e586",
    "source": "pernicti",
    "sources": [
@@ -2135,6 +2388,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-2ed29b3580",
    "source": "pernicti",
    "sources": [
@@ -2147,13 +2403,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-55e220c4d1",
    "source": "pernicti",
    "sources": [
@@ -2173,6 +2432,28 @@
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-3786ed86e0",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Val. Klobouky",
+   "start": "2026-10-11T15:00",
+   "end": "2026-10-11T17:00",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "11. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [],
    "id": "pernicti-6d683130cc",
    "source": "pernicti",
    "sources": [
@@ -2190,12 +2471,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-1145940ae8",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-12T19:00",
    "end": "2026-10-12T20:00",
    "allDay": false,
@@ -2209,6 +2491,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-69996afd45",
    "source": "pernicti",
    "sources": [
@@ -2226,6 +2509,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "zpravodaj-fd77da9701",
    "source": "zpravodaj",
    "sources": [
@@ -2249,6 +2533,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-d62c5a4cc1",
    "source": "zpravodaj",
    "sources": [
@@ -2269,6 +2556,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-19e70b4462",
    "source": "pernicti",
    "sources": [
@@ -2288,6 +2576,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-59c0804bf7",
    "source": "pernicti",
    "sources": [
@@ -2300,7 +2591,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -2308,12 +2598,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-2bd4b0ee0a",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-15T19:00",
    "end": "2026-10-15T20:00",
    "allDay": false,
@@ -2327,6 +2618,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-16837fc118",
    "source": "pernicti",
    "sources": [
@@ -2346,6 +2640,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-0fbfd3cc28",
    "source": "pernicti",
    "sources": [
@@ -2358,13 +2655,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "trojak-1876b38ca8",
    "source": "trojak",
    "sources": [
@@ -2395,6 +2695,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-c3f7f50f52",
    "source": "farnost",
    "sources": [
@@ -2413,6 +2716,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-d9e1fe92f9",
    "source": "pernicti",
    "sources": [
@@ -2432,6 +2738,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-23cd97b253",
    "source": "pernicti",
    "sources": [
@@ -2449,12 +2756,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-a79182d267",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-19T19:00",
    "end": "2026-10-19T20:00",
    "allDay": false,
@@ -2468,6 +2776,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-a19dfe45fc",
    "source": "pernicti",
    "sources": [
@@ -2488,6 +2797,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b3e2455d80",
    "source": "pernicti",
    "sources": [
@@ -2507,6 +2817,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-a1305ab35a",
    "source": "pernicti",
    "sources": [
@@ -2526,6 +2837,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "zpravodaj-f225dabb14",
    "source": "zpravodaj",
    "sources": [
@@ -2547,6 +2859,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-a8ab853998",
    "source": "pernicti",
    "sources": [
@@ -2559,7 +2874,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -2567,12 +2881,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-0980d54eff",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-22T19:00",
    "end": "2026-10-22T20:00",
    "allDay": false,
@@ -2586,6 +2901,9 @@
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-f1443424fc",
    "source": "pernicti",
    "sources": [
@@ -2603,6 +2921,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-f744306126",
    "source": "pernicti",
    "sources": [
@@ -2622,6 +2943,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-0968a31ebd",
    "source": "pernicti",
    "sources": [
@@ -2634,13 +2958,35 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-8d477598d8",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Hošťálková",
+   "start": "2026-10-24T14:30",
+   "end": "2026-10-24T16:30",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "13. kolo",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [],
    "id": "pernicti-6bbf4ec189",
    "source": "pernicti",
    "sources": [
@@ -2658,12 +3004,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-cc1a0dab06",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-26T19:00",
    "end": "2026-10-26T20:00",
    "allDay": false,
@@ -2677,6 +3024,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b9430e0dee",
    "source": "pernicti",
    "sources": [
@@ -2697,6 +3045,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-8b827e686e",
    "source": "pernicti",
    "sources": [
@@ -2716,6 +3065,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-3c0cb4da59",
    "source": "svatky",
    "sources": [
@@ -2730,6 +3080,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-00231e6248",
    "source": "pernicti",
    "sources": [
@@ -2749,6 +3100,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-73244612c6",
    "source": "pernicti",
    "sources": [
@@ -2774,6 +3128,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-bdc7b2f2a0",
    "source": "pernicti",
    "sources": [
@@ -2786,7 +3143,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -2794,12 +3150,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-81ac85ea27",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-10-29T19:00",
    "end": "2026-10-29T20:00",
    "allDay": false,
@@ -2813,6 +3170,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-d95b515f1f",
    "source": "pernicti",
    "sources": [
@@ -2830,6 +3190,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-82a14e8c55",
    "source": "pernicti",
    "sources": [
@@ -2849,6 +3212,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-c75152c298",
    "source": "pernicti",
    "sources": [
@@ -2861,13 +3227,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-8422a23e54",
    "source": "pernicti",
    "sources": [
@@ -2887,6 +3256,30 @@
    ]
   },
   {
+   "organizers": [
+    "fotbal"
+   ],
+   "id": "fotbal-e1dee00d5e",
+   "source": "fotbal",
+   "sources": [
+    "fotbal"
+   ],
+   "title": "Fotbal muži: Val. Bystřice – Bylnice",
+   "start": "2026-10-31T14:00",
+   "end": "2026-10-31T16:00",
+   "allDay": false,
+   "location": "Fotbalové hřiště Valašská Bystřice",
+   "description": "1. kolo (dohrávka, původní termín 1. 11. 2026)",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": []
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-af640c3c6e",
    "source": "farnost",
    "sources": [
@@ -2906,6 +3299,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-5770ff3b3a",
    "source": "pernicti",
    "sources": [
@@ -2925,6 +3321,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-59b12fd013",
    "source": "farnost",
    "sources": [
@@ -2942,6 +3341,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-e5d4723652",
    "source": "pernicti",
    "sources": [
@@ -2959,12 +3359,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-e34a8ce0d3",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-02T19:00",
    "end": "2026-11-02T20:00",
    "allDay": false,
@@ -2978,6 +3379,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-d3beefebde",
    "source": "pernicti",
    "sources": [
@@ -2998,6 +3400,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-2e0d436f42",
    "source": "pernicti",
    "sources": [
@@ -3017,6 +3420,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-8db4f24820",
    "source": "pernicti",
    "sources": [
@@ -3036,6 +3440,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-b009831500",
    "source": "farnost",
    "sources": [
@@ -3058,6 +3465,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-b04363b676",
    "source": "pernicti",
    "sources": [
@@ -3084,6 +3494,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-bd4b22ed7d",
    "source": "pernicti",
    "sources": [
@@ -3096,7 +3509,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -3104,6 +3516,9 @@
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-e5b148fd7f",
    "source": "pernicti",
    "sources": [
@@ -3131,12 +3546,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b6613769c3",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-05T19:00",
    "end": "2026-11-05T20:00",
    "allDay": false,
@@ -3150,6 +3566,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-73c5263fd6",
    "source": "pernicti",
    "sources": [
@@ -3169,6 +3588,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-a2a918eb9b",
    "source": "pernicti",
    "sources": [
@@ -3181,13 +3603,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-db6702fc01",
    "source": "pernicti",
    "sources": [
@@ -3207,6 +3632,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-99dbf69177",
    "source": "pernicti",
    "sources": [
@@ -3224,12 +3650,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-10cc658cc9",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-09T19:00",
    "end": "2026-11-09T20:00",
    "allDay": false,
@@ -3243,6 +3670,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-6bfae8a5d6",
    "source": "pernicti",
    "sources": [
@@ -3263,6 +3691,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-6f02f3e924",
    "source": "pernicti",
    "sources": [
@@ -3282,6 +3711,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-c34e610fff",
    "source": "zpravodaj",
    "sources": [
@@ -3303,6 +3735,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-7748a55621",
    "source": "pernicti",
    "sources": [
@@ -3322,6 +3755,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-07a1b8c1c8",
    "source": "pernicti",
    "sources": [
@@ -3334,7 +3770,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -3342,12 +3777,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-96824f15de",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-12T19:00",
    "end": "2026-11-12T20:00",
    "allDay": false,
@@ -3361,6 +3797,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-f3f2d5458b",
    "source": "pernicti",
    "sources": [
@@ -3380,6 +3819,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-69402d4646",
    "source": "pernicti",
    "sources": [
@@ -3392,13 +3834,14 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-d1e5f32eef",
    "source": "pernicti",
    "sources": [
@@ -3418,6 +3861,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-37a9e46c63",
    "source": "pernicti",
    "sources": [
@@ -3435,12 +3879,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-6442ffe2bc",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-16T19:00",
    "end": "2026-11-16T20:00",
    "allDay": false,
@@ -3454,6 +3899,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-a41af25181",
    "source": "svatky",
    "sources": [
@@ -3468,6 +3914,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-3f82ae9318",
    "source": "pernicti",
    "sources": [
@@ -3488,6 +3935,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-1087e4bc88",
    "source": "pernicti",
    "sources": [
@@ -3507,6 +3955,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-b642e6d382",
    "source": "pernicti",
    "sources": [
@@ -3526,6 +3975,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-95458cfdc0",
    "source": "farnost",
    "sources": [
@@ -3548,6 +4000,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-0e31c755ec",
    "source": "pernicti",
    "sources": [
@@ -3560,7 +4015,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -3568,12 +4022,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-76d483ac6e",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-19T19:00",
    "end": "2026-11-19T20:00",
    "allDay": false,
@@ -3587,6 +4042,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-72d09c5399",
    "source": "zpravodaj",
    "sources": [
@@ -3608,6 +4066,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-196a4d7bf2",
    "source": "pernicti",
    "sources": [
@@ -3627,6 +4088,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-9b8eef2548",
    "source": "pernicti",
    "sources": [
@@ -3639,13 +4103,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-6465a261d2",
    "source": "pernicti",
    "sources": [
@@ -3673,6 +4140,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-921b250adf",
    "source": "pernicti",
    "sources": [
@@ -3692,6 +4162,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-2a04d61a7a",
    "source": "pernicti",
    "sources": [
@@ -3709,12 +4180,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-fdc5b70048",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-23T19:00",
    "end": "2026-11-23T20:00",
    "allDay": false,
@@ -3728,6 +4200,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-7b6b7610fc",
    "source": "pernicti",
    "sources": [
@@ -3748,6 +4221,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-1b1d787ec2",
    "source": "pernicti",
    "sources": [
@@ -3767,6 +4241,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-b732f92da7",
    "source": "zpravodaj",
    "sources": [
@@ -3788,6 +4265,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-78407cb9f3",
    "source": "pernicti",
    "sources": [
@@ -3807,6 +4285,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-19480d758e",
    "source": "pernicti",
    "sources": [
@@ -3819,7 +4300,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -3827,12 +4307,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-0ddd792bab",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-26T19:00",
    "end": "2026-11-26T20:00",
    "allDay": false,
@@ -3846,6 +4327,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-9812532aa7",
    "source": "pernicti",
    "sources": [
@@ -3870,6 +4352,9 @@
    "description": "Tradiční Kateřinský jarmark se koná ve Společenském domě."
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-f22a8e5d51",
    "source": "pernicti",
    "sources": [
@@ -3887,6 +4372,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-ad5d60e039",
    "source": "pernicti",
    "sources": [
@@ -3906,6 +4394,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-cf38dd5faf",
    "source": "pernicti",
    "sources": [
@@ -3918,13 +4409,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-ec0c04d487",
    "source": "farnost",
    "sources": [
@@ -3944,6 +4438,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-394226f152",
    "source": "pernicti",
    "sources": [
@@ -3963,6 +4460,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-3c0aa0ba66",
    "source": "pernicti",
    "sources": [
@@ -3980,12 +4478,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-d60425498b",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-11-30T19:00",
    "end": "2026-11-30T20:00",
    "allDay": false,
@@ -3999,6 +4498,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-1b3107d25e",
    "source": "pernicti",
    "sources": [
@@ -4019,6 +4519,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-cba24da2a8",
    "source": "pernicti",
    "sources": [
@@ -4038,6 +4539,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-71617570d9",
    "source": "pernicti",
    "sources": [
@@ -4057,6 +4559,9 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-91b7022960",
    "source": "farnost",
    "sources": [
@@ -4078,6 +4583,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-11f52d8273",
    "source": "zpravodaj",
    "sources": [
@@ -4099,6 +4607,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-ebb4a0ed3e",
    "source": "pernicti",
    "sources": [
@@ -4111,7 +4622,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -4119,12 +4629,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-104216e28e",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-12-03T19:00",
    "end": "2026-12-03T20:00",
    "allDay": false,
@@ -4138,6 +4649,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-7d8957c494",
    "source": "pernicti",
    "sources": [
@@ -4157,6 +4671,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-20262bc53d",
    "source": "pernicti",
    "sources": [
@@ -4169,13 +4686,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-5fef7a64a1",
    "source": "pernicti",
    "sources": [
@@ -4196,6 +4716,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-e057315067",
    "source": "pernicti",
    "sources": [
@@ -4213,12 +4734,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-784ed82d64",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-12-07T19:00",
    "end": "2026-12-07T20:00",
    "allDay": false,
@@ -4232,6 +4754,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-79a021094a",
    "source": "pernicti",
    "sources": [
@@ -4252,6 +4775,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-4d8b05d9f9",
    "source": "pernicti",
    "sources": [
@@ -4271,6 +4795,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-5de971bb80",
    "source": "pernicti",
    "sources": [
@@ -4290,6 +4815,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-afe0a164e3",
    "source": "zpravodaj",
    "sources": [
@@ -4314,6 +4842,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-695be2d9ee",
    "source": "pernicti",
    "sources": [
@@ -4331,6 +4862,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-5b3886d107",
    "source": "pernicti",
    "sources": [
@@ -4343,7 +4877,6 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura",
     "deti"
    ],
    "tags": [
@@ -4351,12 +4884,13 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-7fd39fc3a7",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-12-10T19:00",
    "end": "2026-12-10T20:00",
    "allDay": false,
@@ -4370,6 +4904,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-8a452cb6da",
    "source": "pernicti",
    "sources": [
@@ -4389,6 +4926,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-b3c7035c88",
    "source": "pernicti",
    "sources": [
@@ -4401,13 +4941,16 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-e297353071",
    "source": "pernicti",
    "sources": [
@@ -4427,6 +4970,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-961b7193d2",
    "source": "pernicti",
    "sources": [
@@ -4444,12 +4988,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-11bf537fa9",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-12-14T19:00",
    "end": "2026-12-14T20:00",
    "allDay": false,
@@ -4463,6 +5008,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-99f5824711",
    "source": "pernicti",
    "sources": [
@@ -4483,6 +5029,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-54c6560a43",
    "source": "pernicti",
    "sources": [
@@ -4502,6 +5049,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-7f96ffea05",
    "source": "pernicti",
    "sources": [
@@ -4521,6 +5069,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-4d62f56cee",
    "source": "pernicti",
    "sources": [
@@ -4540,6 +5089,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-e79bb18c03",
    "source": "pernicti",
    "sources": [
@@ -4559,6 +5109,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-689bbc98b2",
    "source": "pernicti",
    "sources": [
@@ -4578,6 +5131,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-36d6fe3f50",
    "source": "pernicti",
    "sources": [
@@ -4590,13 +5146,14 @@
    "location": "Společenský dům U Pernických",
    "recurring": true,
    "categories": [
-    "kultura"
+    "ostatni"
    ],
    "tags": [
     "folklor"
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-af60037a0b",
    "source": "pernicti",
    "sources": [
@@ -4614,12 +5171,13 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-8d06a798a3",
    "source": "pernicti",
    "sources": [
     "pernicti"
    ],
-   "title": "Joga",
+   "title": "Jóga",
    "start": "2026-12-21T19:00",
    "end": "2026-12-21T20:00",
    "allDay": false,
@@ -4633,6 +5191,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-96c8980d31",
    "source": "pernicti",
    "sources": [
@@ -4653,6 +5212,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-cd74d68da7",
    "source": "pernicti",
    "sources": [
@@ -4672,6 +5232,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-063b7b6014",
    "source": "svatky",
    "sources": [
@@ -4686,6 +5247,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-5cc6f169b1",
    "source": "farnost",
    "sources": [
@@ -4705,6 +5269,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-79439f392e",
    "source": "svatky",
    "sources": [
@@ -4721,6 +5286,9 @@
    ]
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "pernicti-0fd7b4d9f2",
    "source": "pernicti",
    "sources": [
@@ -4738,6 +5306,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-8796802dc6",
    "source": "svatky",
    "sources": [
@@ -4754,6 +5323,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-19f49736cb",
    "source": "pernicti",
    "sources": [
@@ -4773,6 +5343,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-0f8e1da096",
    "source": "pernicti",
    "sources": [
@@ -4790,6 +5361,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "seniori"
+   ],
    "id": "zpravodaj-09f0af74ed",
    "source": "zpravodaj",
    "sources": [
@@ -4812,6 +5386,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-0086ca8b10",
    "source": "svatky",
    "sources": [
@@ -4826,6 +5401,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-226adf8936",
    "source": "pernicti",
    "sources": [
@@ -4845,6 +5423,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-08228e88f0",
    "source": "pernicti",
    "sources": [
@@ -4864,6 +5445,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-accaf2d51f",
    "source": "pernicti",
    "sources": [
@@ -4885,6 +5467,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-71421161be",
    "source": "pernicti",
    "sources": [
@@ -4904,6 +5489,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-f15d3f1325",
    "source": "pernicti",
    "sources": [
@@ -4923,6 +5509,9 @@
    ]
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-584bc49f63",
    "source": "pernicti",
    "sources": [
@@ -4942,6 +5531,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-b161c0ec04",
    "source": "pernicti",
    "sources": [
@@ -4961,6 +5553,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-76c77e96d5",
    "source": "pernicti",
    "sources": [
@@ -4980,6 +5575,9 @@
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "chaos-acb15bb0a8",
    "source": "chaos",
    "sources": [
@@ -5011,6 +5609,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-a33cfad899",
    "source": "pernicti",
    "sources": [
@@ -5030,6 +5631,9 @@
    ]
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-8ba4af5b20",
    "source": "pernicti",
    "sources": [
@@ -5049,6 +5653,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-9d3d463470",
    "source": "svatky",
    "sources": [
@@ -5063,6 +5668,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-b3098bfeba",
    "source": "svatky",
    "sources": [
@@ -5077,6 +5683,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "sachy"
+   ],
    "id": "pernicti-94be0fe76e",
    "source": "pernicti",
    "sources": [
@@ -5096,6 +5705,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-81f417d366",
    "source": "pernicti",
    "sources": [
@@ -5113,6 +5723,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-3c110541e3",
    "source": "svatky",
    "sources": [
@@ -5127,6 +5738,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-60bb1eb205",
    "source": "svatky",
    "sources": [
@@ -5141,6 +5753,9 @@
    "tags": []
   },
   {
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-2fd808c54a",
    "source": "pernicti",
    "sources": [
@@ -5160,6 +5775,9 @@
    ]
   },
   {
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-6826923634",
    "source": "pernicti",
    "sources": [
@@ -5179,6 +5797,9 @@
    ]
   },
   {
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-03b0c4c5cf",
    "source": "pernicti",
    "sources": [
@@ -5197,6 +5818,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-fe7619c8f5",
    "source": "svatky",
    "sources": [
@@ -5211,6 +5833,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-6a9f879ddc",
    "source": "svatky",
    "sources": [
@@ -5225,6 +5848,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-f5d60b3184",
    "source": "pernicti",
    "sources": [
@@ -5244,6 +5868,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "pernicti-06e0588998",
    "source": "pernicti",
    "sources": [
@@ -5263,6 +5888,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-331d4f3158",
    "source": "svatky",
    "sources": [
@@ -5277,6 +5903,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "pernicti-baceca6ac5",
    "source": "pernicti",
    "sources": [
@@ -5296,6 +5923,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-8cc5d06d54",
    "source": "svatky",
    "sources": [
@@ -5310,6 +5938,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-d03cfe70b3",
    "source": "svatky",
    "sources": [
@@ -5324,6 +5953,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-c855bf8df3",
    "source": "svatky",
    "sources": [
@@ -5338,6 +5968,7 @@
    "tags": []
   },
   {
+   "organizers": [],
    "id": "svatky-9376b01598",
    "source": "svatky",
    "sources": [
@@ -5354,6 +5985,7 @@
    ]
   },
   {
+   "organizers": [],
    "id": "svatky-305d40b8da",
    "source": "svatky",
    "sources": [

@@ -1,0 +1,13 @@
+{
+  "$comment": "Ruční rozpis domácích zápasů mužů (fotbal.cz automatický přístup blokuje). Čas = výkop, akce trvá 2 h.",
+  "defaults": { "location": "Fotbalové hřiště Valašská Bystřice", "durationMinutes": 120 },
+  "events": [
+    { "start": "2026-08-15T16:30", "title": "Fotbal muži: Val. Bystřice – Halenkov", "description": "3. kolo" },
+    { "start": "2026-08-30T16:30", "title": "Fotbal muži: Val. Bystřice – Val. Příkazy", "description": "5. kolo" },
+    { "start": "2026-09-13T16:00", "title": "Fotbal muži: Val. Bystřice – Ústí", "description": "7. kolo" },
+    { "start": "2026-09-27T15:30", "title": "Fotbal muži: Val. Bystřice – Poličná", "description": "9. kolo" },
+    { "start": "2026-10-11T15:00", "title": "Fotbal muži: Val. Bystřice – Val. Klobouky", "description": "11. kolo" },
+    { "start": "2026-10-24T14:30", "title": "Fotbal muži: Val. Bystřice – Hošťálková", "description": "13. kolo" },
+    { "start": "2026-10-31T14:00", "title": "Fotbal muži: Val. Bystřice – Bylnice", "description": "1. kolo (dohrávka, původní termín 1. 11. 2026)" }
+  ]
+}

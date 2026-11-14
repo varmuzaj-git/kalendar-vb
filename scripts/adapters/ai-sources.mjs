@@ -23,6 +23,7 @@ function toEvent(e, extra = {}) {
     description: e.summary || '',
     aiCategories: (e.categories || []).filter(Boolean),
     sourceTags: (e.tags || []).slice(0, 4),
+    organizerHint: e.organizer || '',
     image: e.image || extra.image || '',
     url: extra.url || '',
     recurring: false,
