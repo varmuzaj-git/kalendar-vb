@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-14T07:15:49.770Z",
+ "generatedAt": "2026-11-14T07:26:08.985Z",
  "sources": [
   {
    "id": "pernicti",
    "ok": true,
    "error": null,
-   "count": 207,
-   "excluded": 106,
-   "lastSuccess": "2026-11-14T07:15:49.123Z"
+   "count": 214,
+   "excluded": 99,
+   "lastSuccess": "2026-11-14T07:26:08.420Z"
   },
   {
    "id": "farnost",
@@ -15,7 +15,7 @@
    "error": null,
    "count": 39,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T07:15:49.764Z"
+   "lastSuccess": "2026-11-14T07:26:08.978Z"
   },
   {
    "id": "svatky",
@@ -23,7 +23,7 @@
    "error": null,
    "count": 39,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T07:15:49.766Z"
+   "lastSuccess": "2026-11-14T07:26:08.980Z"
   }
  ]
 }

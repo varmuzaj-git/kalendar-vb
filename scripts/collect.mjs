@@ -43,7 +43,8 @@ function enrich(ev, source) {
   if (!cats.size) cats.add('ostatni');
   const tags = new Set([...hashTags, ...(ev.sourceTags || []).map((t) => t.toLowerCase())]);
   for (const r of tagRules) if (r.re.test(text)) tags.add(r.tag);
-  const recurring = ev.recurring || rx(source.recurringTitles).some((p) => p.test(normalize(ev.title)));
+  // podle názvu jen u akcí s časem (celodenní „Troják“ = vystoupení, ne zkouška)
+  const recurring = ev.recurring || (!ev.allDay && rx(source.recurringTitles).some((p) => p.test(normalize(ev.title))));
   const out = {
     id: `${source.id}-${hash(`${ev.uid}|${ev.start}`)}`,
     source: source.id,

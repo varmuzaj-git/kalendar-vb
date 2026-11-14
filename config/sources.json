@@ -10,17 +10,46 @@
       "type": "ical",
       "url": "https://calendar.google.com/calendar/ical/25efa2193927690632d46cab70788a0c4481f83ddac910fbb7800f707ca047e2%40group.calendar.google.com/public/basic.ics",
       "defaultLocation": "Společenský dům U Pernických",
-      "options": { "recurringMonths": 2 },
+      "options": {
+        "recurringMonths": 2
+      },
       "exclude": [
-        "\\bkar\\b", "\\bsvatb", "\\boslav", "\\bsraz\\b", "\\bkrtin", "firemni vecir", "valna hromada",
-        "\\bpriprav", "\\buklid", "^menu\\b", "\\breserv", "\\brezerv", "^akce\\s*$",
-        "pohreb", "\\bhostin", "\\bobed\\b", "commodum",
-        "\\bzk\\.", "\\bzkousk",
-        "duchodc",
+        "\\bkar\\b",
+        "\\bsvatb",
+        "\\boslav",
+        "\\bsraz\\b",
+        "\\bkrtin",
+        "firemni vecir",
+        "valna hromada",
+        "\\bpriprav",
+        "\\buklid",
+        "^menu\\b",
+        "\\breserv",
+        "\\brezerv",
+        "^akce\\s*$",
+        "pohreb",
+        "\\bhostin",
+        "\\bobed\\b",
+        "commodum",
+        "\\bzk\\.",
+        "\\bzkousk",
         "^skola\\b",
-        "narozenin", "soukrom", "\\bschuze\\b", "\\bporada\\b", "\\bskoleni\\b"
+        "narozenin",
+        "soukrom",
+        "^(?!.*duchodc).*\\bschuze\\b",
+        "\\bporada\\b",
+        "\\bskoleni\\b"
       ],
-      "recurringTitles": ["\\bjog", "cviceni", "\\bh2b\\b", "aimela", "maly trojak", "^sachy\\b", "\\bsachy\\s*/"],
+      "recurringTitles": [
+        "\\bjog",
+        "cviceni",
+        "\\bh2b\\b",
+        "aimela",
+        "maly trojak",
+        "^sachy\\b",
+        "\\bsachy\\s*/",
+        "^trojak\\s*$"
+      ],
       "categories": []
     },
     {
@@ -31,8 +60,13 @@
       "link": "https://farnostvb.cz/akce/",
       "type": "tribe",
       "url": "https://farnostvb.cz/wp-json/tribe/events/v1/events",
-      "categories": ["cirkev"],
-      "categoryMap": { "koncerty": "kultura", "mladez": "deti" }
+      "categories": [
+        "cirkev"
+      ],
+      "categoryMap": {
+        "koncerty": "kultura",
+        "mladez": "deti"
+      }
     },
     {
       "id": "svatky",
