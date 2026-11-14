@@ -22,7 +22,7 @@ function timesCompatible(a, b) {
   return x === null || y === null || Math.abs(x - y) <= 150;
 }
 
-export async function mergeDuplicates(events, sources, { ai }) {
+export async function mergeDuplicates(events, sources, { ai, mergeRules = [] }) {
   const prio = Object.fromEntries(sources.map((s) => [s.id, s.priority ?? 1]));
   const byDay = new Map();
   events.forEach((e, i) => {
@@ -36,6 +36,16 @@ export async function mergeDuplicates(events, sources, { ai }) {
   const parent = events.map((_, i) => i);
   const find = (i) => (parent[i] === i ? i : (parent[i] = find(parent[i])));
   const union = (i, j) => { parent[find(i)] = find(j); };
+
+  // ruční pravidla: stejná akce rozložená do více dnů (např. pouť: 15. 8. U Pernických + 16. 8. farnost)
+  const dayNum = (s) => Math.round(Date.parse(s.slice(0, 10)) / 86400000);
+  for (const r of mergeRules) {
+    const re = new RegExp(r.match, 'i');
+    const hits = events.map((e, i) => i).filter((i) => !events[i].recurring && re.test(normalize(events[i].title)));
+    for (let a = 0; a < hits.length; a++) for (let b = a + 1; b < hits.length; b++) {
+      if (Math.abs(dayNum(events[hits[a]].start) - dayNum(events[hits[b]].start)) <= (r.withinDays ?? 1)) union(hits[a], hits[b]);
+    }
+  }
 
   for (const idx of byDay.values()) {
     for (let a = 0; a < idx.length; a++) {
@@ -63,8 +73,17 @@ export async function mergeDuplicates(events, sources, { ai }) {
     merged += g.length - 1;
     g.sort((x, y) => (prio[y.source] ?? 1) - (prio[x.source] ?? 1));
     const base = { ...g[0] };
+    // vícedenní spojení: od nejdřívějšího začátku do nejpozdějšího konce
+    const days = new Set(g.map((x) => x.start.slice(0, 10)));
+    if (days.size > 1) {
+      const first = g.reduce((m, x) => (x.start < m.start ? x : m));
+      const last = g.reduce((m, x) => (x.end > m.end ? x : m));
+      base.allDay = g.every((x) => x.allDay);
+      base.start = base.allDay ? first.start.slice(0, 10) : first.start;
+      base.end = base.allDay ? last.end.slice(0, 10) : last.end;
+    }
     for (const o of g.slice(1)) {
-      if (base.allDay && !o.allDay && o.start.slice(0, 10) === base.start.slice(0, 10)) { base.start = o.start; base.end = o.end; base.allDay = false; }
+      if (days.size === 1 && base.allDay && !o.allDay && o.start.slice(0, 10) === base.start.slice(0, 10)) { base.start = o.start; base.end = o.end; base.allDay = false; }
       for (const k of ['location', 'url', 'image']) if (!base[k] && o[k]) base[k] = o[k];
       if (o.description && (!base.description || o.description.length > base.description.length * 1.5)) base.description = o.description;
       if (!base.altTitles) base.altTitles = [];

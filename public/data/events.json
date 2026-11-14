@@ -91,12 +91,6 @@
    "link": null
   },
   {
-   "id": "fotbal",
-   "name": "Fotbal muži",
-   "color": "#1b6e3a",
-   "link": null
-  },
-  {
    "id": "seniori",
    "name": "Sdružení důchodců",
    "color": "#6b4ea0",
@@ -107,12 +101,6 @@
    "name": "Obec",
    "color": "#1f5c99",
    "link": "https://www.valasskabystrice.cz/"
-  },
-  {
-   "id": "sachy",
-   "name": "Šachisté",
-   "color": "#455a64",
-   "link": null
   },
   {
    "id": "bystricanka",
@@ -678,7 +666,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-c6449a6d02",
    "source": "pernicti",
@@ -847,27 +835,37 @@
   },
   {
    "organizers": [],
-   "id": "pernicti-0ed8630cd4",
-   "source": "pernicti",
+   "id": "farnost-c626f28e41",
+   "source": "farnost",
    "sources": [
-    "pernicti"
+    "farnost",
+    "pernicti",
+    "zpravodaj"
    ],
-   "title": "Pouť",
+   "title": "Pouť 2026",
    "start": "2026-08-15",
    "end": "2026-08-16",
    "allDay": true,
-   "location": "Společenský dům U Pernických",
+   "url": "https://farnostvb.cz/akce/pout-2026/",
+   "description": "Bohoslužby na pouť :\n\nranní v 7:40 v kostele\n\nhrubá v 9:30 na louce za kostelem",
    "recurring": false,
    "categories": [
+    "cirkev",
     "kultura"
    ],
    "tags": [
-    "pouť"
+    "pouť",
+    "valaske"
+   ],
+   "location": "Společenský dům U Pernických",
+   "altTitles": [
+    "Pouť",
+    "Valašskobystřická pouť"
    ]
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-2703c94428",
    "source": "fotbal",
@@ -885,35 +883,6 @@
     "sport"
    ],
    "tags": []
-  },
-  {
-   "organizers": [
-    "farnost"
-   ],
-   "id": "farnost-c626f28e41",
-   "source": "farnost",
-   "sources": [
-    "farnost",
-    "zpravodaj"
-   ],
-   "title": "Pouť 2026",
-   "start": "2026-08-16",
-   "end": "2026-08-16",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/pout-2026/",
-   "description": "Bohoslužby na pouť :\n\nranní v 7:40 v kostele\n\nhrubá v 9:30 na louce za kostelem",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "kultura"
-   ],
-   "tags": [
-    "pouť",
-    "valaske"
-   ],
-   "altTitles": [
-    "Valašskobystřická pouť"
-   ]
   },
   {
    "organizers": [],
@@ -1066,7 +1035,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-9730cf4c6c",
    "source": "fotbal",
@@ -1263,7 +1232,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-5d4243d78b",
    "source": "pernicti",
@@ -1296,7 +1265,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "zpravodaj-50723d6591",
    "source": "zpravodaj",
@@ -1321,7 +1290,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "zpravodaj-ab6135885e",
    "source": "zpravodaj",
@@ -1371,7 +1340,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-f67ad34c35",
    "source": "fotbal",
@@ -1569,7 +1538,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-067079e0b8",
    "source": "pernicti",
@@ -1761,7 +1730,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-11c84fac8b",
    "source": "pernicti",
@@ -1901,7 +1870,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-817a92efba",
    "source": "fotbal",
@@ -2107,7 +2076,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-b29e0ecf1a",
    "source": "pernicti",
@@ -2407,7 +2376,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-904448e586",
    "source": "pernicti",
@@ -2451,7 +2420,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-55e220c4d1",
    "source": "pernicti",
@@ -2473,7 +2442,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-3786ed86e0",
    "source": "fotbal",
@@ -2661,7 +2630,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-16837fc118",
    "source": "pernicti",
@@ -2759,7 +2728,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-d9e1fe92f9",
    "source": "pernicti",
@@ -2964,7 +2933,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-f744306126",
    "source": "pernicti",
@@ -3008,7 +2977,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-8d477598d8",
    "source": "fotbal",
@@ -3233,7 +3202,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-82a14e8c55",
    "source": "pernicti",
@@ -3299,7 +3268,7 @@
   },
   {
    "organizers": [
-    "fotbal"
+    "sokol"
    ],
    "id": "fotbal-e1dee00d5e",
    "source": "fotbal",
@@ -3342,7 +3311,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-5770ff3b3a",
    "source": "pernicti",
@@ -3609,7 +3578,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-73c5263fd6",
    "source": "pernicti",
@@ -3653,7 +3622,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-db6702fc01",
    "source": "pernicti",
@@ -3840,7 +3809,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-f3f2d5458b",
    "source": "pernicti",
@@ -4111,7 +4080,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-196a4d7bf2",
    "source": "pernicti",
@@ -4185,7 +4154,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-921b250adf",
    "source": "pernicti",
@@ -4419,7 +4388,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-ad5d60e039",
    "source": "pernicti",
@@ -4485,7 +4454,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-394226f152",
    "source": "pernicti",
@@ -4696,7 +4665,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-7d8957c494",
    "source": "pernicti",
@@ -4740,7 +4709,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-5fef7a64a1",
    "source": "pernicti",
@@ -4951,7 +4920,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-8a452cb6da",
    "source": "pernicti",
@@ -5160,7 +5129,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-689bbc98b2",
    "source": "pernicti",
@@ -5452,7 +5421,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-226adf8936",
    "source": "pernicti",
@@ -5474,7 +5443,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-08228e88f0",
    "source": "pernicti",
@@ -5520,7 +5489,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-71421161be",
    "source": "pernicti",
@@ -5586,7 +5555,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-b161c0ec04",
    "source": "pernicti",
@@ -5608,7 +5577,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-76c77e96d5",
    "source": "pernicti",
@@ -5664,7 +5633,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-a33cfad899",
    "source": "pernicti",
@@ -5686,7 +5655,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-8ba4af5b20",
    "source": "pernicti",
@@ -5738,7 +5707,7 @@
   },
   {
    "organizers": [
-    "sachy"
+    "sokol"
    ],
    "id": "pernicti-94be0fe76e",
    "source": "pernicti",

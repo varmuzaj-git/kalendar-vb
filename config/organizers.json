@@ -1,5 +1,5 @@
 {
-  "$comment": "Pořadatelé akcí (filtr „Pořadatel“ na webu). Akce dostane pořadatele: 1) podle zdroje (sources = id zdrojů, které pořadatel sám vede), 2) podle názvu akce nebo pořadatele uvedeného ve zdroji (match = regulární výrazy BEZ diakritiky, malými písmeny). Akce může mít víc pořadatelů. Akce bez pořadatele se zobrazí, jen ji nejde vyfiltrovat podle pořadatele. Pravidlo může mít i „rules“: [{match, location}] – platí jen když název odpovídá match A ZÁROVEŇ místo odpovídá location.",
+  "$comment": "Pořadatelé akcí (filtr „Pořadatel“ na webu). Akce dostane pořadatele: 1) podle zdroje (sources = id zdrojů, které pořadatel sám vede), 2) podle názvu akce nebo pořadatele uvedeného ve zdroji (match = regulární výrazy BEZ diakritiky, malými písmeny). Akce může mít víc pořadatelů. Akce bez pořadatele se zobrazí, jen ji nejde vyfiltrovat podle pořadatele. Pravidlo může mít i „rules“: [{match, location}] – platí jen když název odpovídá match A ZÁROVEŇ místo odpovídá location. noOrganizer = akce, které záměrně nemají pořadatele (pouť pořádá farnost, obec i spolky společně).",
   "organizers": [
     {
       "id": "farnost",
@@ -69,16 +69,6 @@
       ]
     },
     {
-      "id": "fotbal",
-      "name": "Fotbal muži",
-      "color": "#1b6e3a",
-      "link": null,
-      "sources": [
-        "fotbal"
-      ],
-      "match": []
-    },
-    {
       "id": "seniori",
       "name": "Sdružení důchodců",
       "color": "#6b4ea0",
@@ -109,16 +99,6 @@
       ]
     },
     {
-      "id": "sachy",
-      "name": "Šachisté",
-      "color": "#455a64",
-      "link": null,
-      "sources": [],
-      "match": [
-        "\\bsach"
-      ]
-    },
-    {
       "id": "bystricanka",
       "name": "DH Bystřičanka",
       "color": "#a0522d",
@@ -134,10 +114,13 @@
       "name": "TJ Sokol Valašská Bystřice",
       "color": "#c62828",
       "link": null,
-      "sources": [],
+      "sources": [
+        "fotbal"
+      ],
       "match": [
         "sportovni ples",
-        "\\bsokol"
+        "\\bsokol",
+        "\\bsach"
       ]
     },
     {
@@ -174,5 +157,8 @@
         "rodinne odpoledne"
       ]
     }
+  ],
+  "noOrganizer": [
+    "\\bpout\\b"
   ]
 }

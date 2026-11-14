@@ -148,5 +148,12 @@
   ],
   "titleFixes": {
     "\\bjoga\\b": "Jóga"
-  }
+  },
+  "mergeRules": [
+    {
+      "$comment": "Pouť: U Pernických (sobota) a farnost (neděle) = jedna dvoudenní akce",
+      "match": "\\bpout\\b",
+      "withinDays": 1
+    }
+  ]
 }

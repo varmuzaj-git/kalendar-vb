@@ -67,7 +67,8 @@ function enrich(ev, source) {
   const recurring = recurringOf(ev, source);
   const orgText = normalize(`${ev.title}\n${ev.organizerHint || ''}`);
   const where = normalize(ev.location || source.defaultLocation || '');
-  const organizers = orgRules.filter((o) => (o.sources || []).includes(source.id) || o.re.some((p) => p.test(orgText))
+  const noOrg = rx(orgCfg.noOrganizer).some((p) => p.test(orgText));
+  const organizers = noOrg ? [] : orgRules.filter((o) => (o.sources || []).includes(source.id) || o.re.some((p) => p.test(orgText))
     || (o.rules || []).some((r) => rx(r.match).some((p) => p.test(orgText)) && (!r.location || new RegExp(r.location, 'i').test(where)))).map((o) => o.id);
   const out = {
     organizers,
@@ -148,7 +149,7 @@ await mkdir(ROOT + 'cache', { recursive: true });
 await writeFile(ROOT + 'cache/raw-events.json', JSON.stringify({ events }, null, 0).replace(/},{/g, '},\n{') + '\n');
 
 // stejná akce z více zdrojů → jedna (pravidla podobnosti + AI u sporných párů)
-events = await mergeDuplicates(events, sourcesCfg.sources, { ai: aiAvailable() });
+events = await mergeDuplicates(events, sourcesCfg.sources, { ai: aiAvailable(), mergeRules: sourcesCfg.mergeRules || [] });
 await saveCache();
 if (aiCalls()) console.log(`AI: ${aiCalls()} dotazů`);
 
