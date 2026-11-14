@@ -26,7 +26,7 @@
   function matches(e) {
     if (SRC[e.source]?.display === 'dayLabel') return false;
     if (!state.recurring && e.recurring) return false;
-    if (state.srcs.size && !state.srcs.has(e.source)) return false;
+    if (state.srcs.size && !(e.sources || [e.source]).some((s) => state.srcs.has(s))) return false;
     if (state.cats.size && !e.categories.some((c) => state.cats.has(c))) return false;
     if (state.q) {
       const hay = norm(`${e.title} ${e.description || ''} ${e.location || ''} ${(e.tags || []).join(' ')}`);
@@ -41,15 +41,18 @@
     const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
     const cats = e.categories.filter((c) => c !== 'ostatni').map((c) => `<span class="badge cat" style="--c:${CAT[c]?.color}">${esc(CAT[c]?.label || c)}</span>`).join(' ');
     const tags = (e.tags || []).map((t) => `<span class="badge">#${esc(t)}</span>`).join(' ');
-    const src = SRC[e.source];
-    const srcHtml = src?.link ? `<a href="${esc(src.link)}" target="_blank" rel="noopener">${esc(src.name)}</a>` : esc(src?.name || e.source);
+    const srcHtml = (e.sources || [e.source]).map((id) => {
+      const src = SRC[id];
+      return src?.link ? `<a href="${esc(src.link)}" target="_blank" rel="noopener">${esc(src.name)}</a>` : esc(src?.name || id);
+    }).join(' · ');
     return `<article class="ev" style="--c:${eventColor(e)}">
       <div class="time">${esc(t)}</div>
       <div>
         <div class="title">${title}</div>
         <div class="meta">${e.location ? `<span>📍 ${esc(e.location)}</span>` : ''}<span>${srcHtml}</span>${e.recurring ? '<span>↻ pravidelně</span>' : ''}</div>
         ${cats || tags ? `<div class="meta">${cats} ${tags}</div>` : ''}
-        ${e.description ? `<details><summary>Podrobnosti</summary><p class="desc">${esc(e.description)}</p></details>` : ''}
+        ${e.image ? `<a class="poster" href="${esc(e.image)}" target="_blank" rel="noopener"><img src="${esc(e.image)}" alt="Plakát: ${esc(e.title)}" loading="lazy"></a>` : ''}
+        ${e.description || e.altTitles ? `<details><summary>Podrobnosti</summary>${e.altTitles ? `<p class="desc muted">Uváděno také jako: ${e.altTitles.map(esc).join(', ')}</p>` : ''}${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}</details>` : ''}
       </div>
     </article>`;
   }

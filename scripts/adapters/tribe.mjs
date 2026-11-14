@@ -1,8 +1,8 @@
 // The Events Calendar (WordPress) – veřejné REST API /wp-json/tribe/events/v1/events
 import { fetchJson, decodeHtml, stripHtml, truncate, todayWall, addDays, fmt } from '../lib.mjs';
 
-export async function collectTribe(source) {
-  const from = fmt(addDays(todayWall(), -400), true);
+export async function collectTribe(source, ctx) {
+  const from = ctx.historyFrom;
   let url = `${source.url}?per_page=50&start_date=${from}%2000:00:00&status=publish`;
   const out = [];
   for (let page = 0; url && page < 20; page++) {

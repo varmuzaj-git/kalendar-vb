@@ -31,16 +31,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+
+      - run: npm ci
 
       - name: Stažení akcí ze zdrojů
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/collect.mjs
 
       - name: Uložení dat do repozitáře
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
-          git add public/data
-          if ! git diff --cached --quiet -- public/data/events.json; then
+          git add public/data cache
+          if ! git diff --cached --quiet -- public/data/events.json cache; then
             git commit -m "Aktualizace akcí $(date -u +%Y-%m-%dT%H:%MZ)"
           elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 45 * 86400 )) ]; then
             # GitHub vypíná plánované workflow po 60 dnech bez aktivity

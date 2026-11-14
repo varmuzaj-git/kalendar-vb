@@ -5,15 +5,19 @@ import { normalize, hash, todayWall, addDays, fmt, parseWall, wallToUtc } from '
 import { collectIcal } from './adapters/ical.mjs';
 import { collectTribe } from './adapters/tribe.mjs';
 import { collectHolidays } from './adapters/holidays.mjs';
+import { collectZpravodaj, collectAiHtml, collectAiWp } from './adapters/ai-sources.mjs';
+import { saveCache, aiAvailable, aiCalls } from './ai.mjs';
+import { mergeDuplicates } from './dedupe.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
-const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays };
+const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays, zpravodaj: collectZpravodaj, 'ai-html': collectAiHtml, 'ai-wp': collectAiWp };
 const only = process.argv.find((a) => a.startsWith('--only='))?.slice(7);
 
 const readJson = async (p, fallback) => { try { return JSON.parse(await readFile(ROOT + p, 'utf8')); } catch { return fallback; } };
 const sourcesCfg = await readJson('config/sources.json');
 const catCfg = await readJson('config/categories.json');
-const previous = await readJson('public/data/events.json', { events: [] });
+// nesloučené akce po zdrojích z minulého běhu (archiv a záloha při výpadku zdroje)
+const previous = await readJson('cache/raw-events.json', { events: [] });
 const prevStatus = await readJson('public/data/status.json', { sources: [] });
 
 const rx = (list) => (list || []).map((k) => new RegExp(k, 'i'));
@@ -38,8 +42,10 @@ function enrich(ev, source) {
   const text = normalize(`${ev.title}\n${description}`);
   const cats = new Set(source.categories || []);
   for (const c of ev.sourceCategories || []) if (source.categoryMap?.[c]) cats.add(source.categoryMap[c]);
+  for (const c of ev.aiCategories || []) if (tagMap.has(compact(c))) cats.add(tagMap.get(compact(c)));
   if (hashCats.length) hashCats.forEach((c) => cats.add(c));
   else for (const r of catRules) if (r.patterns.some((p) => p.test(text))) cats.add(r.id);
+  if (cats.size > 1) cats.delete('ostatni');
   if (!cats.size) cats.add('ostatni');
   const tags = new Set([...hashTags, ...(ev.sourceTags || []).map((t) => t.toLowerCase())]);
   for (const r of tagRules) if (r.re.test(text)) tags.add(r.tag);
@@ -48,6 +54,7 @@ function enrich(ev, source) {
   const out = {
     id: `${source.id}-${hash(`${ev.uid}|${ev.start}`)}`,
     source: source.id,
+    sources: [source.id],
     title: ev.title,
     start: ev.start,
     end: ev.end,
@@ -70,7 +77,10 @@ const isExcluded = (title, source) => {
 };
 
 const today = todayWall();
-const keepFrom = fmt(addDays(today, -365), true);
+// historie: od data v konfiguraci (sources.json → historyFrom), nejvýš rok zpět
+const yearAgo = fmt(addDays(today, -365), true);
+const keepFrom = sourcesCfg.historyFrom && sourcesCfg.historyFrom > yearAgo ? sourcesCfg.historyFrom : yearAgo;
+const ctx = { historyFrom: keepFrom, today: fmt(today, true) };
 const all = [];
 const status = [];
 
@@ -80,7 +90,7 @@ for (const source of sourcesCfg.sources) {
   const prevSt = prevStatus.sources.find((s) => s.id === source.id) || {};
   if (only && only !== source.id) { all.push(...prevOfSource); status.push(prevSt); continue; }
   try {
-    const raw = await ADAPTERS[source.type](source);
+    const raw = await ADAPTERS[source.type](source, ctx);
     let excluded = 0;
     const fresh = [];
     for (const ev of raw) {
@@ -105,10 +115,18 @@ for (const source of sourcesCfg.sources) {
 
 // deduplikace (stejný zdroj, název a začátek) + ořez starých akcí
 const seen = new Set();
-const events = all
+let events = all
   .filter((e) => e.end.slice(0, 10) >= keepFrom)
   .filter((e) => { const k = `${e.source}|${normalize(e.title)}|${e.start}`; if (seen.has(k)) return false; seen.add(k); return true; })
   .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title, 'cs'));
+
+await mkdir(ROOT + 'cache', { recursive: true });
+await writeFile(ROOT + 'cache/raw-events.json', JSON.stringify({ events }, null, 0).replace(/},{/g, '},\n{') + '\n');
+
+// stejná akce z více zdrojů → jedna (pravidla podobnosti + AI u sporných párů)
+events = await mergeDuplicates(events, sourcesCfg.sources, { ai: aiAvailable() });
+await saveCache();
+if (aiCalls()) console.log(`AI: ${aiCalls()} dotazů`);
 
 const publicSources = sourcesCfg.sources.filter((s) => s.enabled !== false)
   .map(({ id, name, fullName, color, link, display }) => ({ id, name, fullName, color, link: link || null, display: display || 'events' }));
@@ -134,7 +152,7 @@ for (const e of events) {
   else lines.push(`DTSTART:${icsUtc(parseWall(e.start))}`, `DTEND:${icsUtc(parseWall(e.end))}`);
   lines.push(`SUMMARY:${icsEsc(e.title)}`);
   if (e.location) lines.push(`LOCATION:${icsEsc(e.location)}`);
-  const desc = [e.description, e.url, `Zdroj: ${srcName[e.source]}`].filter(Boolean).join('\n\n');
+  const desc = [e.description, e.url, `Zdroj: ${(e.sources || [e.source]).map((s) => srcName[s]).join(', ')}`].filter(Boolean).join('\n\n');
   lines.push(`DESCRIPTION:${icsEsc(desc)}`);
   if (e.url) lines.push(`URL:${e.url}`);
   if (e.categories.length) lines.push(`CATEGORIES:${e.categories.map(icsEsc).join(',')}`);

@@ -18,6 +18,30 @@
    "display": "events"
   },
   {
+   "id": "chaos",
+   "name": "Divadlo CHAOS",
+   "fullName": "Divadelní soubor CHAOS",
+   "color": "#c2185b",
+   "link": "https://divadlochaos.cz/",
+   "display": "events"
+  },
+  {
+   "id": "trojak",
+   "name": "Troják",
+   "fullName": "Valašský soubor Troják",
+   "color": "#2e7d32",
+   "link": "https://vstrojak.cz/aktuality/",
+   "display": "events"
+  },
+  {
+   "id": "zpravodaj",
+   "name": "Zpravodaj obce",
+   "fullName": "Valašskobystřický zpravodaj",
+   "color": "#1f5c99",
+   "link": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "display": "events"
+  },
+  {
    "id": "svatky",
    "name": "Státní svátky",
    "fullName": "Státní svátky ČR",
@@ -70,533 +94,11 @@
  ],
  "events": [
   {
-   "id": "svatky-b7a774306b",
-   "source": "svatky",
-   "title": "Den boje za svobodu a demokracii",
-   "start": "2025-11-17",
-   "end": "2025-11-17",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "farnost-3489359320",
-   "source": "farnost",
-   "title": "Slavnost Ježíše Krista Krále",
-   "start": "2025-11-23",
-   "end": "2025-11-23",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/slavnost-jezise-krista-krale-3/",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "kultura"
-   ],
-   "tags": []
-  },
-  {
-   "id": "farnost-9fc04cfe21",
-   "source": "farnost",
-   "title": "1. neděle adventní",
-   "start": "2025-11-30",
-   "end": "2025-11-30",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/1-nedele-adventni-4/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "advent"
-   ]
-  },
-  {
-   "id": "farnost-3b786f2876",
-   "source": "farnost",
-   "title": "2. neděle adventní",
-   "start": "2025-12-07",
-   "end": "2025-12-07",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/2-nedele-adventni-4/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "advent"
-   ]
-  },
-  {
-   "id": "farnost-084b4e8954",
-   "source": "farnost",
-   "title": "3. neděle adventní",
-   "start": "2025-12-14",
-   "end": "2025-12-14",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/3-nedele-adventni-4/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "advent"
-   ]
-  },
-  {
-   "id": "farnost-f540effae7",
-   "source": "farnost",
-   "title": "Vánoční zpovídání 2025",
-   "start": "2025-12-19",
-   "end": "2025-12-19",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/vanocni-zpovidani-2025/",
-   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/vanocni-zpovidani-2025-pdf.jpg",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "děkanát",
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "farnost-7754636975",
-   "source": "farnost",
-   "title": "Chystání vánočních stromů v kostele",
-   "start": "2025-12-20T08:00",
-   "end": "2025-12-20T12:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/chystani-vanocnich-stromu-v-kostele-2/",
-   "description": "Sraz po 8. hodině u kostela, s sebou rukavice a pracovní oblečení",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "farnost-dcf16b8055",
-   "source": "farnost",
-   "title": "4. neděle adventní",
-   "start": "2025-12-21",
-   "end": "2025-12-21",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/4-nedele-adventni-4/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "advent"
-   ]
-  },
-  {
-   "id": "svatky-622a727371",
-   "source": "svatky",
-   "title": "Štědrý den",
-   "start": "2025-12-24",
-   "end": "2025-12-24",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "farnost-fe0c5fcae4",
-   "source": "farnost",
-   "title": "Vánoce 2025",
-   "start": "2025-12-24",
-   "end": "2025-12-26",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/vanoce-2/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "slavnosti a svátky",
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "svatky-e0500ec4c8",
-   "source": "svatky",
-   "title": "1. svátek vánoční",
-   "start": "2025-12-25",
-   "end": "2025-12-25",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": [
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "farnost-d681e94396",
-   "source": "farnost",
-   "title": "Vánoční varhanní koncert",
-   "start": "2025-12-25T15:00",
-   "end": "2025-12-25T16:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/vanocni-varhanni-koncert/",
-   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/vanocno-koncert-2025-500x489.webp",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "kultura"
-   ],
-   "tags": [
-    "vánoce",
-    "koncert",
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "svatky-6e04b701f8",
-   "source": "svatky",
-   "title": "2. svátek vánoční",
-   "start": "2025-12-26",
-   "end": "2025-12-26",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": [
-    "Vánoce"
-   ]
-  },
-  {
-   "id": "svatky-bb11329145",
-   "source": "svatky",
-   "title": "Den obnovy samostatného českého státu, Nový rok",
-   "start": "2026-01-01",
-   "end": "2026-01-01",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "farnost-6a16575a08",
-   "source": "farnost",
-   "title": "Nad horama vyšla hvězda – scholička",
-   "start": "2026-01-02T18:00",
-   "end": "2026-01-02T19:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/nad-horama-vysla-hvezda-scholicka/",
-   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/Nad-horama-vysla-hvezda-14_2025.webp",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "kultura",
-    "deti"
-   ],
-   "tags": []
-  },
-  {
-   "id": "farnost-a68078265d",
-   "source": "farnost",
-   "title": "Tříkrálová sbírka 2026",
-   "start": "2026-01-09",
-   "end": "2026-01-09",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/trikralova-sbirka-2026/",
-   "description": "V naší farnosti bude tříkrálová sbírka probíhat v pátek 9. ledna 2026.\n\nKoordinátorem pro naši farnost je Marie Hruškovská.",
-   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/trikralove2026-500x207.jpg",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "charita",
-    "tříkrálová sbírka"
-   ]
-  },
-  {
-   "id": "farnost-dfbf708b28",
-   "source": "farnost",
-   "title": "Popeleční středa",
-   "start": "2026-02-18",
-   "end": "2026-02-18",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/popelecni-streda-6/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "slavnosti a svátky"
-   ]
-  },
-  {
-   "id": "farnost-2c21dc1988",
-   "source": "farnost",
-   "title": "Velikonoční zpovídání",
-   "start": "2026-03-27T13:00",
-   "end": "2026-03-27T17:00",
-   "allDay": false,
-   "location": "Farní kostel ve Valašské Bystřici",
-   "url": "https://farnostvb.cz/akce/velikonocni-zpovidani/",
-   "description": "P. Stanislav Matyáš (13:10-15:00) v zákristii\n\nP. Pavel Jombík (13:10-15:00) ve zpovědnici\n\nP. Bedřich Horák (15:00-17:00) ve zpovědnici\n\na P. Jan Vláčil 13:20-16:50 na faře, pak 17:00-17:20 a po mši sv. ve zpovědnici.",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "děkanát",
-    "velikonoce"
-   ]
-  },
-  {
-   "id": "farnost-2dfd5f0ab1",
-   "source": "farnost",
-   "title": "Velikonoce 2026",
-   "start": "2026-04-02",
-   "end": "2026-04-05",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/velikonoce-2026/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "slavnosti a svátky",
-    "velikonoce"
-   ]
-  },
-  {
-   "id": "svatky-c0edf7fb56",
-   "source": "svatky",
-   "title": "Velký pátek",
-   "start": "2026-04-03",
-   "end": "2026-04-03",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "svatky-f16625e8f5",
-   "source": "svatky",
-   "title": "Velikonoční pondělí",
-   "start": "2026-04-06",
-   "end": "2026-04-06",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "farnost-e43f82e2e9",
-   "source": "farnost",
-   "title": "Přednáška UMĚNÍ ŽÍT – MAREK ORKO VÁCHA",
-   "start": "2026-04-07T18:00",
-   "end": "2026-04-07T20:00",
-   "allDay": false,
-   "location": "Společenský dům U Pernických",
-   "url": "https://farnostvb.cz/akce/prednaska-umeni-zit-marek-orko-vacha/",
-   "description": "Marek Orko Vácha – katolický kněz, teolog, molekulární biolog, pedagog, spisovatel a skaut.\n\nZveme vás na jeho přenášku s názvem Umění žít\n\nČlověk je zrozen, aby žil, a ne aby se připravoval na život. A život sám, je něco důležitějšího, něco opojnějšího? Jaká je tedy odpovědnost člověka za jeho životní příběh? Je třeba s pokorou přijmout vlastní velikost, dojít k poznání že symfonie, které nenapíšeme my, nevzniknou nikdy… obrazy, které nenamalujeme my, nebudou nikdy … a dobré projekty, které neuvedeme v život my, také nebudou nikdy.\n\nPo přednášce (cca 90 minut) bude následovat krátká diskuse,…",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "vzdelavani"
-   ],
-   "tags": [
-    "přednášky"
-   ]
-  },
-  {
-   "id": "farnost-1ab95da9a3",
-   "source": "farnost",
-   "title": "Setkání nad 1. pilířem PROPOJENI",
-   "start": "2026-04-15T18:00",
-   "end": "2026-04-15T20:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/setkani-nad-1-pilirem-propojeni/",
-   "description": "Slavení neděle – 18.00 na faře",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "propojeni",
-    "mládež"
-   ]
-  },
-  {
-   "id": "farnost-719284469b",
-   "source": "farnost",
-   "title": "Setkání nad 2. pilířem PROPOJENI – téma 1",
-   "start": "2026-04-29T18:30",
-   "end": "2026-04-29T20:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "propojeni",
-    "mládež"
-   ]
-  },
-  {
-   "id": "svatky-da69c4eaf2",
-   "source": "svatky",
-   "title": "Svátek práce",
-   "start": "2026-05-01",
-   "end": "2026-05-01",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "svatky-574d6fab8b",
-   "source": "svatky",
-   "title": "Den vítězství",
-   "start": "2026-05-08",
-   "end": "2026-05-08",
-   "allDay": true,
-   "recurring": false,
-   "categories": [],
-   "tags": []
-  },
-  {
-   "id": "farnost-2462922e04",
-   "source": "farnost",
-   "title": "Setkání nad 2. pilířem PROPOJENI – téma 2 a 3",
-   "start": "2026-05-20T18:00",
-   "end": "2026-05-20T20:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni-cast-2-a-3/",
-   "description": "bude ve středu 20. 5. v 18:00 na faře\n\n2. TÉMA – DUCHOVNÍ RŮST\n\n2. pilíř – Brožura pro členy skupinek – 2. téma\n\n2. pilíř – Představení tématu – 2. téma – video online\n\n3. TÉMA – SPRÁVA FARNOSTI\n\n2. pilíř – Brožura pro členy skupinek – 3. téma\n\n2. pilíř – Představení tématu – 3. téma – video online",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "propojeni",
-    "mládež"
-   ]
-  },
-  {
-   "id": "farnost-3582ec9521",
-   "source": "farnost",
-   "title": "Slavnost Seslání Ducha Svatého",
-   "start": "2026-05-24",
-   "end": "2026-05-24",
-   "allDay": true,
-   "url": "https://farnostvb.cz/akce/slavnost-seslani-ducha-svateho-4/",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "kultura"
-   ],
-   "tags": [
-    "slavnosti a svátky"
-   ]
-  },
-  {
-   "id": "farnost-667f498762",
-   "source": "farnost",
-   "title": "Zpovídání pro děti jdoucí k 1. sv. přijímání a jejich rodiče",
-   "start": "2026-06-03T17:00",
-   "end": "2026-06-03T18:30",
-   "allDay": false,
-   "location": "Farní kostel ve Valašské Bystřici",
-   "url": "https://farnostvb.cz/akce/zpovidani-pro-deti-jdouci-k-1-sv-prijimani-a-jejich-rodice/",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "deti"
-   ],
-   "tags": []
-  },
-  {
-   "id": "farnost-cd8b8435ba",
-   "source": "farnost",
-   "title": "Nácvik 1. sv. přijímání pro děti (po mši)",
-   "start": "2026-06-05T18:10",
-   "end": "2026-06-05T19:00",
-   "allDay": false,
-   "location": "Farní kostel ve Valašské Bystřici",
-   "url": "https://farnostvb.cz/akce/nacvik-1-sv-prijimani-pro-deti-po-msi/",
-   "recurring": false,
-   "categories": [
-    "cirkev",
-    "deti"
-   ],
-   "tags": []
-  },
-  {
-   "id": "farnost-5254fa2b16",
-   "source": "farnost",
-   "title": "1. sv. přijímání",
-   "start": "2026-06-07T09:30",
-   "end": "2026-06-07T10:30",
-   "allDay": false,
-   "location": "Farní kostel ve Valašské Bystřici",
-   "url": "https://farnostvb.cz/akce/1-sv-prijimani-2/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": [
-    "slavnosti a svátky"
-   ]
-  },
-  {
-   "id": "farnost-ff0135d8f8",
-   "source": "farnost",
-   "title": "Táborák",
-   "start": "2026-06-21T16:00",
-   "end": "2026-06-21T19:00",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/taborak/",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": []
-  },
-  {
-   "id": "pernicti-08040a0cd0",
-   "source": "pernicti",
-   "title": "Zastupitelsvo",
-   "start": "2026-06-26T17:00",
-   "end": "2026-06-26T18:00",
-   "allDay": false,
-   "location": "Společenský dům U Pernických",
-   "recurring": false,
-   "categories": [
-    "obec"
-   ],
-   "tags": [
-    "zastupitelstvo"
-   ]
-  },
-  {
-   "id": "farnost-93d6a17ce4",
-   "source": "farnost",
-   "title": "Setkání farní rady – elektroinstalace v kostele",
-   "start": "2026-06-26T18:00",
-   "end": "2026-06-26T18:30",
-   "allDay": false,
-   "url": "https://farnostvb.cz/akce/setkani-farni-rady-elektroinstalace-v-kostele/",
-   "description": "po večerní mši sv. v kostele",
-   "recurring": false,
-   "categories": [
-    "cirkev"
-   ],
-   "tags": []
-  },
-  {
    "id": "pernicti-395a94c759",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-02T19:00",
    "end": "2026-07-02T20:00",
@@ -613,6 +115,9 @@
   {
    "id": "svatky-1d82aa8fa3",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den slovanských věrozvěstů Cyrila a Metoděje",
    "start": "2026-07-05",
    "end": "2026-07-05",
@@ -624,6 +129,9 @@
   {
    "id": "farnost-16ddb2d756",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "Slavnost sv. Cyrila a Metoděje",
    "start": "2026-07-05",
    "end": "2026-07-05",
@@ -640,6 +148,9 @@
   {
    "id": "svatky-63930b6713",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den upálení mistra Jana Husa",
    "start": "2026-07-06",
    "end": "2026-07-06",
@@ -651,6 +162,9 @@
   {
    "id": "pernicti-66818e7858",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-06T19:00",
    "end": "2026-07-06T20:00",
@@ -667,6 +181,9 @@
   {
    "id": "pernicti-9c3f0293bc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-09T19:00",
    "end": "2026-07-09T20:00",
@@ -681,24 +198,66 @@
    ]
   },
   {
+   "id": "zpravodaj-2e57238293",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Portášské slavnosti – zahájení",
+   "start": "2026-07-10",
+   "end": "2026-07-10",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Úvodní program s vojenskými výstavy, propagačními pochody a promítáním filmu Poutníci.",
+   "recurring": false,
+   "categories": [
+    "kultura",
+    "sport",
+    "cirkev"
+   ],
+   "tags": [
+    "slavnosti",
+    "portáš",
+    "historie",
+    "folklor"
+   ]
+  },
+  {
    "id": "pernicti-3e2677247d",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Portášské slavnosti",
-   "start": "2026-07-11",
-   "end": "2026-07-11",
-   "allDay": true,
+   "start": "2026-07-11T10:00",
+   "end": "2026-07-11T12:00",
+   "allDay": false,
    "location": "Společenský dům U Pernických",
    "recurring": false,
    "categories": [
-    "kultura"
+    "kultura",
+    "deti"
    ],
    "tags": [
-    "folklor"
+    "folklor",
+    "portášské",
+    "slavnosti",
+    "portáš",
+    "folklór"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Soutěže a zábava pro děti a rodiny, slavnostní zahájení v 14:00, folklórní soubor Troják a bitevní ukázka Ve stínu půlměsíce.",
+   "altTitles": [
+    "Portášské slavnosti – hlavní den"
    ]
   },
   {
    "id": "pernicti-8438b745cf",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Portášské slavnosti",
    "start": "2026-07-12",
    "end": "2026-07-12",
@@ -715,6 +274,9 @@
   {
    "id": "pernicti-360228ad27",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-13T19:00",
    "end": "2026-07-13T20:00",
@@ -731,6 +293,9 @@
   {
    "id": "pernicti-f801bfbff9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-16T19:00",
    "end": "2026-07-16T20:00",
@@ -747,6 +312,9 @@
   {
    "id": "pernicti-6c16195061",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-07-17T20:15",
    "end": "2026-07-17T22:30",
@@ -763,6 +331,9 @@
   {
    "id": "pernicti-9e14b141b3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-20T19:00",
    "end": "2026-07-20T20:00",
@@ -779,6 +350,9 @@
   {
    "id": "pernicti-f12b5dd515",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-23T19:00",
    "end": "2026-07-23T20:00",
@@ -793,8 +367,33 @@
    ]
   },
   {
+   "id": "zpravodaj-a555148e38",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Valašský letňák – film Dream team",
+   "start": "2026-07-24",
+   "end": "2026-07-24",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Letní filmové představení Dream team se konalo 24. července v rámci Valašského letňáku.",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "letňák",
+    "film",
+    "dreamteam"
+   ]
+  },
+  {
    "id": "pernicti-fb4072abe5",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Hudební podvečer - restaurace, amfik",
    "start": "2026-07-24T17:00",
    "end": "2026-07-25T00:00",
@@ -811,6 +410,9 @@
   {
    "id": "pernicti-90e02f2441",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-07-24T20:15",
    "end": "2026-07-24T22:30",
@@ -827,6 +429,9 @@
   {
    "id": "pernicti-f65a9c81ba",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kino",
    "start": "2026-07-24T21:00",
    "end": "2026-07-24T23:30",
@@ -843,6 +448,9 @@
   {
    "id": "pernicti-894e8447ff",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-27T19:00",
    "end": "2026-07-27T20:00",
@@ -859,6 +467,9 @@
   {
    "id": "pernicti-f793da5c84",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-07-30T19:00",
    "end": "2026-07-30T20:00",
@@ -875,6 +486,9 @@
   {
    "id": "pernicti-58e78f8b9a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-07-31T20:15",
    "end": "2026-07-31T22:30",
@@ -891,6 +505,9 @@
   {
    "id": "pernicti-c74225f416",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-03T19:00",
    "end": "2026-08-03T20:00",
@@ -907,6 +524,9 @@
   {
    "id": "farnost-bf187751eb",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "1. předpouťová brigáda za kostelem",
    "start": "2026-08-05T18:00",
    "end": "2026-08-05T20:00",
@@ -921,6 +541,9 @@
   {
    "id": "pernicti-c6449a6d02",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy turnaj / klubovna",
    "start": "2026-08-06",
    "end": "2026-08-06",
@@ -938,6 +561,9 @@
   {
    "id": "pernicti-f321736ad5",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Zastupitelstvo",
    "start": "2026-08-06T17:00",
    "end": "2026-08-06T18:00",
@@ -954,6 +580,9 @@
   {
    "id": "pernicti-7ff673073a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-06T19:00",
    "end": "2026-08-06T20:00",
@@ -970,6 +599,9 @@
   {
    "id": "pernicti-1e495b1589",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-08-07T20:15",
    "end": "2026-08-07T22:30",
@@ -986,6 +618,9 @@
   {
    "id": "pernicti-0c6cc5e642",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-10T19:00",
    "end": "2026-08-10T20:00",
@@ -1002,6 +637,9 @@
   {
    "id": "farnost-bf011aaefd",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "2. předpouťová brigáda za kostelem",
    "start": "2026-08-13T18:00",
    "end": "2026-08-13T20:00",
@@ -1016,6 +654,9 @@
   {
    "id": "pernicti-d15ec4c815",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-13T19:00",
    "end": "2026-08-13T20:00",
@@ -1032,6 +673,9 @@
   {
    "id": "pernicti-3716f73865",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-08-14T20:15",
    "end": "2026-08-14T22:30",
@@ -1048,6 +692,9 @@
   {
    "id": "pernicti-0ed8630cd4",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Pouť",
    "start": "2026-08-15",
    "end": "2026-08-16",
@@ -1064,6 +711,10 @@
   {
    "id": "farnost-c626f28e41",
    "source": "farnost",
+   "sources": [
+    "farnost",
+    "zpravodaj"
+   ],
    "title": "Pouť 2026",
    "start": "2026-08-16",
    "end": "2026-08-16",
@@ -1076,12 +727,19 @@
     "kultura"
    ],
    "tags": [
-    "pouť"
+    "pouť",
+    "valaske"
+   ],
+   "altTitles": [
+    "Valašskobystřická pouť"
    ]
   },
   {
    "id": "pernicti-1f35014c95",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-17T19:00",
    "end": "2026-08-17T20:00",
@@ -1098,6 +756,9 @@
   {
    "id": "pernicti-a60802f4b9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-20T19:00",
    "end": "2026-08-20T20:00",
@@ -1114,6 +775,9 @@
   {
    "id": "pernicti-10c8702bcb",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-24T19:00",
    "end": "2026-08-24T20:00",
@@ -1130,6 +794,9 @@
   {
    "id": "pernicti-d6de87dc01",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-27T19:00",
    "end": "2026-08-27T20:00",
@@ -1144,8 +811,33 @@
    ]
   },
   {
+   "id": "zpravodaj-b2ebe724bc",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Valašský letňák – film Mazlíčci v průšvihu",
+   "start": "2026-08-28",
+   "end": "2026-08-28",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Letní filmové představení Mazlíčci v průšvihu se konalo 28. srpna v rámci Valašského letňáku.",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "letňák",
+    "film",
+    "mazlicci"
+   ]
+  },
+  {
    "id": "pernicti-33d5aad6c1",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kino",
    "start": "2026-08-28T20:00",
    "end": "2026-08-29T00:00",
@@ -1162,6 +854,9 @@
   {
    "id": "pernicti-88938e3fe1",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-08-28T20:15",
    "end": "2026-08-28T22:30",
@@ -1178,6 +873,9 @@
   {
    "id": "pernicti-ea2e51b710",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-08-31T19:00",
    "end": "2026-08-31T20:00",
@@ -1194,6 +892,9 @@
   {
    "id": "pernicti-10d0a9352c",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-09-01T16:00",
    "end": "2026-09-01T17:00",
@@ -1211,6 +912,9 @@
   {
    "id": "pernicti-f9a6aeb533",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-09-01T17:00",
    "end": "2026-09-01T18:00",
@@ -1225,8 +929,55 @@
    ]
   },
   {
+   "id": "zpravodaj-0aa733271b",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka seniorů – Pustevny",
+   "start": "2026-09-02",
+   "end": "2026-09-02",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Sdružení důchodců uspořádalo výlet do Pusteven 2. září 2026, doprava autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vychazka",
+    "pustevny"
+   ]
+  },
+  {
+   "id": "zpravodaj-da45acf1b7",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Pustevny",
+   "start": "2026-09-02",
+   "end": "2026-09-02",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Vycházka pro členy Sdružení důchodců do Pusteven, dopravou autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori",
+    "sport"
+   ],
+   "tags": [
+    "vychazka",
+    "pustevny",
+    "seniori"
+   ]
+  },
+  {
    "id": "pernicti-92f7d0cca0",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Zastupitelstvo",
    "start": "2026-09-03",
    "end": "2026-09-03",
@@ -1243,6 +994,9 @@
   {
    "id": "pernicti-2a97b026c8",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-09-03T15:00",
    "end": "2026-09-03T17:00",
@@ -1260,6 +1014,9 @@
   {
    "id": "pernicti-de2e4faa96",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-03T19:00",
    "end": "2026-09-03T20:00",
@@ -1276,6 +1033,9 @@
   {
    "id": "pernicti-f17a9b64d7",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-09-04T20:15",
    "end": "2026-09-04T22:30",
@@ -1292,6 +1052,10 @@
   {
    "id": "pernicti-5d4243d78b",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Šachový mezinárodní turnaj",
    "start": "2026-09-05",
    "end": "2026-09-12",
@@ -1299,7 +1063,38 @@
    "location": "Společenský dům U Pernických",
    "recurring": false,
    "categories": [
-    "sport"
+    "sport",
+    "kultura"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj",
+    "sachy",
+    "festival",
+    "sachovyfestival"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Mezinárodní šachový festival přilákal 73 hráčů z Česka i zahraničí a probíhal v Valašské Bystřici.",
+   "altTitles": [
+    "Mezinárodní šachový festival"
+   ]
+  },
+  {
+   "id": "zpravodaj-50723d6591",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Turnaj mládeže ve šachu",
+   "start": "2026-09-08",
+   "end": "2026-09-08",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Mládežní šachový turnaj se konal v Rožnově pod Radhoštěm na ZŠ 5. května.",
+   "recurring": false,
+   "categories": [
+    "sport",
+    "deti"
    ],
    "tags": [
     "šachy",
@@ -1307,8 +1102,57 @@
    ]
   },
   {
+   "id": "zpravodaj-ab6135885e",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Rapid šachový turnaj",
+   "start": "2026-09-09",
+   "end": "2026-09-09",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Jednodenní rapid šachový turnaj následoval den po mládežnickém turnaji.",
+   "recurring": false,
+   "categories": [
+    "sport",
+    "deti"
+   ],
+   "tags": [
+    "šachy",
+    "rapid",
+    "turnaj"
+   ]
+  },
+  {
+   "id": "zpravodaj-d27a78837b",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Sportovní odpoledne s opékáním",
+   "start": "2026-09-10",
+   "end": "2026-09-10",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Sportovní odpoledne s opékáním organizované klubem Hutisko na hřišti.",
+   "recurring": false,
+   "categories": [
+    "seniori",
+    "sport"
+   ],
+   "tags": [
+    "sport",
+    "opékání",
+    "hutisko"
+   ]
+  },
+  {
    "id": "pernicti-88355a05f2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-14T19:00",
    "end": "2026-09-14T20:00",
@@ -1323,8 +1167,35 @@
    ]
   },
   {
+   "id": "zpravodaj-dddc192c04",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Veletrh volnočasu v Rožnově",
+   "start": "2026-09-15",
+   "end": "2026-09-15",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Žáci navštívili Veletrh volnočasu v areálu CAMP SPORTu, kde si mohli vyzkoušet různé sportovní i výtvarné aktivity.",
+   "recurring": false,
+   "categories": [
+    "sport",
+    "deti",
+    "kultura"
+   ],
+   "tags": [
+    "veletrh",
+    "volnocas",
+    "roznov"
+   ]
+  },
+  {
    "id": "pernicti-9bee828685",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-09-15T16:00",
    "end": "2026-09-15T17:00",
@@ -1342,6 +1213,9 @@
   {
    "id": "pernicti-744b5bac4b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-09-15T17:00",
    "end": "2026-09-15T18:00",
@@ -1356,8 +1230,55 @@
    ]
   },
   {
+   "id": "zpravodaj-59d073dc09",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka seniorů – Luhačovice",
+   "start": "2026-09-16",
+   "end": "2026-09-16",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Výlet sdružení důchodců do Luhačovic 16. září 2026, doprava auty a autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vychazka",
+    "luhačovice"
+   ]
+  },
+  {
+   "id": "zpravodaj-d2fdbcf75a",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Luhačovice",
+   "start": "2026-09-16",
+   "end": "2026-09-16",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Vycházka pro seniory do Luhačovic, dopravou autem i autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori",
+    "sport"
+   ],
+   "tags": [
+    "vychazka",
+    "luhačovice",
+    "seniori"
+   ]
+  },
+  {
    "id": "pernicti-efeb8eb81b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-09-16T14:30",
    "end": "2026-09-16T16:30",
@@ -1374,6 +1295,9 @@
   {
    "id": "pernicti-4a9c2abc26",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-09-17T15:00",
    "end": "2026-09-17T17:00",
@@ -1391,6 +1315,9 @@
   {
    "id": "pernicti-e0be80201f",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-17T19:00",
    "end": "2026-09-17T20:00",
@@ -1407,6 +1334,9 @@
   {
    "id": "pernicti-067079e0b8",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-09-18T17:00",
    "end": "2026-09-18T20:00",
@@ -1423,6 +1353,9 @@
   {
    "id": "pernicti-67ffe97098",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-09-18T20:15",
    "end": "2026-09-18T22:30",
@@ -1439,6 +1372,9 @@
   {
    "id": "pernicti-3599f1e79b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-09-21T13:00",
    "end": "2026-09-21T14:00",
@@ -1453,6 +1389,9 @@
   {
    "id": "pernicti-603d2baef9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-21T19:00",
    "end": "2026-09-21T20:00",
@@ -1469,6 +1408,9 @@
   {
    "id": "pernicti-97d8157df5",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-09-22T16:00",
    "end": "2026-09-22T17:00",
@@ -1486,6 +1428,9 @@
   {
    "id": "pernicti-4bf2cd8438",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-09-22T17:00",
    "end": "2026-09-22T18:00",
@@ -1500,8 +1445,55 @@
    ]
   },
   {
+   "id": "zpravodaj-8eca25e129",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Bowling - Rožnov p. R.",
+   "start": "2026-09-23",
+   "end": "2026-09-23",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Bowlingová akce pro členy Sdružení důchodců v Rožnově pod Radhoštěm.",
+   "recurring": false,
+   "categories": [
+    "seniori",
+    "kultura"
+   ],
+   "tags": [
+    "bowling",
+    "rožnov",
+    "seniori"
+   ]
+  },
+  {
+   "id": "zpravodaj-59608892ff",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Bowling – Rožnov pod Radhoštěm",
+   "start": "2026-09-23",
+   "end": "2026-09-23",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Sdružení důchodců se sešlo na bowling v Rožnově pod Radhoštěm 23. září 2026.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "bowling",
+    "rožnov"
+   ]
+  },
+  {
    "id": "pernicti-a6b6f7015f",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-09-23T14:30",
    "end": "2026-09-23T16:30",
@@ -1518,6 +1510,9 @@
   {
    "id": "pernicti-aa51e2d0ca",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-09-24T15:00",
    "end": "2026-09-24T17:00",
@@ -1535,6 +1530,9 @@
   {
    "id": "pernicti-11c84fac8b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy - turnaj/klubovna",
    "start": "2026-09-24T18:30",
    "end": "2026-09-24T22:00",
@@ -1552,6 +1550,9 @@
   {
    "id": "pernicti-aa568b4bba",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-24T19:00",
    "end": "2026-09-24T20:00",
@@ -1568,6 +1569,9 @@
   {
    "id": "pernicti-3fff46ee44",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Důchodci schůze / klubovna",
    "start": "2026-09-25T09:30",
    "end": "2026-09-25T11:00",
@@ -1582,6 +1586,9 @@
   {
    "id": "pernicti-5e4d1aa498",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-09-25T20:15",
    "end": "2026-09-25T22:30",
@@ -1598,22 +1605,58 @@
   {
    "id": "pernicti-65170c4058",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Chaos divadlo ČR+SR",
-   "start": "2026-09-26",
-   "end": "2026-09-27",
-   "allDay": true,
+   "start": "2026-09-26T19:00",
+   "end": "2026-09-26T21:00",
+   "allDay": false,
    "location": "Společenský dům U Pernických",
    "recurring": false,
    "categories": [
     "kultura"
    ],
    "tags": [
-    "divadlo"
+    "divadlo",
+    "premiéra",
+    "interreg"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Premiéra česko‑slovenské divadelní inscenace Konec sudičiek se koná v sále U Pernických.",
+   "altTitles": [
+    "Premiéra divadla Konec sudičiek"
+   ]
+  },
+  {
+   "id": "zpravodaj-89f69e8fa7",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Repríza divadla Konec sudičiek",
+   "start": "2026-09-27T14:00",
+   "end": "2026-09-27T16:00",
+   "allDay": false,
+   "location": "sál U Pernických",
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "První repríza inscenace Konec sudičiek se koná v neděli 27. září.",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo",
+    "repríza"
    ]
   },
   {
    "id": "svatky-ef5b7e5789",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den české státnosti",
    "start": "2026-09-28",
    "end": "2026-09-28",
@@ -1625,6 +1668,9 @@
   {
    "id": "pernicti-9000a8a5ed",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-09-28T13:00",
    "end": "2026-09-28T14:00",
@@ -1639,6 +1685,9 @@
   {
    "id": "pernicti-93ea2799a0",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-09-28T19:00",
    "end": "2026-09-28T20:00",
@@ -1655,6 +1704,9 @@
   {
    "id": "pernicti-9dbc7d4b66",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-09-29T16:00",
    "end": "2026-09-29T17:00",
@@ -1672,6 +1724,9 @@
   {
    "id": "pernicti-3fea262cb7",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-09-29T17:00",
    "end": "2026-09-29T18:00",
@@ -1686,8 +1741,55 @@
    ]
   },
   {
+   "id": "zpravodaj-cdbb3819df",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka seniorů – Bumbálka",
+   "start": "2026-09-30",
+   "end": "2026-09-30",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Výlet na Bumbálku a Masarykovu chatu 30. září 2026, doprava auty a autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vychazka",
+    "bumbalka"
+   ]
+  },
+  {
+   "id": "zpravodaj-e44111f4c7",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Bumbálka, Masarykova chata",
+   "start": "2026-09-30",
+   "end": "2026-09-30",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Vycházka na Bumbálku k Masarykově chatě, trasa 3,3 km, dopravou autem i autobusem.",
+   "recurring": false,
+   "categories": [
+    "seniori",
+    "sport"
+   ],
+   "tags": [
+    "vychazka",
+    "bumbalka",
+    "masarykova-chata"
+   ]
+  },
+  {
    "id": "pernicti-594ccd4d31",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-09-30T14:30",
    "end": "2026-09-30T16:30",
@@ -1704,6 +1806,9 @@
   {
    "id": "pernicti-67e3a3e17d",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-10-01T15:00",
    "end": "2026-10-01T17:00",
@@ -1721,6 +1826,9 @@
   {
    "id": "pernicti-60cf2837ff",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-01T19:00",
    "end": "2026-10-01T20:00",
@@ -1737,6 +1845,9 @@
   {
    "id": "pernicti-b29e0ecf1a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-10-02T17:00",
    "end": "2026-10-02T20:00",
@@ -1753,6 +1864,9 @@
   {
    "id": "pernicti-5c7a3ee99c",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-02T20:15",
    "end": "2026-10-02T22:30",
@@ -1769,6 +1883,9 @@
   {
    "id": "pernicti-592380f0dc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-03",
    "end": "2026-10-03",
@@ -1785,6 +1902,9 @@
   {
    "id": "pernicti-b4530e5bef",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Rodinné odpoledne, předvolební akce KDU-ČSL / amfik+ sál",
    "start": "2026-10-04",
    "end": "2026-10-04",
@@ -1799,8 +1919,34 @@
    ]
   },
   {
+   "id": "zpravodaj-fd325a24c8",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Turnaj v minikopané",
+   "start": "2026-10-05",
+   "end": "2026-10-05",
+   "allDay": true,
+   "location": "Vidče",
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Turnaj v minikopané pro žáky 6. a 7. třídy se konal 5. října ve Vidči, kde se utkalo šest družstev, včetně týmu z Valašské Bystřice.",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "turnaj",
+    "minikopaná",
+    "škola"
+   ]
+  },
+  {
    "id": "pernicti-09f12cad97",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-10-05T13:00",
    "end": "2026-10-05T14:00",
@@ -1815,6 +1961,9 @@
   {
    "id": "pernicti-d106ba4de3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-05T19:00",
    "end": "2026-10-05T20:00",
@@ -1831,6 +1980,9 @@
   {
    "id": "pernicti-b96ff9481a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-10-06T16:00",
    "end": "2026-10-06T17:00",
@@ -1848,6 +2000,9 @@
   {
    "id": "pernicti-81992f7753",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-10-06T17:00",
    "end": "2026-10-06T18:00",
@@ -1862,8 +2017,31 @@
    ]
   },
   {
+   "id": "zpravodaj-cc0448a1aa",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Hostýn",
+   "start": "2026-10-07",
+   "end": "2026-10-07",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Organizovaná výprava seniorů na Hostýn autem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vycházka"
+   ]
+  },
+  {
    "id": "pernicti-1b4434eb99",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-10-07T14:30",
    "end": "2026-10-07T16:30",
@@ -1880,6 +2058,9 @@
   {
    "id": "pernicti-4549e37275",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-10-08T15:00",
    "end": "2026-10-08T17:00",
@@ -1897,6 +2078,9 @@
   {
    "id": "pernicti-191eef8b43",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-08T19:00",
    "end": "2026-10-08T20:00",
@@ -1911,8 +2095,32 @@
    ]
   },
   {
+   "id": "zpravodaj-404fb7c63e",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Volby do obecního zastupitelstva",
+   "start": "2026-10-09",
+   "end": "2026-10-10",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Volby do obecního zastupitelstva proběhly ve dnech 9. a 10. října 2026.",
+   "recurring": false,
+   "categories": [
+    "obec"
+   ],
+   "tags": [
+    "volby",
+    "zastupitelstvo"
+   ]
+  },
+  {
    "id": "pernicti-904448e586",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-10-09T17:00",
    "end": "2026-10-09T20:00",
@@ -1929,6 +2137,9 @@
   {
    "id": "pernicti-2ed29b3580",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-09T20:15",
    "end": "2026-10-09T22:30",
@@ -1945,6 +2156,9 @@
   {
    "id": "pernicti-55e220c4d1",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2026-10-11T08:30",
    "end": "2026-10-11T14:00",
@@ -1961,6 +2175,9 @@
   {
    "id": "pernicti-6d683130cc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-10-12T13:00",
    "end": "2026-10-12T14:00",
@@ -1975,6 +2192,9 @@
   {
    "id": "pernicti-1145940ae8",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-12T19:00",
    "end": "2026-10-12T20:00",
@@ -1991,6 +2211,9 @@
   {
    "id": "pernicti-69996afd45",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Přednáška MAS",
    "start": "2026-10-13",
    "end": "2026-10-13",
@@ -2003,8 +2226,54 @@
    "tags": []
   },
   {
+   "id": "zpravodaj-fd77da9701",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Turnaj v minikopané – starší žáci",
+   "start": "2026-10-13",
+   "end": "2026-10-13",
+   "allDay": true,
+   "location": "Rožnov pod Radhoštěm",
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Škola reprezentovala tým starších žáků na turnaji v minikopané v Rožnově pod Radhoštěm.",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "minikopaná",
+    "turnaj",
+    "skola"
+   ]
+  },
+  {
+   "id": "zpravodaj-d62c5a4cc1",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Rajnochovice – železnice, Tesák",
+   "start": "2026-10-14",
+   "end": "2026-10-14",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Výlet seniorů k Rajnochovicím, železnici a Tesáku, cesta autem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vycházka"
+   ]
+  },
+  {
    "id": "pernicti-19e70b4462",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-10-14T14:30",
    "end": "2026-10-14T16:30",
@@ -2021,6 +2290,9 @@
   {
    "id": "pernicti-59c0804bf7",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-10-15T15:00",
    "end": "2026-10-15T17:00",
@@ -2038,6 +2310,9 @@
   {
    "id": "pernicti-2bd4b0ee0a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-15T19:00",
    "end": "2026-10-15T20:00",
@@ -2054,6 +2329,9 @@
   {
    "id": "pernicti-16837fc118",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-10-16T17:00",
    "end": "2026-10-16T20:00",
@@ -2070,6 +2348,9 @@
   {
    "id": "pernicti-0fbfd3cc28",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-16T20:15",
    "end": "2026-10-16T22:30",
@@ -2084,25 +2365,41 @@
    ]
   },
   {
-   "id": "pernicti-c516a28a71",
-   "source": "pernicti",
-   "title": "Hodová zábava a výročí Trojáku",
+   "id": "trojak-1876b38ca8",
+   "source": "trojak",
+   "sources": [
+    "trojak",
+    "pernicti"
+   ],
+   "title": "35. výročí založení",
    "start": "2026-10-17",
    "end": "2026-10-17",
    "allDay": true,
-   "location": "Společenský dům U Pernických",
+   "url": "https://vstrojak.cz/35-vyroci-zalozeni-17-rijna-2026/",
+   "description": "Oslava 35. výročí založení obce Valašská Bystřice.",
+   "image": "https://vstrojak.cz/wp-content/uploads/2026/10/810518936_1528837779272685_4920985218066951532_n-768x1087.jpg",
    "recurring": false,
    "categories": [
-    "kultura"
+    "kultura",
+    "obec"
    ],
    "tags": [
+    "výročí",
+    "založení",
     "folklor",
     "hody"
+   ],
+   "location": "Společenský dům U Pernických",
+   "altTitles": [
+    "Hodová zábava a výročí Trojáku"
    ]
   },
   {
    "id": "farnost-c3f7f50f52",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "Posvícení",
    "start": "2026-10-18",
    "end": "2026-10-18",
@@ -2118,6 +2415,9 @@
   {
    "id": "pernicti-d9e1fe92f9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2026-10-18T08:30",
    "end": "2026-10-18T14:00",
@@ -2134,6 +2434,9 @@
   {
    "id": "pernicti-23cd97b253",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-10-19T13:00",
    "end": "2026-10-19T14:00",
@@ -2148,6 +2451,9 @@
   {
    "id": "pernicti-a79182d267",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-19T19:00",
    "end": "2026-10-19T20:00",
@@ -2164,6 +2470,9 @@
   {
    "id": "pernicti-a19dfe45fc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-10-20T16:00",
    "end": "2026-10-20T17:00",
@@ -2181,6 +2490,9 @@
   {
    "id": "pernicti-b3e2455d80",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-10-20T17:00",
    "end": "2026-10-20T18:00",
@@ -2197,6 +2509,9 @@
   {
    "id": "pernicti-a1305ab35a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-10-21T14:30",
    "end": "2026-10-21T16:30",
@@ -2211,8 +2526,32 @@
    ]
   },
   {
+   "id": "zpravodaj-f225dabb14",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Posezení s gulášem a hudbou",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Společenské posezení u Machýčků s hudbou a tradičním gulášem.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "posezení",
+    "guláš"
+   ]
+  },
+  {
    "id": "pernicti-a8ab853998",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-10-22T15:00",
    "end": "2026-10-22T17:00",
@@ -2230,6 +2569,9 @@
   {
    "id": "pernicti-0980d54eff",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-22T19:00",
    "end": "2026-10-22T20:00",
@@ -2246,6 +2588,9 @@
   {
    "id": "pernicti-f1443424fc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Vítání občánků",
    "start": "2026-10-23",
    "end": "2026-10-23",
@@ -2260,6 +2605,9 @@
   {
    "id": "pernicti-f744306126",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-10-23T17:00",
    "end": "2026-10-23T20:00",
@@ -2276,6 +2624,9 @@
   {
    "id": "pernicti-0968a31ebd",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-23T20:15",
    "end": "2026-10-23T22:30",
@@ -2292,6 +2643,9 @@
   {
    "id": "pernicti-6bbf4ec189",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-10-26T13:00",
    "end": "2026-10-26T14:00",
@@ -2306,6 +2660,9 @@
   {
    "id": "pernicti-cc1a0dab06",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-26T19:00",
    "end": "2026-10-26T20:00",
@@ -2322,6 +2679,9 @@
   {
    "id": "pernicti-b9430e0dee",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-10-27T16:00",
    "end": "2026-10-27T17:00",
@@ -2339,6 +2699,9 @@
   {
    "id": "pernicti-8b827e686e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-10-27T17:00",
    "end": "2026-10-27T18:00",
@@ -2355,6 +2718,9 @@
   {
    "id": "svatky-3c0cb4da59",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den vzniku samostatného československého státu",
    "start": "2026-10-28",
    "end": "2026-10-28",
@@ -2366,6 +2732,9 @@
   {
    "id": "pernicti-00231e6248",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-10-28T14:30",
    "end": "2026-10-28T16:30",
@@ -2382,6 +2751,10 @@
   {
    "id": "pernicti-73244612c6",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Důchodci / klubovna",
    "start": "2026-10-29T13:30",
    "end": "2026-10-29T14:30",
@@ -2391,11 +2764,21 @@
    "categories": [
     "seniori"
    ],
-   "tags": []
+   "tags": [
+    "posezení"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Neformální setkání seniorů v klubovně.",
+   "altTitles": [
+    "Posezení v klubovně"
+   ]
   },
   {
    "id": "pernicti-bdc7b2f2a0",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-10-29T15:00",
    "end": "2026-10-29T17:00",
@@ -2413,6 +2796,9 @@
   {
    "id": "pernicti-81ac85ea27",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-10-29T19:00",
    "end": "2026-10-29T20:00",
@@ -2429,6 +2815,9 @@
   {
    "id": "pernicti-d95b515f1f",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Důchodci schůze / klubovna",
    "start": "2026-10-30T09:30",
    "end": "2026-10-30T11:00",
@@ -2443,6 +2832,9 @@
   {
    "id": "pernicti-82a14e8c55",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-10-30T17:00",
    "end": "2026-10-30T20:00",
@@ -2459,6 +2851,9 @@
   {
    "id": "pernicti-c75152c298",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-10-30T20:15",
    "end": "2026-10-30T22:30",
@@ -2475,6 +2870,9 @@
   {
    "id": "pernicti-8422a23e54",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Divadelní podzim",
    "start": "2026-10-31",
    "end": "2026-10-31",
@@ -2491,6 +2889,9 @@
   {
    "id": "farnost-af640c3c6e",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "Slavnost všech svatých",
    "start": "2026-11-01",
    "end": "2026-11-01",
@@ -2507,6 +2908,9 @@
   {
    "id": "pernicti-5770ff3b3a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2026-11-01T08:30",
    "end": "2026-11-01T14:00",
@@ -2523,6 +2927,9 @@
   {
    "id": "farnost-59b12fd013",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "Vzpomínka na všechny věrné zemřelé",
    "start": "2026-11-02",
    "end": "2026-11-02",
@@ -2537,6 +2944,9 @@
   {
    "id": "pernicti-e5d4723652",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-11-02T13:00",
    "end": "2026-11-02T14:00",
@@ -2551,6 +2961,9 @@
   {
    "id": "pernicti-e34a8ce0d3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-02T19:00",
    "end": "2026-11-02T20:00",
@@ -2567,6 +2980,9 @@
   {
    "id": "pernicti-d3beefebde",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-11-03T16:00",
    "end": "2026-11-03T17:00",
@@ -2584,6 +3000,9 @@
   {
    "id": "pernicti-2e0d436f42",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-11-03T17:00",
    "end": "2026-11-03T18:00",
@@ -2600,6 +3019,9 @@
   {
    "id": "pernicti-8db4f24820",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-11-04T14:30",
    "end": "2026-11-04T16:30",
@@ -2616,6 +3038,9 @@
   {
    "id": "farnost-b009831500",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "PROPOJENI",
    "start": "2026-11-04T18:15",
    "end": "2026-11-04T20:00",
@@ -2635,6 +3060,10 @@
   {
    "id": "pernicti-b04363b676",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Důchodci / klubovna",
    "start": "2026-11-05T13:30",
    "end": "2026-11-05T14:30",
@@ -2644,11 +3073,22 @@
    "categories": [
     "seniori"
    ],
-   "tags": []
+   "tags": [
+    "posezení",
+    "senioři"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Setkání seniorů v klubovně obce Valašská Bystřice.",
+   "altTitles": [
+    "Posezení v klubovně"
+   ]
   },
   {
    "id": "pernicti-bd4b22ed7d",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-11-05T15:00",
    "end": "2026-11-05T17:00",
@@ -2666,6 +3106,10 @@
   {
    "id": "pernicti-e5b148fd7f",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Zastupitelstvo",
    "start": "2026-11-05T17:00",
    "end": "2026-11-05T18:00",
@@ -2676,12 +3120,22 @@
     "obec"
    ],
    "tags": [
-    "zastupitelstvo"
+    "zastupitelstvo",
+    "ustavujici",
+    "společenský dům"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Ustavující zasedání zastupitelstva obce se koná 5. listopadu 2026 od 17 hodin ve Společenském domě U Pernických.",
+   "altTitles": [
+    "Ustavující zasedání zastupitelstva"
    ]
   },
   {
    "id": "pernicti-b6613769c3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-05T19:00",
    "end": "2026-11-05T20:00",
@@ -2698,6 +3152,9 @@
   {
    "id": "pernicti-73c5263fd6",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-11-06T17:00",
    "end": "2026-11-06T20:00",
@@ -2714,6 +3171,9 @@
   {
    "id": "pernicti-a2a918eb9b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-11-06T20:15",
    "end": "2026-11-06T22:30",
@@ -2730,6 +3190,9 @@
   {
    "id": "pernicti-db6702fc01",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2026-11-08T08:30",
    "end": "2026-11-08T14:00",
@@ -2746,6 +3209,9 @@
   {
    "id": "pernicti-99dbf69177",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-11-09T13:00",
    "end": "2026-11-09T14:00",
@@ -2760,6 +3226,9 @@
   {
    "id": "pernicti-10cc658cc9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-09T19:00",
    "end": "2026-11-09T20:00",
@@ -2776,6 +3245,9 @@
   {
    "id": "pernicti-6bfae8a5d6",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-11-10T16:00",
    "end": "2026-11-10T17:00",
@@ -2793,6 +3265,9 @@
   {
    "id": "pernicti-6f02f3e924",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-11-10T17:00",
    "end": "2026-11-10T18:00",
@@ -2807,8 +3282,32 @@
    ]
   },
   {
+   "id": "zpravodaj-c34e610fff",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Říka, Horní konec",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Východní výlet seniorů k řece Říka a Hornímu konci.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vycházka",
+    "senioři"
+   ]
+  },
+  {
    "id": "pernicti-7748a55621",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-11-11T14:30",
    "end": "2026-11-11T16:30",
@@ -2825,6 +3324,9 @@
   {
    "id": "pernicti-07a1b8c1c8",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-11-12T15:00",
    "end": "2026-11-12T17:00",
@@ -2842,6 +3344,9 @@
   {
    "id": "pernicti-96824f15de",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-12T19:00",
    "end": "2026-11-12T20:00",
@@ -2858,6 +3363,9 @@
   {
    "id": "pernicti-f3f2d5458b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-11-13T17:00",
    "end": "2026-11-13T20:00",
@@ -2874,6 +3382,9 @@
   {
    "id": "pernicti-69402d4646",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-11-13T20:15",
    "end": "2026-11-13T22:30",
@@ -2890,6 +3401,9 @@
   {
    "id": "pernicti-d1e5f32eef",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dechovky",
    "start": "2026-11-14",
    "end": "2026-11-14",
@@ -2906,6 +3420,9 @@
   {
    "id": "pernicti-37a9e46c63",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-11-16T13:00",
    "end": "2026-11-16T14:00",
@@ -2920,6 +3437,9 @@
   {
    "id": "pernicti-6442ffe2bc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-16T19:00",
    "end": "2026-11-16T20:00",
@@ -2936,6 +3456,9 @@
   {
    "id": "svatky-a41af25181",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den boje za svobodu a demokracii",
    "start": "2026-11-17",
    "end": "2026-11-17",
@@ -2947,6 +3470,9 @@
   {
    "id": "pernicti-3f82ae9318",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-11-17T16:00",
    "end": "2026-11-17T17:00",
@@ -2964,6 +3490,9 @@
   {
    "id": "pernicti-1087e4bc88",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-11-17T17:00",
    "end": "2026-11-17T18:00",
@@ -2980,6 +3509,9 @@
   {
    "id": "pernicti-b642e6d382",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-11-18T14:30",
    "end": "2026-11-18T16:30",
@@ -2996,6 +3528,9 @@
   {
    "id": "farnost-95458cfdc0",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "PROPOJENI",
    "start": "2026-11-18T18:15",
    "end": "2026-11-18T20:00",
@@ -3015,6 +3550,9 @@
   {
    "id": "pernicti-0e31c755ec",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-11-19T15:00",
    "end": "2026-11-19T17:00",
@@ -3032,6 +3570,9 @@
   {
    "id": "pernicti-76d483ac6e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-19T19:00",
    "end": "2026-11-19T20:00",
@@ -3046,8 +3587,32 @@
    ]
   },
   {
+   "id": "zpravodaj-72d09c5399",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Santov",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Společenská akce seniorů v Santově.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "santov",
+    "senioři"
+   ]
+  },
+  {
    "id": "pernicti-196a4d7bf2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-11-20T17:00",
    "end": "2026-11-20T20:00",
@@ -3064,6 +3629,9 @@
   {
    "id": "pernicti-9b8eef2548",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-11-20T20:15",
    "end": "2026-11-20T22:30",
@@ -3080,6 +3648,10 @@
   {
    "id": "pernicti-6465a261d2",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Divadelní podzim",
    "start": "2026-11-21",
    "end": "2026-11-21",
@@ -3090,12 +3662,22 @@
     "kultura"
    ],
    "tags": [
-    "divadlo"
+    "divadlo",
+    "komedie",
+    "berani"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Divadelní soubor Berani z Těškovic představí komedii Kulky.",
+   "altTitles": [
+    "Divadelní představení Kulky"
    ]
   },
   {
    "id": "pernicti-921b250adf",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2026-11-22T08:30",
    "end": "2026-11-22T14:00",
@@ -3112,6 +3694,9 @@
   {
    "id": "pernicti-2a04d61a7a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-11-23T13:00",
    "end": "2026-11-23T14:00",
@@ -3126,6 +3711,9 @@
   {
    "id": "pernicti-fdc5b70048",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-23T19:00",
    "end": "2026-11-23T20:00",
@@ -3142,6 +3730,9 @@
   {
    "id": "pernicti-7b6b7610fc",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-11-24T16:00",
    "end": "2026-11-24T17:00",
@@ -3159,6 +3750,9 @@
   {
    "id": "pernicti-1b1d787ec2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-11-24T17:00",
    "end": "2026-11-24T18:00",
@@ -3173,8 +3767,32 @@
    ]
   },
   {
+   "id": "zpravodaj-b732f92da7",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Dolní Bečva, Rožnov p. R.",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Východní výlet seniorů podél Dolní Bečvy až do Rožnova pod Radhoštěm.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vycházka",
+    "senioři"
+   ]
+  },
+  {
    "id": "pernicti-78407cb9f3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-11-25T14:30",
    "end": "2026-11-25T16:30",
@@ -3191,6 +3809,9 @@
   {
    "id": "pernicti-19480d758e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-11-26T15:00",
    "end": "2026-11-26T17:00",
@@ -3208,6 +3829,9 @@
   {
    "id": "pernicti-0ddd792bab",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-26T19:00",
    "end": "2026-11-26T20:00",
@@ -3224,6 +3848,10 @@
   {
    "id": "pernicti-9812532aa7",
    "source": "pernicti",
+   "sources": [
+    "pernicti",
+    "zpravodaj"
+   ],
    "title": "Kateřinský jarmark",
    "start": "2026-11-27",
    "end": "2026-11-27",
@@ -3234,12 +3862,19 @@
     "kultura"
    ],
    "tags": [
-    "jarmark"
-   ]
+    "jarmark",
+    "kateřinský",
+    "společenský dům"
+   ],
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Tradiční Kateřinský jarmark se koná ve Společenském domě."
   },
   {
    "id": "pernicti-f22a8e5d51",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Důchodci schůze / klubovna",
    "start": "2026-11-27T09:30",
    "end": "2026-11-27T11:00",
@@ -3254,6 +3889,9 @@
   {
    "id": "pernicti-ad5d60e039",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-11-27T17:00",
    "end": "2026-11-27T20:00",
@@ -3270,6 +3908,9 @@
   {
    "id": "pernicti-cf38dd5faf",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-11-27T20:15",
    "end": "2026-11-27T22:30",
@@ -3286,6 +3927,9 @@
   {
    "id": "farnost-ec0c04d487",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "1. neděle adventní",
    "start": "2026-11-29",
    "end": "2026-11-29",
@@ -3302,6 +3946,9 @@
   {
    "id": "pernicti-394226f152",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové souteže - sál",
    "start": "2026-11-29T08:30",
    "end": "2026-11-29T14:00",
@@ -3318,6 +3965,9 @@
   {
    "id": "pernicti-3c0aa0ba66",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-11-30T13:00",
    "end": "2026-11-30T14:00",
@@ -3332,6 +3982,9 @@
   {
    "id": "pernicti-d60425498b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-11-30T19:00",
    "end": "2026-11-30T20:00",
@@ -3348,6 +4001,9 @@
   {
    "id": "pernicti-1b3107d25e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-12-01T16:00",
    "end": "2026-12-01T17:00",
@@ -3365,6 +4021,9 @@
   {
    "id": "pernicti-cba24da2a8",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-12-01T17:00",
    "end": "2026-12-01T18:00",
@@ -3381,6 +4040,9 @@
   {
    "id": "pernicti-71617570d9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-12-02T14:30",
    "end": "2026-12-02T16:30",
@@ -3397,6 +4059,9 @@
   {
    "id": "farnost-91b7022960",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "PROPOJENI",
    "start": "2026-12-02T18:15",
    "end": "2026-12-02T20:00",
@@ -3413,8 +4078,32 @@
    ]
   },
   {
+   "id": "zpravodaj-11f52d8273",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Vycházka: Poslední puchýř",
+   "start": "2026-12-03",
+   "end": "2026-12-03",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Zimní výlet seniorů na vyhlídku Poslední puchýř.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "vycházka",
+    "senioři"
+   ]
+  },
+  {
    "id": "pernicti-ebb4a0ed3e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-12-03T15:00",
    "end": "2026-12-03T17:00",
@@ -3432,6 +4121,9 @@
   {
    "id": "pernicti-104216e28e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-12-03T19:00",
    "end": "2026-12-03T20:00",
@@ -3448,6 +4140,9 @@
   {
    "id": "pernicti-7d8957c494",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-12-04T17:00",
    "end": "2026-12-04T20:00",
@@ -3464,6 +4159,9 @@
   {
    "id": "pernicti-20262bc53d",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-12-04T20:15",
    "end": "2026-12-04T22:30",
@@ -3480,6 +4178,9 @@
   {
    "id": "pernicti-5fef7a64a1",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové turnaje - klubovna",
    "start": "2026-12-06T08:30",
    "end": "2026-12-06T14:00",
@@ -3497,6 +4198,9 @@
   {
    "id": "pernicti-e057315067",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-12-07T13:00",
    "end": "2026-12-07T14:00",
@@ -3511,6 +4215,9 @@
   {
    "id": "pernicti-784ed82d64",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-12-07T19:00",
    "end": "2026-12-07T20:00",
@@ -3527,6 +4234,9 @@
   {
    "id": "pernicti-79a021094a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-12-08T16:00",
    "end": "2026-12-08T17:00",
@@ -3544,6 +4254,9 @@
   {
    "id": "pernicti-4d8b05d9f9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-12-08T17:00",
    "end": "2026-12-08T18:00",
@@ -3560,6 +4273,9 @@
   {
    "id": "pernicti-5de971bb80",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-12-09T14:30",
    "end": "2026-12-09T16:30",
@@ -3574,8 +4290,35 @@
    ]
   },
   {
+   "id": "zpravodaj-afe0a164e3",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Předvánoční posezení v restauraci U Machýčků",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "allDay": true,
+   "location": "restaurace U Machýčků",
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Předvánoční setkání seniorů v restauraci U Machýčků.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "posezení",
+    "senioři",
+    "vánoce",
+    "Vánoce"
+   ]
+  },
+  {
    "id": "pernicti-695be2d9ee",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Důchodci posezení v klubovně",
    "start": "2026-12-10T13:00",
    "end": "2026-12-10T17:00",
@@ -3590,6 +4333,9 @@
   {
    "id": "pernicti-5b3886d107",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Malý Troják",
    "start": "2026-12-10T15:00",
    "end": "2026-12-10T17:00",
@@ -3607,6 +4353,9 @@
   {
    "id": "pernicti-7fd39fc3a7",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-12-10T19:00",
    "end": "2026-12-10T20:00",
@@ -3623,6 +4372,9 @@
   {
    "id": "pernicti-8a452cb6da",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-12-11T17:00",
    "end": "2026-12-11T20:00",
@@ -3639,6 +4391,9 @@
   {
    "id": "pernicti-b3c7035c88",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-12-11T20:15",
    "end": "2026-12-11T22:30",
@@ -3655,6 +4410,9 @@
   {
    "id": "pernicti-e297353071",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Divadelní podzim",
    "start": "2026-12-12",
    "end": "2026-12-12",
@@ -3671,6 +4429,9 @@
   {
    "id": "pernicti-961b7193d2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-12-14T13:00",
    "end": "2026-12-14T14:00",
@@ -3685,6 +4446,9 @@
   {
    "id": "pernicti-11bf537fa9",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-12-14T19:00",
    "end": "2026-12-14T20:00",
@@ -3701,6 +4465,9 @@
   {
    "id": "pernicti-99f5824711",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-12-15T16:00",
    "end": "2026-12-15T17:00",
@@ -3718,6 +4485,9 @@
   {
    "id": "pernicti-54c6560a43",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-12-15T17:00",
    "end": "2026-12-15T18:00",
@@ -3734,6 +4504,9 @@
   {
    "id": "pernicti-7f96ffea05",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "H2B taneční kroužek",
    "start": "2026-12-16T14:30",
    "end": "2026-12-16T16:30",
@@ -3750,6 +4523,9 @@
   {
    "id": "pernicti-4d62f56cee",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Zuš koncert",
    "start": "2026-12-17",
    "end": "2026-12-17",
@@ -3766,6 +4542,9 @@
   {
    "id": "pernicti-e79bb18c03",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Zuš koncert",
    "start": "2026-12-18T08:00",
    "end": "2026-12-18T12:00",
@@ -3782,6 +4561,9 @@
   {
    "id": "pernicti-689bbc98b2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachy / klubovna",
    "start": "2026-12-18T17:00",
    "end": "2026-12-18T20:00",
@@ -3798,6 +4580,9 @@
   {
    "id": "pernicti-36d6fe3f50",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Troják",
    "start": "2026-12-18T20:15",
    "end": "2026-12-18T22:30",
@@ -3814,6 +4599,9 @@
   {
    "id": "pernicti-af60037a0b",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-12-21T13:00",
    "end": "2026-12-21T14:00",
@@ -3828,6 +4616,9 @@
   {
    "id": "pernicti-8d06a798a3",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Joga",
    "start": "2026-12-21T19:00",
    "end": "2026-12-21T20:00",
@@ -3844,6 +4635,9 @@
   {
    "id": "pernicti-96c8980d31",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Cvičení seniorky",
    "start": "2026-12-22T16:00",
    "end": "2026-12-22T17:00",
@@ -3861,6 +4655,9 @@
   {
    "id": "pernicti-cd74d68da7",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kondiční cvičení",
    "start": "2026-12-22T17:00",
    "end": "2026-12-22T18:00",
@@ -3877,6 +4674,9 @@
   {
    "id": "svatky-063b7b6014",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Štědrý den",
    "start": "2026-12-24",
    "end": "2026-12-24",
@@ -3888,6 +4688,9 @@
   {
    "id": "farnost-5cc6f169b1",
    "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
    "title": "Vánoce 2026",
    "start": "2026-12-24",
    "end": "2026-12-26",
@@ -3904,6 +4707,9 @@
   {
    "id": "svatky-79439f392e",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "1. svátek vánoční",
    "start": "2026-12-25",
    "end": "2026-12-25",
@@ -3917,6 +4723,9 @@
   {
    "id": "pernicti-0fd7b4d9f2",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Důchodci schůze / klubovna",
    "start": "2026-12-25T09:30",
    "end": "2026-12-25T11:00",
@@ -3931,6 +4740,9 @@
   {
    "id": "svatky-8796802dc6",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "2. svátek vánoční",
    "start": "2026-12-26",
    "end": "2026-12-26",
@@ -3944,6 +4756,9 @@
   {
    "id": "pernicti-19f49736cb",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Akce Rally",
    "start": "2026-12-28",
    "end": "2026-12-28",
@@ -3960,6 +4775,9 @@
   {
    "id": "pernicti-0f8e1da096",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Dětská kapela Aimela",
    "start": "2026-12-28T13:00",
    "end": "2026-12-28T14:00",
@@ -3972,8 +4790,33 @@
    "tags": []
   },
   {
+   "id": "zpravodaj-09f0af74ed",
+   "source": "zpravodaj",
+   "sources": [
+    "zpravodaj"
+   ],
+   "title": "Silvestrovský výšlap",
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "allDay": true,
+   "url": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0",
+   "description": "Novoroční výšlap seniorů k přivítání nového roku.",
+   "recurring": false,
+   "categories": [
+    "seniori"
+   ],
+   "tags": [
+    "silvestr",
+    "výšlap",
+    "senioři"
+   ]
+  },
+  {
    "id": "svatky-0086ca8b10",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den obnovy samostatného českého státu, Nový rok",
    "start": "2027-01-01",
    "end": "2027-01-01",
@@ -3985,6 +4828,9 @@
   {
    "id": "pernicti-226adf8936",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2027-01-10T08:30",
    "end": "2027-01-10T14:00",
@@ -4001,6 +4847,9 @@
   {
    "id": "pernicti-08228e88f0",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - sál",
    "start": "2027-01-17T08:30",
    "end": "2027-01-17T14:00",
@@ -4017,6 +4866,9 @@
   {
    "id": "pernicti-accaf2d51f",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Maškarní ples",
    "start": "2027-01-23",
    "end": "2027-01-23",
@@ -4035,6 +4887,9 @@
   {
    "id": "pernicti-71421161be",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2027-01-24T08:30",
    "end": "2027-01-24T14:00",
@@ -4051,6 +4906,9 @@
   {
    "id": "pernicti-f15d3f1325",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Sportovní ples",
    "start": "2027-01-30",
    "end": "2027-01-30",
@@ -4067,6 +4925,9 @@
   {
    "id": "pernicti-584bc49f63",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Končinový ples",
    "start": "2027-02-06",
    "end": "2027-02-06",
@@ -4083,6 +4944,9 @@
   {
    "id": "pernicti-b161c0ec04",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2027-02-07T08:30",
    "end": "2027-02-07T14:00",
@@ -4099,6 +4963,9 @@
   {
    "id": "pernicti-76c77e96d5",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - sál",
    "start": "2027-02-14T08:30",
    "end": "2027-02-14T14:00",
@@ -4113,24 +4980,42 @@
    ]
   },
   {
-   "id": "pernicti-ef51619326",
-   "source": "pernicti",
-   "title": "Chaos premiéra",
+   "id": "chaos-acb15bb0a8",
+   "source": "chaos",
+   "sources": [
+    "chaos",
+    "pernicti",
+    "zpravodaj"
+   ],
+   "title": "Selský práh – premiéra",
    "start": "2027-02-20",
-   "end": "2027-02-21",
+   "end": "2027-02-20",
    "allDay": true,
    "location": "Společenský dům U Pernických",
+   "url": "https://divadlochaos.cz/",
+   "description": "Premiéra valašského dramatu Selský práh v nové režii Iva Oravy. Hra se koná v Společenském domě U Pernických a bude součástí Rožnovských slavností 2027.",
+   "image": "https://divadlochaos.cz/wp-content/uploads/2026/10/chaos-3-scaled.jpg",
    "recurring": false,
    "categories": [
     "kultura"
    ],
    "tags": [
-    "divadlo"
+    "divadlo",
+    "premiéra",
+    "selskýpráh",
+    "drama"
+   ],
+   "altTitles": [
+    "Chaos premiéra",
+    "Premiéra Selského prahu"
    ]
   },
   {
    "id": "pernicti-a33cfad899",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěžě",
    "start": "2027-02-21T08:30",
    "end": "2027-02-21T14:00",
@@ -4147,6 +5032,9 @@
   {
    "id": "pernicti-8ba4af5b20",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - sál",
    "start": "2027-03-21T08:30",
    "end": "2027-03-21T14:00",
@@ -4163,6 +5051,9 @@
   {
    "id": "svatky-9d3d463470",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Velký pátek",
    "start": "2027-03-26",
    "end": "2027-03-26",
@@ -4174,6 +5065,9 @@
   {
    "id": "svatky-b3098bfeba",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Velikonoční pondělí",
    "start": "2027-03-29",
    "end": "2027-03-29",
@@ -4185,6 +5079,9 @@
   {
    "id": "pernicti-94be0fe76e",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Šachové soutěže - klubovna",
    "start": "2027-04-18T08:30",
    "end": "2027-04-18T14:00",
@@ -4201,6 +5098,9 @@
   {
    "id": "pernicti-81f417d366",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Zlatá včela - soutěž",
    "start": "2027-04-24",
    "end": "2027-04-24",
@@ -4215,6 +5115,9 @@
   {
    "id": "svatky-3c110541e3",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Svátek práce",
    "start": "2027-05-01",
    "end": "2027-05-01",
@@ -4226,6 +5129,9 @@
   {
    "id": "svatky-60bb1eb205",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den vítězství",
    "start": "2027-05-08",
    "end": "2027-05-08",
@@ -4237,6 +5143,9 @@
   {
    "id": "pernicti-2fd808c54a",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Kácení máje",
    "start": "2027-05-30",
    "end": "2027-05-30",
@@ -4253,6 +5162,9 @@
   {
    "id": "pernicti-6826923634",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Chaos derniéra",
    "start": "2027-06-12",
    "end": "2027-06-13",
@@ -4269,6 +5181,9 @@
   {
    "id": "pernicti-03b0c4c5cf",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Obecní slavnosti",
    "start": "2027-06-19",
    "end": "2027-06-19",
@@ -4284,6 +5199,9 @@
   {
    "id": "svatky-fe7619c8f5",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den slovanských věrozvěstů Cyrila a Metoděje",
    "start": "2027-07-05",
    "end": "2027-07-05",
@@ -4295,6 +5213,9 @@
   {
    "id": "svatky-6a9f879ddc",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den upálení mistra Jana Husa",
    "start": "2027-07-06",
    "end": "2027-07-06",
@@ -4306,6 +5227,9 @@
   {
    "id": "pernicti-f5d60b3184",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Ariel rally ČR",
    "start": "2027-07-30",
    "end": "2027-07-30",
@@ -4322,6 +5246,9 @@
   {
    "id": "pernicti-06e0588998",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Ariel rally ČR",
    "start": "2027-07-31",
    "end": "2027-07-31",
@@ -4338,6 +5265,9 @@
   {
    "id": "svatky-331d4f3158",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den české státnosti",
    "start": "2027-09-28",
    "end": "2027-09-28",
@@ -4349,6 +5279,9 @@
   {
    "id": "pernicti-baceca6ac5",
    "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
    "title": "Hodová",
    "start": "2027-10-16",
    "end": "2027-10-16",
@@ -4365,6 +5298,9 @@
   {
    "id": "svatky-8cc5d06d54",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den vzniku samostatného československého státu",
    "start": "2027-10-28",
    "end": "2027-10-28",
@@ -4376,6 +5312,9 @@
   {
    "id": "svatky-d03cfe70b3",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Den boje za svobodu a demokracii",
    "start": "2027-11-17",
    "end": "2027-11-17",
@@ -4387,6 +5326,9 @@
   {
    "id": "svatky-c855bf8df3",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "Štědrý den",
    "start": "2027-12-24",
    "end": "2027-12-24",
@@ -4398,6 +5340,9 @@
   {
    "id": "svatky-9376b01598",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "1. svátek vánoční",
    "start": "2027-12-25",
    "end": "2027-12-25",
@@ -4411,6 +5356,9 @@
   {
    "id": "svatky-305d40b8da",
    "source": "svatky",
+   "sources": [
+    "svatky"
+   ],
    "title": "2. svátek vánoční",
    "start": "2027-12-26",
    "end": "2027-12-26",

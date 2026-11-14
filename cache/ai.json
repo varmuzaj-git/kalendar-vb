@@ -1,0 +1,2017 @@
+{
+ "dup-6e046dbd9c": false,
+ "dup-7a652a09c3": false,
+ "dup-eb12f07484": false,
+ "dup-f05d484e4e": false,
+ "ex-01cde2b6b9": {
+  "at": "2026-11-14T07:43:25.647Z",
+  "events": [
+   {
+    "title": "Okresní kolo soutěže ZUŠ Vsetín",
+    "date": "2026-02-26",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Okresní kolo soutěže na Základní umělecké škole ve Vsetíně, kde tři skupiny z Valašské Bystřice získaly první místo a postupily do krajského kola.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "soutez",
+     "okresni"
+    ],
+    "image": null,
+    "quote": "V okresním kole, které se konalo 26. 2. 2026 na ZUŠ ve Vsetíně, dosáhly všechny tři skupiny na 1. místo s postupem do krajského kola."
+   },
+   {
+    "title": "Krajské kolo soutěže v Kroměříži",
+    "date": "2026-03-24",
+    "endDate": "2026-03-25",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Krajské kolo soutěže se konalo 24. a 25. března 2026 v Kroměříži, kde klarinetové trio a flétnové duo získaly diplom s 3. místem a dívčí kvintet diplom s 1. místem.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "soutez",
+     "kraj"
+    ],
+    "image": null,
+    "quote": "Krajská úroveň pokračovala 24. a 25. března 2026 v krásném městě Kroměříž."
+   },
+   {
+    "title": "Okresní kolo akordeonové soutěže Valašské Meziříčí",
+    "date": "2026-02-17",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Okresní kolo akordeonové soutěže se konalo 17. 2. 2026 na ZUŠ ve Valašském Meziříčí, kde soutěžící získali první místa a postoupili do krajského kola.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "akordeon",
+     "okresni"
+    ],
+    "image": null,
+    "quote": "Intenzivní příprava na okresní kolo, které proběhlo 17. 2. 2026 na ZUŠ ve Valašském Meziříčí, se dětem opravdu vyplatila."
+   },
+   {
+    "title": "Krajské kolo soutěže Uherský Brod",
+    "date": "2026-03-26",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Krajské kolo soutěže se konalo 26. 3. 2026 v ZUŠ Uherský Brod, kde soutěžící získali místa v sólových i komorních kategoriích a postoupili dál.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "soutez",
+     "kraj"
+    ],
+    "image": null,
+    "quote": "Krajské kolo uspořádala ZUŠ Uherský Brod 26. 3. 2026."
+   },
+   {
+    "title": "Celostátní kolo soutěže ve Zlíně",
+    "date": "2026-04-25",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Celostátní kolo soutěže se konalo 25. 4. 2026 ve Zlíně a probíhalo celý víkend, přineslo hudební zážitky a setkání účastníků z celé republiky.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "soutez",
+     "celostavni"
+    ],
+    "image": null,
+    "quote": "Závěrečné celostátní kolo proběhlo 25. 4. 2026 ve Zlíně."
+   }
+  ]
+ },
+ "ex-06a59b3c67": {
+  "at": "2026-11-14T07:34:03.242Z",
+  "events": []
+ },
+ "ex-0beb18a9b2": {
+  "at": "2026-11-14T07:36:22.272Z",
+  "events": []
+ },
+ "ex-0d326cc8d9": {
+  "at": "2026-11-14T07:33:04.805Z",
+  "events": [
+   {
+    "title": "35. výročí založení",
+    "date": "2026-10-17",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Oslava 35. výročí založení obce Valašská Bystřice.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "výročí",
+     "založení"
+    ],
+    "image": null,
+    "quote": "35. výročí založení – 17. 10. 2026"
+   }
+  ]
+ },
+ "ex-12279f0123": {
+  "at": "2026-11-14T07:39:53.039Z",
+  "events": [
+   {
+    "title": "Přespávačka druháčků",
+    "date": "2026-05-22",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "První přespávačka pro žáky druhých tříd ve školní družině, zahrnovala opékání špekáčků, hry, venkovní diskotéku a stezku odvahy.",
+    "categories": [
+     "deti"
+    ],
+    "tags": [
+     "prvni",
+     "prespavacka",
+     "skola"
+    ],
+    "image": null,
+    "quote": "Ve čtvrtek 22. května se ve školní družině uskutečnila vůbec první přespávačka určená pro žáky druhých tříd."
+   },
+   {
+    "title": "Pohádkové odpoledne ve 3. B",
+    "date": "2026-05-19",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Pozvání rodičů a sourozenců na odpoledne s pohádkou a společným zpěvem tří písniček.",
+    "categories": [
+     "deti"
+    ],
+    "tags": [
+     "pohadky",
+     "rodiny",
+     "skola"
+    ],
+    "image": null,
+    "quote": "V úterý 19. května jsme pozvali do školy maminky, tatínky, babičky, dědečky a sourozence na Pohádkové odpoledne."
+   },
+   {
+    "title": "Poznávací zájezd do Anglie",
+    "date": "2026-05-18",
+    "endDate": "2026-05-23",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Šestidenní výlet studentů do Londýna, Brightonu a Canterbury s prohlídkou památek a historické katedrály.",
+    "categories": [
+     "vzdelavani"
+    ],
+    "tags": [
+     "zajezd",
+     "anglie",
+     "studium"
+    ],
+    "image": null,
+    "quote": "Ve dnech 18. až 23. května jsme se vydali na poznávací zájezd do Anglie."
+   }
+  ]
+ },
+ "ex-21c238b336": {
+  "at": "2026-11-14T07:46:02.967Z",
+  "events": [
+   {
+    "title": "Selský práh – premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra valašského dramatu Selský práh v nové režii Iva Oravy. Hra se koná v Společenském domě U Pernických a bude součástí Rožnovských slavností 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "selskýpráh"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027"
+   }
+  ]
+ },
+ "ex-25178849c5": {
+  "at": "2026-11-14T07:34:13.153Z",
+  "events": [
+   {
+    "title": "Turnaj v minikopané",
+    "date": "2026-10-05",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Vidče",
+    "organizer": null,
+    "summary": "Turnaj v minikopané pro žáky 6. a 7. třídy se konal 5. října ve Vidči, kde se utkalo šest družstev, včetně týmu z Valašské Bystřice.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "turnaj",
+     "minikopaná",
+     "škola"
+    ],
+    "image": null,
+    "quote": "Dne 5. října se ve Vidči uskutečnil turnaj v minikopané"
+   }
+  ]
+ },
+ "ex-29ff9a8cc9": {
+  "at": "2026-11-14T07:41:11.557Z",
+  "events": [
+   {
+    "title": "Pohár starosty obce",
+    "date": "2026-06-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Fotbalový turnaj místních částí „O pohár starosty obce“ se konal 20. června 2026 a vítězem se stal celek Bařin.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "fotbal",
+     "turnaj",
+     "pohár"
+    ],
+    "image": null,
+    "quote": "Termínově jsme jej stanovili na 20. červen, tedy první sobotu po ukončení sezony"
+   },
+   {
+    "title": "Vycházka seniorů – Pustevny",
+    "date": "2026-09-02",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Sdružení důchodců uspořádalo výlet do Pusteven 2. září 2026, doprava autobusem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vychazka",
+     "pustevny"
+    ],
+    "image": null,
+    "quote": "2. 9. Vycházka: Pustevny (bus)"
+   },
+   {
+    "title": "Sportovní odpoledne s opékáním",
+    "date": "2026-09-10",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Sportovní odpoledne s opékáním organizované sdružením důchodců a klubem Hutisko na hřišti.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "sport",
+     "opékání"
+    ],
+    "image": null,
+    "quote": "10. 9. Sportovní odpoledne s opékáním spolu s klubem Hutisko, na hřišti"
+   },
+   {
+    "title": "Vycházka seniorů – Luhačovice",
+    "date": "2026-09-16",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Výlet sdružení důchodců do Luhačovic 16. září 2026, doprava auty a autobusem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vychazka",
+     "luhačovice"
+    ],
+    "image": null,
+    "quote": "16. 9. Vycházka: Luhačovice (auta, bus)"
+   },
+   {
+    "title": "Bowling – Rožnov pod Radhoštěm",
+    "date": "2026-09-23",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Sdružení důchodců se sešlo na bowling v Rožnově pod Radhoštěm 23. září 2026.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "bowling",
+     "rožnov"
+    ],
+    "image": null,
+    "quote": "23. 9. Bowling - Rožnov p. R."
+   },
+   {
+    "title": "Vycházka seniorů – Bumbálka",
+    "date": "2026-09-30",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Výlet na Bumbálku a Masarykovu chatu 30. září 2026, doprava auty a autobusem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vychazka",
+     "bumbalka"
+    ],
+    "image": null,
+    "quote": "30. 9. Vycházka: Bumbálka, Masarykova chata – 3,3 km (auta, bus)"
+   }
+  ]
+ },
+ "ex-3579d5599f": {
+  "at": "2026-11-14T07:35:13.931Z",
+  "events": [
+   {
+    "title": "Premiéra Selského prahu",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "CHAOS",
+    "summary": "Divadelní inscenace Selský práh bude poprvé uvedena v sobotu 20. února 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "drama"
+    ],
+    "image": null,
+    "quote": "Premiéra Selského prahu se uskuteční v sobotu 20. února 2027 ve Společenském domě U Pernických."
+   },
+   {
+    "title": "Posezení v klubovně",
+    "date": "2026-11-05",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Setkání seniorů v klubovně obce Valašská Bystřice.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "posezení",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "5.11. Posezení v klubovně"
+   },
+   {
+    "title": "Vycházka: Říka, Horní konec",
+    "date": "2026-11-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Východní výlet seniorů k řece Říka a Hornímu konci.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "11.11. Vycházka: Říka, Horní konec (bus)"
+   },
+   {
+    "title": "Santov",
+    "date": "2026-11-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Společenská akce seniorů v Santově.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "santov",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "20.11. Santov"
+   },
+   {
+    "title": "Vycházka: Dolní Bečva, Rožnov p. R.",
+    "date": "2026-11-25",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Východní výlet seniorů podél Dolní Bečvy až do Rožnova pod Radhoštěm.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "25.11. Vycházka: Dolní Bečva, Rožnov p. R. (5,2 km; bus)"
+   },
+   {
+    "title": "Vycházka: Poslední puchýř",
+    "date": "2026-12-03",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Zimní výlet seniorů na vyhlídku Poslední puchýř.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "3.12. Vycházka: Poslední puchýř"
+   },
+   {
+    "title": "Předvánoční posezení v restauraci U Machýčků",
+    "date": "2026-12-10",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "restaurace U Machýčků",
+    "organizer": "Sdružení důchodců",
+    "summary": "Předvánoční setkání seniorů v restauraci U Machýčků.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "posezení",
+     "senioři",
+     "vánoce"
+    ],
+    "image": null,
+    "quote": "10.12. Předvánoční posezení v restauraci U Machýčků"
+   },
+   {
+    "title": "Silvestrovský výšlap",
+    "date": "2026-12-31",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Novoroční výšlap seniorů k přivítání nového roku.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "silvestr",
+     "výšlap",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "31.12. Silvestrovský výšlap"
+   }
+  ]
+ },
+ "ex-3b9aa91358": {
+  "at": "2026-11-14T07:46:03.451Z",
+  "events": []
+ },
+ "ex-3f8a75ab51": {
+  "at": "2026-11-14T07:42:17.073Z",
+  "events": [
+   {
+    "title": "Finálový turnaj přeboru mladších přípravek",
+    "date": "2026-05-09",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Liptál",
+    "organizer": null,
+    "summary": "Mladší přípravka se zúčastnila finálového turnaje přeboru mladších přípravek v Liptále, kde odehrála čtyři zápasy ve skupinové fázi a postoupila do vyřazovací části.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "fotbal",
+     "mladi",
+     "turnaj"
+    ],
+    "image": null,
+    "quote": "V sobotu 9. května se v Liptále uskutečnil finálový turnaj přeboru mladších přípravek."
+   }
+  ]
+ },
+ "ex-4bb14f618a": {
+  "at": "2026-11-14T07:33:02.678Z",
+  "events": []
+ },
+ "ex-4c00d35ebe": {
+  "at": "2026-11-14T07:46:07.089Z",
+  "events": []
+ },
+ "ex-4e11b1e0ee": {
+  "at": "2026-11-14T07:46:04.048Z",
+  "events": []
+ },
+ "ex-4e40ca437b": {
+  "at": "2026-11-14T07:36:04.325Z",
+  "events": []
+ },
+ "ex-54f311a44f": {
+  "at": "2026-11-14T07:41:51.422Z",
+  "events": [
+   {
+    "title": "Obecní slavnosti",
+    "date": "2026-06-13",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Obecní slavnosti jsou otevřeny všem obyvatelům i návštěvníkům a nabídnou bohatý program pro malé i velké.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "slavnosti",
+     "obec"
+    ],
+    "image": null,
+    "quote": "V sobotu 13. června se uskuteční Obecní slavnosti, na které srdečně zveme malé i velké návštěvníky."
+   },
+   {
+    "title": "Fotbalový turnaj O pohár starosty obce",
+    "date": "2026-06-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "TJ Sokol obnovuje tradiční fotbalový turnaj, kde se utkají místní týmy a fanoušci mohou fandit.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "fotbal",
+     "turnaj"
+    ],
+    "image": null,
+    "quote": "Po letech TJ Sokol obnovuje fotbalový turnaj O pohár starosty obce, který se bude konat 20. června."
+   },
+   {
+    "title": "Letní kino „Někdo to rád v Plzni“",
+    "date": "2026-06-26",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "V rámci letního kina se promítá film „Někdo to rád v Plzni“ pod širým nebem.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kino",
+     "letni"
+    ],
+    "image": null,
+    "quote": "26.6. nás opět čeká letní kino „Někdo to rád v Plzni“."
+   },
+   {
+    "title": "Portášské slavnosti",
+    "date": "2026-07-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Tradiční letní slavnosti v Portáši s hudbou, jídlem a programem pro celou rodinu.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "slavnosti",
+     "portas"
+    ],
+    "image": null,
+    "quote": "Portášské slavnosti, které proběhnou 11. července."
+   },
+   {
+    "title": "U kávy se starostou a místostarostkou",
+    "date": "2026-06-30",
+    "endDate": null,
+    "time": "17:00",
+    "endTime": null,
+    "location": "Restaurace U Pernických",
+    "organizer": null,
+    "summary": "Neformální setkání s místními představiteli, kde můžete sdílet své nápady a podněty při kávě.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "setkani",
+     "kava"
+    ],
+    "image": null,
+    "quote": "neformální setkání „U kávy se starostou a místostarostkou“, které se uskuteční v Restauraci U Pernických dne 30. 6. od 17h."
+   }
+  ]
+ },
+ "ex-7314d245c2": {
+  "at": "2026-11-14T07:45:05.751Z",
+  "events": [
+   {
+    "title": "Očkování psů",
+    "date": "2026-06-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "MVDr. Radim Korbáš",
+    "summary": "Každoroční očkování a očipování psů, zpoplatněno 300 Kč za vakcinaci a 500 Kč za čipování.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "psi",
+     "očkování",
+     "zdraví"
+    ],
+    "image": null,
+    "quote": "Očkování psů s možností očipování, proběhne v sobotu 20. června podle níže uvedeného rozpisu."
+   },
+   {
+    "title": "Vycházka Kroměříž",
+    "date": "2026-06-03",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Výlet na zámek Kroměříž a zahrady, dopravou autem nebo vlakem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka",
+     "kroměříž",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "3.6. Vycházka: Kroměříž zámek, zahrady (auta, vlak)"
+   },
+   {
+    "title": "Klubovna – společenské hry",
+    "date": "2026-06-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Setkání ve klubovně se společenskými hrami a soutěžemi.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "klubovna",
+     "hry",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "11.6. Klubovna – společenské hry, soutěže"
+   },
+   {
+    "title": "Bowling Rožnov",
+    "date": "2026-06-18",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Bowlingový výlet do Rožnova pod Radhoštěm.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "bowling",
+     "rožnov",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "18.6. Bowling: Rožnov p. R."
+   },
+   {
+    "title": "Vycházka Teplice",
+    "date": "2026-06-24",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Sdružení důchodců",
+    "summary": "Procházka v Teplicích nad Bečvou a Zbrašově, 4 km, dopravou autem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka",
+     "teplice",
+     "senioři"
+    ],
+    "image": null,
+    "quote": "24.6. Vycházka: Teplice n. B., Zbrašov (4 km, auta)"
+   }
+  ]
+ },
+ "ex-7dd5e3ea06": {
+  "at": "2026-11-14T07:44:41.356Z",
+  "events": [
+   {
+    "title": "Regionální kolo Zpěváček Valašska",
+    "date": "2026-04-12",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Kulturní dům, Vsetín",
+    "organizer": null,
+    "summary": "Regionální soutěžní přehlídka lidových písní, kde se z Bystřic zúčastnili mladí zpěváčci.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "zpěváci",
+     "valašsko",
+     "vsetín"
+    ],
+    "image": null,
+    "quote": "které se konalo v neděli 12. dubna 2026 v kulturním domě ve Vsetíně."
+   },
+   {
+    "title": "Moravsko-slezské kolo pěvecké přehlídky lidových písní",
+    "date": "2026-05-16",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Janíková stodola, Valašské muzeum v přírodě, Rožnov pod Radhoštěm",
+    "organizer": null,
+    "summary": "Jana Zuzaňáková reprezentovala Valašskou Bystřici na soutěži Děti a píseň.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "pěvecká přehlídka",
+     "rožnov"
+    ],
+    "image": null,
+    "quote": "Jana Zuzaňáková se účastnila v sobotu 16. května 2026 Moravsko‑Slezského kola pěvecké přehlídky lidových písní"
+   },
+   {
+    "title": "Poznáváme Valašsko – regionální hra",
+    "date": "2026-06-01",
+    "endDate": "2026-09-30",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Destinační společnost Valašsko",
+    "summary": "Osmý ročník hry s medvědem Jurou, sbírání razítek na 20 míst a slosování o ceny.",
+    "categories": [
+     "kultura",
+     "seniori",
+     "deti",
+     "vzdelavani"
+    ],
+    "tags": [
+     "hra",
+     "turistika",
+     "medvěd jura"
+    ],
+    "image": null,
+    "quote": "Od 1. června začíná 8. ročník regionální hry Poznáváme Valašsko"
+   },
+   {
+    "title": "Portášské slavnosti – zahájení",
+    "date": "2026-07-10",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Úvodní program s vojenskými výstavy, propagačními pochody a promítáním filmu Poutníci.",
+    "categories": [
+     "kultura",
+     "ostatni"
+    ],
+    "tags": [
+     "slavnosti",
+     "portáš",
+     "historie"
+    ],
+    "image": null,
+    "quote": "Začne v pátek 10. července sjížděním spolků vojenské historie a výstavbou historického vojenského tábora"
+   },
+   {
+    "title": "Portášské slavnosti – hlavní den",
+    "date": "2026-07-11",
+    "endDate": null,
+    "time": "10:00",
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Soutěže a zábava pro děti a rodiny, slavnostní zahájení v 14:00, folklórní soubor Troják a bitevní ukázka Ve stínu půlměsíce.",
+    "categories": [
+     "kultura",
+     "deti",
+     "ostatni"
+    ],
+    "tags": [
+     "slavnosti",
+     "portáš",
+     "folklór"
+    ],
+    "image": null,
+    "quote": "Hlavním dnem slavností bude sobota 11.7. Už dopoledne od 10 hodin začnou soutěže a zábava pro děti a rodiny."
+   }
+  ]
+ },
+ "ex-7f783956cb": {
+  "at": "2026-11-14T07:40:47.258Z",
+  "events": [
+   {
+    "title": "Premiéra divadla Konec sudičiek",
+    "date": "2026-09-26",
+    "endDate": null,
+    "time": "19:00",
+    "endTime": null,
+    "location": "sál U Pernických",
+    "organizer": null,
+    "summary": "Premiéra česko‑slovenské divadelní inscenace Konec sudičiek se koná v sále U Pernických.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "interreg"
+    ],
+    "image": null,
+    "quote": "Premiéra bude u nás ve Valašské Bystřici v sále U Pernických v sobotu 26. září (v 19.00 hodin)."
+   },
+   {
+    "title": "Repríza divadla Konec sudičiek",
+    "date": "2026-09-27",
+    "endDate": null,
+    "time": "14:00",
+    "endTime": null,
+    "location": "sál U Pernických",
+    "organizer": null,
+    "summary": "První repríza inscenace Konec sudičiek se koná v neděli 27. září.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "repríza"
+    ],
+    "image": null,
+    "quote": "první repríza v neděli 27. září (ve 14.00 hodin)."
+   }
+  ]
+ },
+ "ex-a0827ed7b0": {
+  "at": "2026-11-14T07:46:06.387Z",
+  "events": [
+   {
+    "title": "CHAOSácký kabaret",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky budou ve Valašské Bystřici v sobotu 7. a neděli 8. března 2026 v rámci CHAOSáckého kabaretu.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "40let",
+     "chaos"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
+   }
+  ]
+ },
+ "ex-acf1dbaa39": {
+  "at": "2026-11-14T07:33:35.619Z",
+  "events": [
+   {
+    "title": "Divadelní představení Kulky",
+    "date": "2026-11-21",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Divadelní soubor Berani z Těškovic představí komedii Kulky.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "komedie",
+     "berani"
+    ],
+    "image": null,
+    "quote": "Berani z Těškovic s komedií Kulky, kterou představí v sobotu 21. listopadu 2026."
+   },
+   {
+    "title": "Kateřinský jarmark",
+    "date": "2026-11-27",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům",
+    "organizer": null,
+    "summary": "Tradiční Kateřinský jarmark se koná ve Společenském domě.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "jarmark",
+     "kateřinský",
+     "společenský dům"
+    ],
+    "image": null,
+    "quote": "V pátek 27. listopadu 2026 se ve Společenském domě uskuteční tradiční Kateřinský jarmark."
+   },
+   {
+    "title": "Ustavující zasedání zastupitelstva",
+    "date": "2026-11-05",
+    "endDate": null,
+    "time": "17:00",
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": null,
+    "summary": "Ustavující zasedání zastupitelstva obce se koná 5. listopadu 2026 od 17 hodin ve Společenském domě U Pernických.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "zastupitelstvo",
+     "ustavujici",
+     "společenský dům"
+    ],
+    "image": null,
+    "quote": "Ustavující zasedání zastupitelstva obce se uskuteční 5. listopadu 2026 od 17 hodin ve Společenském domě U Pernických."
+   },
+   {
+    "title": "Volby do obecního zastupitelstva",
+    "date": "2026-10-09",
+    "endDate": "2026-10-10",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Volby do obecního zastupitelstva proběhly ve dnech 9. a 10. října 2026.",
+    "categories": [
+     "obec"
+    ],
+    "tags": [
+     "volby",
+     "zastupitelstvo"
+    ],
+    "image": null,
+    "quote": "Ve dnech 9. a 10. října 2026 proběhly volby do obecního zastupitelstva."
+   }
+  ]
+ },
+ "ex-b1fdb90ad6": {
+  "at": "2026-11-14T07:40:17.607Z",
+  "events": [
+   {
+    "title": "Rožnovská olympiáda dětí a mládeže",
+    "date": "2026-06-03",
+    "endDate": "2026-06-04",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Sportovní akce pro děti a mládež, která se konala 3.–4. června a zahrnovala atletiku, plavání i kolektivní sporty.",
+    "categories": [
+     "sport",
+     "deti"
+    ],
+    "tags": [
+     "olympiada",
+     "sport",
+     "děti"
+    ],
+    "image": null,
+    "quote": "ve dnech 3.–4. června"
+   },
+   {
+    "title": "Discgolfový turnaj v Novém Jičíně",
+    "date": "2026-06-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Žáci 8. třídy se zúčastnili discgolfového turnaje na hřišti Bocheta v Novém Jičíně dne 11. června.",
+    "categories": [
+     "sport",
+     "deti"
+    ],
+    "tags": [
+     "discgolf",
+     "turnaj"
+    ],
+    "image": null,
+    "quote": "Ve čtvrtek 11. června"
+   },
+   {
+    "title": "Literární klání",
+    "date": "2026-06-15",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "V pondělí 15. června se ve stodole Janík v Rožnově konalo literární klání, kde žáci představili vlastní úpravy literárních děl.",
+    "categories": [
+     "kultura",
+     "deti",
+     "vzdelavani"
+    ],
+    "tags": [
+     "literatura",
+     "klání"
+    ],
+    "image": null,
+    "quote": "V pondělí 15. června"
+   },
+   {
+    "title": "Tenisový turnaj ve čtyřhře",
+    "date": "2026-06-06",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "V sobotu 6. června 2026 proběhl na tenisových kurtech turnaj ve čtyřhře s osmi přihlášenými páry.",
+    "categories": [
+     "sport",
+     "deti"
+    ],
+    "tags": [
+     "tenis",
+     "turnaj"
+    ],
+    "image": null,
+    "quote": "V sobotu 6.6.2026"
+   }
+  ]
+ },
+ "ex-bb3cdfa6eb": {
+  "at": "2026-11-14T07:38:21.122Z",
+  "events": [
+   {
+    "title": "Vycházka: Pustevny",
+    "date": "2026-09-02",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka pro členy Sdružení důchodců do Pusteven, dopravou autobusem.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "vychazka",
+     "pustevny",
+     "seniori"
+    ],
+    "image": null,
+    "quote": "2. 9. Vycházka: Pustevny (bus)"
+   },
+   {
+    "title": "Sportovní odpoledne s opékáním",
+    "date": "2026-09-10",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Sportovní odpoledne s opékáním organizované klubem Hutisko na hřišti.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "sport",
+     "opékání",
+     "hutisko"
+    ],
+    "image": null,
+    "quote": "10. 9. Sportovní odpoledne s opékáním s klubem Hutisko, na hřišti"
+   },
+   {
+    "title": "Vycházka: Luhačovice",
+    "date": "2026-09-16",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka pro seniory do Luhačovic, dopravou autem i autobusem.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "vychazka",
+     "luhačovice",
+     "seniori"
+    ],
+    "image": null,
+    "quote": "16. 9. Vycházka: Luhačovice (auta, bus)"
+   },
+   {
+    "title": "Bowling - Rožnov p. R.",
+    "date": "2026-09-23",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Bowlingová akce pro členy Sdružení důchodců v Rožnově pod Radhoštěm.",
+    "categories": [
+     "seniori",
+     "kultura"
+    ],
+    "tags": [
+     "bowling",
+     "rožnov",
+     "seniori"
+    ],
+    "image": null,
+    "quote": "23. 9. Bowling - Rožnov p. R."
+   },
+   {
+    "title": "Vycházka: Bumbálka, Masarykova chata",
+    "date": "2026-09-30",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka na Bumbálku k Masarykově chatě, trasa 3,3 km, dopravou autem i autobusem.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "vychazka",
+     "bumbalka",
+     "masarykova-chata"
+    ],
+    "image": null,
+    "quote": "30. 9. Vycházka: Bumbálka, Masarykova chata, 3,3 km (auta, bus)"
+   },
+   {
+    "title": "Vycházka: Hostýn",
+    "date": "2026-10-07",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka pro seniory k poutnímu místu Hostýn, dopravou autem.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "vychazka",
+     "hostyn",
+     "seniori"
+    ],
+    "image": null,
+    "quote": "7.10. Vycházka: Hostýn (auta)"
+   },
+   {
+    "title": "Vycházka: Rajnochovice – železnice, Tesák",
+    "date": "2026-10-14",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka do Rajnochovic, podél železnice k Tesáku, dopravou autem.",
+    "categories": [
+     "seniori",
+     "sport"
+    ],
+    "tags": [
+     "vychazka",
+     "rajnochovice",
+     "tesak"
+    ],
+    "image": null,
+    "quote": "14.10. Vycházka: Rajnochovice – železnice, Tesák (auta)"
+   },
+   {
+    "title": "Posezení s gulášem a hudbou",
+    "date": "2026-10-22",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Společenské posezení s gulášem a hudbou u Machýčků.",
+    "categories": [
+     "seniori",
+     "kultura"
+    ],
+    "tags": [
+     "posezení",
+     "guláš",
+     "hudba"
+    ],
+    "image": null,
+    "quote": "22.10. Posezení s gulášem a hudbou U Machýčků"
+   },
+   {
+    "title": "Posezení v klubovně",
+    "date": "2026-10-29",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Společenské posezení v klubovně pro členy Sdružení důchodců.",
+    "categories": [
+     "seniori",
+     "kultura"
+    ],
+    "tags": [
+     "posezení",
+     "klubovna",
+     "seniori"
+    ],
+    "image": null,
+    "quote": "29.10. Posezení v klubovně"
+   }
+  ]
+ },
+ "ex-c069dd5d62": {
+  "at": "2026-11-14T07:42:43.951Z",
+  "events": [
+   {
+    "title": "Okresní kolo McDonald’s Cup",
+    "date": "2026-05-06",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Žáci 1.–4. třídy se zúčastnili okresního kola McDonald’s Cup ve Valašském Meziříčí.",
+    "categories": [
+     "sport",
+     "deti"
+    ],
+    "tags": [
+     "mcup",
+     "okresní",
+     "školní"
+    ],
+    "image": null,
+    "quote": "Ve středu 6. května se naši žáci zúčastnili okresního kola McDonald’sCupu, které se konalo ve Valašském Meziříčí."
+   },
+   {
+    "title": "Den Země – Přírodovědná stezka",
+    "date": "2026-04-30",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Žáci 1. stupně absolvovali přírodovědnou stezku s různými úkoly na školním pozemku.",
+    "categories": [
+     "deti",
+     "vzdelavani"
+    ],
+    "tags": [
+     "denzemě",
+     "přírodovědná",
+     "stezka"
+    ],
+    "image": null,
+    "quote": "Ve čtvrtek 30. dubna se na 1. stupni konala Přírodovědní stezka."
+   },
+   {
+    "title": "Vyhodnocení Přírodovědné stezky",
+    "date": "2026-05-05",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "V úterý 5. května proběhlo velké vyhodnocení soutěže, kde byly předány diplomy a medaile.",
+    "categories": [
+     "deti",
+     "vzdelavani"
+    ],
+    "tags": [
+     "vyhodnocení",
+     "diplomy",
+     "příroda"
+    ],
+    "image": null,
+    "quote": "Velké vyhodnocení soutěže pak proběhlo v úterý 5. května."
+   }
+  ]
+ },
+ "ex-c3fa22d009": {
+  "at": "2026-11-14T07:34:40.346Z",
+  "events": [
+   {
+    "title": "Zápas proti ZŠ",
+    "date": "2026-05-05",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Školní tým odehrál druhý zápas proti ZŠ, výsledek 2:5.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "zapas",
+     "skola",
+     "fotbal"
+    ],
+    "image": null,
+    "quote": "Druhý zápas proti ZŠ 5. května nám bohužel nevyšel podle představ."
+   },
+   {
+    "title": "Turnaj v minikopané – starší žáci",
+    "date": "2026-10-13",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Rožnov pod Radhoštěm",
+    "organizer": null,
+    "summary": "Škola reprezentovala tým starších žáků na turnaji v minikopané v Rožnově pod Radhoštěm.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "minikopaná",
+     "turnaj",
+     "skola"
+    ],
+    "image": null,
+    "quote": "V úterý 13. října se v Rožnově pod Radhoštěm uskutečnil turnaj v minikopané, kterého se zúčastnilo celkem devět družstev."
+   },
+   {
+    "title": "Divadelní představení Konec sudiček",
+    "date": "2026-09-26",
+    "endDate": "2026-09-27",
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Česko‑slovenská inscenace Konec sudiček měla premiéru v posledním zářijovém víkendu ve Valašské Bystřici.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "sudičky",
+     "premiera"
+    ],
+    "image": null,
+    "quote": null
+   }
+  ]
+ },
+ "ex-d122b812c2": {
+  "at": "2026-11-14T07:37:15.097Z",
+  "events": [
+   {
+    "title": "Turnaj mládeže ve šachu",
+    "date": "2026-09-08",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Mládežní šachový turnaj se konal v Rožnově pod Radhoštěm na ZŠ 5. května.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "šachy",
+     "turnaj"
+    ],
+    "image": null,
+    "quote": "8. září se v Rožnově pod Radhoštěm na ZŠ 5. května uskutečnil turnaj mládeže..."
+   },
+   {
+    "title": "Rapid šachový turnaj",
+    "date": "2026-09-09",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Jednodenní rapid šachový turnaj následoval den po mládežnickém turnaji.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "šachy",
+     "rapid"
+    ],
+    "image": null,
+    "quote": "O den později, 9. září, přišel na řadu turnaj v rapid šachu."
+   },
+   {
+    "title": "Vycházka: Hostýn",
+    "date": "2026-10-07",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Organizovaná výprava seniorů na Hostýn autem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka"
+    ],
+    "image": null,
+    "quote": "7.10. Vycházka: Hostýn (auta)"
+   },
+   {
+    "title": "Vycházka: Rajnochovice – železnice, Tesák",
+    "date": "2026-10-14",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Výlet seniorů k Rajnochovicím, železnici a Tesáku, cesta autem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka"
+    ],
+    "image": null,
+    "quote": "14.10. Vycházka: Rajnochovice – železnice, Tesák (auta)"
+   },
+   {
+    "title": "Posezení s gulášem a hudbou",
+    "date": "2026-10-22",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Společenské posezení u Machýčků s hudbou a tradičním gulášem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "posezení",
+     "guláš"
+    ],
+    "image": null,
+    "quote": "22.10. Posezení s gulášem a hudbou U Machýčků"
+   },
+   {
+    "title": "Posezení v klubovně",
+    "date": "2026-10-29",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Neformální setkání seniorů v klubovně.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "posezení"
+    ],
+    "image": null,
+    "quote": "29.10. Posezení v klubovně"
+   },
+   {
+    "title": "Posezení v klubovně",
+    "date": "2026-11-05",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Další neformální setkání seniorů v klubovně.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "posezení"
+    ],
+    "image": null,
+    "quote": "5.11. Posezení v klubovně"
+   },
+   {
+    "title": "Vycházka: Říka, Horní konec",
+    "date": "2026-11-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka seniorů k řece Říka a Hornímu konci, doprava autobusem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka"
+    ],
+    "image": null,
+    "quote": "11.11. Vycházka: Říka, Horní konec (bus)"
+   },
+   {
+    "title": "Santov",
+    "date": "2026-11-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Setkání seniorů při tradičním santově setkání.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "santov"
+    ],
+    "image": null,
+    "quote": "20.11. Santov"
+   },
+   {
+    "title": "Vycházka: Dolní Bečva, Rožnov p. R.",
+    "date": "2026-11-25",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Vycházka seniorů podél Dolní Bečvy až do Rožnova pod Radhoštěm, cesta autobusem.",
+    "categories": [
+     "seniori"
+    ],
+    "tags": [
+     "vycházka"
+    ],
+    "image": null,
+    "quote": "25.11. Vycházka: Dolní Bečva, Rožnov p. R. (5,2 km; bus)"
+   }
+  ]
+ },
+ "ex-d2f76de1f4": {
+  "at": "2026-11-14T07:33:01.385Z",
+  "events": [
+   {
+    "title": "Selský práh – premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra divadelního dramatu Selský práh v nové režii Iva Oravy v Společenském domě U Pernických.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "premiéra",
+     "selskýpráh",
+     "drama"
+    ],
+    "image": 4,
+    "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
+   },
+   {
+    "title": "CHAOSácký kabaret",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky v rámci CHAOSáckého kabaretu, doprovázené výstavou, konají se 7. a 8. března ve Valašské Bystřici.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "scénky",
+     "2026"
+    ],
+    "image": 7,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026 v rámci CHAOSáckého kabaretu."
+   }
+  ]
+ },
+ "ex-d478767609": {
+  "at": "2026-11-14T07:35:45.777Z",
+  "events": []
+ },
+ "ex-e306bc81fd": {
+  "at": "2026-11-14T07:43:06.851Z",
+  "events": [
+   {
+    "title": "Den matek v sále U Pernických",
+    "date": "2026-05-10",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "společenský sál U Pernických",
+    "organizer": null,
+    "summary": "Tradiční kulturní akce k příležitosti Dne matek, kde vystoupily děti ze tříd Motýlci a Berušky s písněmi a básničkami pro maminky.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "den matek",
+     "společenský sál",
+     "mateřská škola"
+    ],
+    "image": null,
+    "quote": "Dne 10. května se v místním společenském sále U Pernických uskutečnila tradiční kulturní akce u příležitosti Dne matek."
+   }
+  ]
+ },
+ "ex-e389288d18": {
+  "at": "2026-11-14T07:33:13.320Z",
+  "events": []
+ },
+ "ex-ecd71389c1": {
+  "at": "2026-11-14T07:36:50.920Z",
+  "events": [
+   {
+    "title": "Veletrh volnočasu v Rožnově",
+    "date": "2026-09-15",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Žáci navštívili Veletrh volnočasu v areálu CAMP SPORTu, kde si mohli vyzkoušet různé sportovní i výtvarné aktivity.",
+    "categories": [
+     "sport",
+     "deti",
+     "kultura"
+    ],
+    "tags": [
+     "veletrh",
+     "volnocas",
+     "roznov"
+    ],
+    "image": null,
+    "quote": "který se konal v úterý 15. září"
+   },
+   {
+    "title": "Mezinárodní šachový festival",
+    "date": "2026-09-05",
+    "endDate": "2026-09-12",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Mezinárodní šachový festival přilákal 73 hráčů z Česka i zahraničí a probíhal v Valašské Bystřici.",
+    "categories": [
+     "sport",
+     "kultura"
+    ],
+    "tags": [
+     "sachy",
+     "festival",
+     "sachovyfestival"
+    ],
+    "image": null,
+    "quote": "Od 5. do 12. září se zde uskutečnil již 17. ročník Mezinárodního šachového festivalu."
+   }
+  ]
+ },
+ "ex-f1704abfb1": {
+  "at": "2026-11-14T07:39:42.657Z",
+  "events": [
+   {
+    "title": "Valašský letňák – zahájení",
+    "date": "2026-06-25",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Další ročník Valašského letňáku byl zahájen 25. června.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "letňák",
+     "zahájení"
+    ],
+    "image": null,
+    "quote": "25. června odstartoval další ročník Valašského letňáku"
+   },
+   {
+    "title": "Den dětí s divadlem Koloběžka",
+    "date": "2026-06-02",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "V mateřské škole se 2. června konal Den dětí s divadlem Koloběžka.",
+    "categories": [
+     "deti",
+     "kultura"
+    ],
+    "tags": [
+     "den-deti",
+     "divadlo",
+     "kolobezka"
+    ],
+    "image": null,
+    "quote": "2. června jsme v MŠ oslavili Den dětí s divadlem Koloběžka"
+   },
+   {
+    "title": "Valašský letňák – film Dream team",
+    "date": "2026-07-24",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Letní filmové představení Dream team se konalo 24. července v rámci Valašského letňáku.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "letňák",
+     "film",
+     "dreamteam"
+    ],
+    "image": null,
+    "quote": "24. července to bude film „Dream team“"
+   },
+   {
+    "title": "Portášské slavnosti",
+    "date": "2026-07-11",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Tradiční Portášské slavnosti se konaly 11. července v obci.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "portášské",
+     "slavnosti"
+    ],
+    "image": null,
+    "quote": "Portášské slavnosti, které se konají 11. 7. 2026"
+   },
+   {
+    "title": "Valašskobystřická pouť",
+    "date": "2026-08-16",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Na 16. srpna se v obci konala Valašskobystřická pouť.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "pouť",
+     "valaske"
+    ],
+    "image": null,
+    "quote": "16. 8. 2026 proběhne valašskobystřická pouť"
+   },
+   {
+    "title": "Valašský letňák – film Mazlíčci v průšvihu",
+    "date": "2026-08-28",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Letní filmové představení Mazlíčci v průšvihu se konalo 28. srpna v rámci Valašského letňáku.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "letňák",
+     "film",
+     "mazlicci"
+    ],
+    "image": null,
+    "quote": "28. srpna „Mazlíčci v průšvihu“"
+   },
+   {
+    "title": "Závod všestrannosti mládeže",
+    "date": "2026-05-21",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Žáci 7. třídy se 21. května zúčastnili závodu všestrannosti mládeže v Rožnově pod Radhoštěm.",
+    "categories": [
+     "sport"
+    ],
+    "tags": [
+     "závod",
+     "mládež",
+     "rožnov"
+    ],
+    "image": null,
+    "quote": "Ve čtvrtek 21. května se čtveřice našich žáků ze 7. třídy – ... zúčastnila tradičního Závodu všestrannosti mládeže"
+   }
+  ]
+ },
+ "ex-f2fafa5b43": {
+  "at": "2026-11-14T07:37:52.549Z",
+  "events": []
+ },
+ "ex-f88582b3b3": {
+  "at": "2026-11-14T07:44:02.322Z",
+  "events": [
+   {
+    "title": "Hudební soutěž v Praze",
+    "date": "2026-05-15",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Šestistupňový dechový sextet a pedagogický doprovod odcestovali do Prahy na celostátní soutěž.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "hudba",
+     "soutez",
+     "prague"
+    ],
+    "image": null,
+    "quote": "Hudební výlet a soutěž samotná proběhla 15. 5. 2026."
+   },
+   {
+    "title": "Zpěváček Valašska – oblastní postupové kolo",
+    "date": "2026-03-14",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "sál ZUŠ Rožnov p.R.",
+    "organizer": null,
+    "summary": "Oblastní kolo soutěže ve zpěvu lidových písní se konalo v Rožnově pod Radhoštěm.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "zpevacka",
+     "folklor",
+     "deti"
+    ],
+    "image": null,
+    "quote": "V sobotu 14. března v sále ZUŠ Rožnov p.R. se konalo oblastní postupové kolo."
+   },
+   {
+    "title": "Krajské kolo soutěže",
+    "date": "2026-03-23",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "ZUŠ Malenovicích, Zlín",
+    "organizer": null,
+    "summary": "Krajské kolo soutěže se konalo ve Zlíně v ZUŠ Malenovicích.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "zpevacka",
+     "kraj",
+     "soutez"
+    ],
+    "image": null,
+    "quote": "Krajské kolo soutěže se konalo ve Zlíně v ZUŠ Malenovicích 23. 3. 2026."
+   },
+   {
+    "title": "Okresní kolo soutěže",
+    "date": "2026-02-26",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Vsetín",
+    "organizer": null,
+    "summary": "Okresní kolo soutěže se konalo ve Vsetíně.",
+    "categories": [
+     "kultura",
+     "deti"
+    ],
+    "tags": [
+     "zpevacka",
+     "okres",
+     "soutez"
+    ],
+    "image": null,
+    "quote": "Prošli okresním kolem 26. 2. 2026 ve Vsetíně."
+   }
+  ]
+ }
+}

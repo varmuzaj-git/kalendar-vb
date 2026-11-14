@@ -46,6 +46,7 @@ input[type=search] { flex: 1 1 220px; font: inherit; padding: 8px 12px; border: 
 .ev details { font-size: .9rem; margin-top: 2px; }
 .ev details summary { cursor: pointer; color: var(--accent); }
 .ev .desc { white-space: pre-line; margin: 4px 0 0; }
+.poster img { display: block; max-width: 180px; max-height: 240px; margin: 6px 0 2px; border-radius: 6px; border: 1px solid var(--line); }
 .badge { display: inline-block; font-size: .75rem; border-radius: 4px; padding: 0 6px; background: var(--bg-soft); color: var(--text); border: 1px solid var(--line); }
 .badge.cat { background: color-mix(in srgb, var(--c) 14%, #fff); border-color: color-mix(in srgb, var(--c) 35%, #fff); }
 .more { margin: 12px 0; }

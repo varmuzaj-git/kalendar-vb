@@ -94,10 +94,10 @@ function expandRrule(rule, start, from, to) {
   return out;
 }
 
-export async function collectIcal(source) {
+export async function collectIcal(source, ctx) {
   const raw = parseIcs(await fetchText(source.url));
   const today = todayWall();
-  const from = addDays(today, -400);
+  const from = parseWall(ctx.historyFrom);
   // pravidelné akce jen do konce (recurringMonths-1). dalšího měsíce
   const months = source.options?.recurringMonths ?? 2;
   const horizon = wall(today.getUTCFullYear(), today.getUTCMonth() + 1 + months, 1);

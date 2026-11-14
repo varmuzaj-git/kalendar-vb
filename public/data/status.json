@@ -1,21 +1,45 @@
 {
- "generatedAt": "2026-11-14T07:26:13.963Z",
+ "generatedAt": "2026-11-14T07:46:26.546Z",
  "sources": [
   {
    "id": "pernicti",
    "ok": true,
    "error": null,
-   "count": 214,
-   "excluded": 99,
-   "lastSuccess": "2026-11-14T07:26:13.355Z"
+   "count": 213,
+   "excluded": 98,
+   "lastSuccess": "2026-11-14T07:46:17.724Z"
   },
   {
    "id": "farnost",
    "ok": true,
    "error": null,
-   "count": 39,
+   "count": 12,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T07:26:13.957Z"
+   "lastSuccess": "2026-11-14T07:46:18.278Z"
+  },
+  {
+   "id": "chaos",
+   "ok": true,
+   "error": null,
+   "count": 1,
+   "excluded": 0,
+   "lastSuccess": "2026-11-14T07:46:18.588Z"
+  },
+  {
+   "id": "trojak",
+   "ok": true,
+   "error": null,
+   "count": 1,
+   "excluded": 0,
+   "lastSuccess": "2026-11-14T07:46:19.268Z"
+  },
+  {
+   "id": "zpravodaj",
+   "ok": true,
+   "error": null,
+   "count": 49,
+   "excluded": 0,
+   "lastSuccess": "2026-11-14T07:46:26.533Z"
   },
   {
    "id": "svatky",
@@ -23,7 +47,7 @@
    "error": null,
    "count": 39,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T07:26:13.959Z"
+   "lastSuccess": "2026-11-14T07:46:26.535Z"
   }
  ]
 }
