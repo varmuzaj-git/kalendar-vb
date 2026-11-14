@@ -9,9 +9,10 @@ import { collectZpravodaj, collectAiHtml, collectAiWp } from './adapters/ai-sour
 import { saveCache, aiAvailable, aiCalls } from './ai.mjs';
 import { mergeDuplicates } from './dedupe.mjs';
 import { collectStatic } from './adapters/static.mjs';
+import { collectWpManual } from './adapters/wp-manual.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
-const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays, zpravodaj: collectZpravodaj, 'ai-html': collectAiHtml, 'ai-wp': collectAiWp, static: collectStatic };
+const ADAPTERS = { ical: collectIcal, tribe: collectTribe, holidays: collectHolidays, zpravodaj: collectZpravodaj, 'ai-html': collectAiHtml, 'ai-wp': collectAiWp, static: collectStatic, 'wp-manual': collectWpManual };
 const only = process.argv.find((a) => a.startsWith('--only='))?.slice(7);
 
 const readJson = async (p, fallback) => { try { return JSON.parse(await readFile(ROOT + p, 'utf8')); } catch { return fallback; } };

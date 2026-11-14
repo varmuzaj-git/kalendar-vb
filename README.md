@@ -13,6 +13,8 @@ zdroje → scripts/collect.mjs (Node, GitHub Action) → public/data/events.json
 | Divadlo CHAOS | `ai-html` | bloky úvodní stránky, akce a plakát vybere AI |
 | Troják | `ai-wp` | články WordPressu, plakát = náhledový obrázek |
 | Zpravodaj obce | `zpravodaj` | PDF z archivu zpravodaje, akce vybere AI (každé vydání jen jednou) |
+| Ručně přidané | `wp-manual` | plugin `wp-plugin/kalendar-akci` na srdceprobystrici.cz (Kalendář akcí → Přidat akci), JSON `/wp-json/kalendar-vb/v1/akce` |
+| Fotbal (TJ Sokol) | `static` | ruční rozpis `config/manual/fotbal.json` (fotbal.cz blokuje roboty) |
 | Státní svátky | `holidays` | výpočet |
 
 - **AI**: Groq (`GROQ_API_KEY` v Settings → Secrets → Actions). Výsledky se ukládají do `cache/ai.json`,
@@ -21,6 +23,8 @@ zdroje → scripts/collect.mjs (Node, GitHub Action) → public/data/events.json
   Údaje se doplní ze všech zdrojů, název podle priority zdroje (`priority`).
 - **Kategorie a štítky**: `config/categories.json` (klíčová slova bez diakritiky) + kategorie od AI.
   Do popisu události v Google kalendáři lze psát `#deti #kultura`.
+- **Pořadatelé**: `config/organizers.json` (zdroj, název akce, místo); `noOrganizer` = záměrně bez pořadatele.
+- **Opravy názvů**: `titleFixes` v `config/sources.json`; ruční spojení vícedenních akcí `mergeRules`.
 - **Historie**: od `historyFrom` v `config/sources.json`.
 - **Vložení do jiného webu**: `<iframe src=".../?embed">`, stránka posílá výšku přes `postMessage` (`kalendar-vb-height`).
 
