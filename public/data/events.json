@@ -113,6 +113,36 @@
    "name": "Šachisté",
    "color": "#455a64",
    "link": null
+  },
+  {
+   "id": "bystricanka",
+   "name": "DH Bystřičanka",
+   "color": "#a0522d",
+   "link": null
+  },
+  {
+   "id": "sokol",
+   "name": "TJ Sokol Valašská Bystřice",
+   "color": "#c62828",
+   "link": null
+  },
+  {
+   "id": "zus",
+   "name": "ZUŠ",
+   "color": "#00838f",
+   "link": null
+  },
+  {
+   "id": "vcelari",
+   "name": "Včelaři MO",
+   "color": "#f9a825",
+   "link": "https://vcelari-bystrice.cz/"
+  },
+  {
+   "id": "lidovci",
+   "name": "Lidovci MO",
+   "color": "#e6a100",
+   "link": "https://kdu-valasska-bystrice.cz/"
   }
  ],
  "categories": [
@@ -456,7 +486,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "zpravodaj-a555148e38",
    "source": "zpravodaj",
    "sources": [
@@ -521,7 +553,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-f65a9c81ba",
    "source": "pernicti",
    "sources": [
@@ -962,7 +996,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "zpravodaj-b2ebe724bc",
    "source": "zpravodaj",
    "sources": [
@@ -985,7 +1021,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-33d5aad6c1",
    "source": "pernicti",
    "sources": [
@@ -2134,7 +2172,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "lidovci"
+   ],
    "id": "pernicti-b4530e5bef",
    "source": "pernicti",
    "sources": [
@@ -2491,7 +2531,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-69996afd45",
    "source": "pernicti",
    "sources": [
@@ -3841,7 +3883,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "bystricanka"
+   ],
    "id": "pernicti-d1e5f32eef",
    "source": "pernicti",
    "sources": [
@@ -4327,7 +4371,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "obec"
+   ],
    "id": "pernicti-9812532aa7",
    "source": "pernicti",
    "sources": [
@@ -5069,7 +5115,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "zus"
+   ],
    "id": "pernicti-4d62f56cee",
    "source": "pernicti",
    "sources": [
@@ -5089,7 +5137,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "zus"
+   ],
    "id": "pernicti-e79bb18c03",
    "source": "pernicti",
    "sources": [
@@ -5445,7 +5495,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "chaos"
+   ],
    "id": "pernicti-accaf2d51f",
    "source": "pernicti",
    "sources": [
@@ -5489,7 +5541,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "sokol"
+   ],
    "id": "pernicti-f15d3f1325",
    "source": "pernicti",
    "sources": [
@@ -5705,7 +5759,9 @@
    ]
   },
   {
-   "organizers": [],
+   "organizers": [
+    "vcelari"
+   ],
    "id": "pernicti-81f417d366",
    "source": "pernicti",
    "sources": [
@@ -5903,7 +5959,9 @@
    "tags": []
   },
   {
-   "organizers": [],
+   "organizers": [
+    "trojak"
+   ],
    "id": "pernicti-baceca6ac5",
    "source": "pernicti",
    "sources": [

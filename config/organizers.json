@@ -25,7 +25,9 @@
       ],
       "match": [
         "\\bchaos",
-        "divadelni podzim"
+        "divadelni podzim",
+        "maskarni ples",
+        "ples maskarni"
       ],
       "rules": [
         {
@@ -52,7 +54,8 @@
       "match": [
         "trojak",
         "koncinov",
-        "kac[ae]ni maj"
+        "kac[ae]ni maj",
+        "\\bhodov"
       ]
     },
     {
@@ -97,7 +100,12 @@
         "zastupitel",
         "\\bvolby\\b",
         "vitani obcank",
-        "obecni slavnost"
+        "obecni slavnost",
+        "katerinsk",
+        "\\bkino\\b",
+        "letni kino",
+        "letnak",
+        "prednask[a-z]* mas\\b"
       ]
     },
     {
@@ -108,6 +116,62 @@
       "sources": [],
       "match": [
         "\\bsach"
+      ]
+    },
+    {
+      "id": "bystricanka",
+      "name": "DH Bystřičanka",
+      "color": "#a0522d",
+      "link": null,
+      "sources": [],
+      "match": [
+        "dechovk",
+        "bystricank"
+      ]
+    },
+    {
+      "id": "sokol",
+      "name": "TJ Sokol Valašská Bystřice",
+      "color": "#c62828",
+      "link": null,
+      "sources": [],
+      "match": [
+        "sportovni ples",
+        "\\bsokol"
+      ]
+    },
+    {
+      "id": "zus",
+      "name": "ZUŠ",
+      "color": "#00838f",
+      "link": null,
+      "sources": [],
+      "match": [
+        "\\bzus\\b"
+      ]
+    },
+    {
+      "id": "vcelari",
+      "name": "Včelaři MO",
+      "color": "#f9a825",
+      "link": "https://vcelari-bystrice.cz/",
+      "sources": [],
+      "match": [
+        "zlata vcela",
+        "vcelar"
+      ]
+    },
+    {
+      "id": "lidovci",
+      "name": "Lidovci MO",
+      "color": "#e6a100",
+      "link": "https://kdu-valasska-bystrice.cz/",
+      "sources": [],
+      "match": [
+        "kdu",
+        "lidovc",
+        "den matek",
+        "rodinne odpoledne"
       ]
     }
   ]
