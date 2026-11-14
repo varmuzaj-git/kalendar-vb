@@ -137,6 +137,18 @@
       ]
     },
     {
+      "id": "rucne",
+      "name": "Ručně přidané",
+      "fullName": "Ručně přidané akce",
+      "color": "#555",
+      "link": null,
+      "type": "static",
+      "file": "config/manual/rucne.json",
+      "priority": 4,
+      "categories": [],
+      "organizer": false
+    },
+    {
       "id": "svatky",
       "name": "Státní svátky",
       "fullName": "Státní svátky ČR",

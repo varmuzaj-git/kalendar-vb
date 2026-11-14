@@ -1,0 +1,16 @@
+{
+  "$comment": "Ručně přidané akce (plakáty v public/plakaty/). organizers = id z config/organizers.json.",
+  "defaults": { "durationMinutes": 120 },
+  "events": [
+    {
+      "start": "2026-11-27T17:00",
+      "title": "Slavnostní rozsvícení vánočního stromu & Mikulášská nadílka",
+      "location": "Prostranství před Obecním úřadem Valašská Bystřice",
+      "description": "Program: koledy, Divadlo Koloběžka, dopis Ježíškovi, Mikulášská nadílka, rozsvícení vánočního stromečku, ohňostroj.",
+      "image": "plakaty/2026-11-27-rozsviceni-stromu-mikulas.jpg",
+      "organizers": ["obec"],
+      "categories": ["kultura", "deti"],
+      "tags": ["advent", "Mikuláš"]
+    }
+  ]
+}

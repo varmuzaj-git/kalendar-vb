@@ -10,6 +10,6 @@ export async function collectStatic(source) {
   return data.events.map((e) => {
     const allDay = e.start.length === 10;
     const end = e.end || (allDay ? e.start : fmt(new Date(parseWall(e.start).getTime() + (e.durationMinutes || d.durationMinutes || 120) * 60000)));
-    return { uid: `${e.start}|${e.title}`, title: e.title, start: e.start, end, allDay, location: e.location || d.location || '', description: e.description || '', url: e.url || '', recurring: false };
+    return { uid: `${e.start}|${e.title}`, title: e.title, start: e.start, end, allDay, location: e.location || d.location || '', description: e.description || '', url: e.url || '', image: e.image || '', organizers: e.organizers, aiCategories: e.categories, sourceTags: e.tags, recurring: false };
   });
 }

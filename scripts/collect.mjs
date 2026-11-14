@@ -68,7 +68,7 @@ function enrich(ev, source) {
   const orgText = normalize(`${ev.title}\n${ev.organizerHint || ''}`);
   const where = normalize(ev.location || source.defaultLocation || '');
   const noOrg = rx(orgCfg.noOrganizer).some((p) => p.test(orgText));
-  const organizers = noOrg ? [] : orgRules.filter((o) => (o.sources || []).includes(source.id) || o.re.some((p) => p.test(orgText))
+  const organizers = Array.isArray(ev.organizers) ? ev.organizers : noOrg ? [] : orgRules.filter((o) => (o.sources || []).includes(source.id) || o.re.some((p) => p.test(orgText))
     || (o.rules || []).some((r) => rx(r.match).some((p) => p.test(orgText)) && (!r.location || new RegExp(r.location, 'i').test(where)))).map((o) => o.id);
   const out = {
     organizers,
@@ -85,7 +85,8 @@ function enrich(ev, source) {
     image: ev.image || '',
     recurring,
     categories: source.display === 'dayLabel' ? [] : [...cats],
-    tags: [...tags],
+    // štítky bez duplicit (bez ohledu na velikost písmen; přednost má tvar z pravidel)
+    tags: [...new Map([...tags].reverse().map((x) => [x.toLowerCase(), x])).values()].reverse(),
   };
   for (const k of ['url', 'description', 'image', 'location']) if (!out[k]) delete out[k];
   return out;
