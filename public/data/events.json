@@ -4746,6 +4746,28 @@
   },
   {
    "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-14aa94a3fa",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "2. neděle adventní",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/2-nedele-adventni-5/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "organizers": [
     "sokol"
    ],
    "id": "pernicti-5fef7a64a1",
@@ -5021,6 +5043,28 @@
    ]
   },
   {
+   "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-8a33c3d2b3",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "3. neděle adventní",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/3-nedele-adventni-5/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
    "organizers": [],
    "id": "pernicti-961b7193d2",
    "source": "pernicti",
@@ -5205,6 +5249,28 @@
    ],
    "tags": [
     "folklor"
+   ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-f4e63e6ff2",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "4. neděle adventní",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/4-nedele-adventni-5/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
    ]
   },
   {

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T13:08:26.762Z",
+ "generatedAt": "2026-11-14T13:21:00.914Z",
  "sources": [
   {
    "id": "pernicti",
@@ -7,15 +7,15 @@
    "error": null,
    "count": 213,
    "excluded": 98,
-   "lastSuccess": "2026-11-14T13:08:18.119Z"
+   "lastSuccess": "2026-11-14T13:20:41.890Z"
   },
   {
    "id": "farnost",
    "ok": true,
    "error": null,
-   "count": 12,
+   "count": 15,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:18.869Z"
+   "lastSuccess": "2026-11-14T13:20:43.831Z"
   },
   {
    "id": "chaos",
@@ -23,7 +23,7 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:19.407Z"
+   "lastSuccess": "2026-11-14T13:20:45.861Z"
   },
   {
    "id": "trojak",
@@ -31,15 +31,15 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:20.111Z"
+   "lastSuccess": "2026-11-14T13:20:47.937Z"
   },
   {
    "id": "zpravodaj",
-   "ok": true,
-   "error": null,
-   "count": 49,
-   "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:26.741Z"
+   "ok": false,
+   "error": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0: fetch failed",
+   "count": 39,
+   "lastSuccess": "2026-11-14T13:08:26.741Z",
+   "failingSince": "2026-11-14T13:21:00.899Z"
   },
   {
    "id": "fotbal",
@@ -47,7 +47,7 @@
    "error": null,
    "count": 7,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:26.748Z"
+   "lastSuccess": "2026-11-14T13:21:00.901Z"
   },
   {
    "id": "rucne",
@@ -55,7 +55,7 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:26.749Z"
+   "lastSuccess": "2026-11-14T13:21:00.901Z"
   },
   {
    "id": "svatky",
@@ -63,7 +63,7 @@
    "error": null,
    "count": 39,
    "excluded": 0,
-   "lastSuccess": "2026-11-14T13:08:26.751Z"
+   "lastSuccess": "2026-11-14T13:21:00.904Z"
   }
  ]
 }
