@@ -1,0 +1,2511 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendar VB//CS
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Akce ve Valašské Bystřici
+X-WR-TIMEZONE:Europe/Prague
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:farnost-3489359320@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+SUMMARY:Slavnost Ježíše Krista Krále
+DESCRIPTION:https://farnostvb.cz/akce/slavnost-jezise-krista-krale-3/\n\nZ
+ droj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/slavnost-jezise-krista-krale-3/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-9fc04cfe21@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+SUMMARY:1. neděle adventní
+DESCRIPTION:https://farnostvb.cz/akce/1-nedele-adventni-4/\n\nZdroj: Římsk
+ okatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/1-nedele-adventni-4/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-3b786f2876@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:2. neděle adventní
+DESCRIPTION:https://farnostvb.cz/akce/2-nedele-adventni-4/\n\nZdroj: Římsk
+ okatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/2-nedele-adventni-4/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-084b4e8954@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+SUMMARY:3. neděle adventní
+DESCRIPTION:https://farnostvb.cz/akce/3-nedele-adventni-4/\n\nZdroj: Římsk
+ okatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/3-nedele-adventni-4/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-f540effae7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251219
+DTEND;VALUE=DATE:20251220
+SUMMARY:Vánoční zpovídání 2025
+DESCRIPTION:https://farnostvb.cz/akce/vanocni-zpovidani-2025/\n\nZdroj: Ří
+ mskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/vanocni-zpovidani-2025/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-7754636975@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20251220T070000Z
+DTEND:20251220T110000Z
+SUMMARY:Chystání vánočních stromů v kostele
+DESCRIPTION:Sraz po 8. hodině u kostela\, s sebou rukavice a pracovní oble
+ čení\n\nhttps://farnostvb.cz/akce/chystani-vanocnich-stromu-v-kostele-2/\
+ n\nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/chystani-vanocnich-stromu-v-kostele-2/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-dcf16b8055@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+SUMMARY:4. neděle adventní
+DESCRIPTION:https://farnostvb.cz/akce/4-nedele-adventni-4/\n\nZdroj: Římsk
+ okatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/4-nedele-adventni-4/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-fe0c5fcae4@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251227
+SUMMARY:Vánoce 2025
+DESCRIPTION:https://farnostvb.cz/akce/vanoce-2/\n\nZdroj: Římskokatolická 
+ farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/vanoce-2/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-d681e94396@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20251225T140000Z
+DTEND:20251225T150000Z
+SUMMARY:Vánoční varhanní koncert
+DESCRIPTION:https://farnostvb.cz/akce/vanocni-varhanni-koncert/\n\nZdroj: 
+ Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/vanocni-varhanni-koncert/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-6a16575a08@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260102T170000Z
+DTEND:20260102T180000Z
+SUMMARY:Nad horama vyšla hvězda – scholička
+DESCRIPTION:https://farnostvb.cz/akce/nad-horama-vysla-hvezda-scholicka/\n
+ \nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/nad-horama-vysla-hvezda-scholicka/
+CATEGORIES:cirkev,kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-a68078265d@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:Tříkrálová sbírka 2026
+DESCRIPTION:V naší farnosti bude tříkrálová sbírka probíhat v pátek 9. led
+ na 2026.\n\nKoordinátorem pro naši farnost je Marie Hruškovská.\n\nhttps:
+ //farnostvb.cz/akce/trikralova-sbirka-2026/\n\nZdroj: Římskokatolická far
+ nost Valašská Bystřice
+URL:https://farnostvb.cz/akce/trikralova-sbirka-2026/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-dfbf708b28@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Popeleční středa
+DESCRIPTION:https://farnostvb.cz/akce/popelecni-streda-6/\n\nZdroj: Římsko
+ katolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/popelecni-streda-6/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-2c21dc1988@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260327T120000Z
+DTEND:20260327T160000Z
+SUMMARY:Velikonoční zpovídání
+LOCATION:Farní kostel ve Valašské Bystřici
+DESCRIPTION:P. Stanislav Matyáš (13:10-15:00) v zákristii\n\nP. Pavel Jomb
+ ík (13:10-15:00) ve zpovědnici\n\nP. Bedřich Horák (15:00-17:00) ve zpově
+ dnici\n\na P. Jan Vláčil 13:20-16:50 na faře\, pak 17:00-17:20 a po mši s
+ v. ve zpovědnici.\n\nhttps://farnostvb.cz/akce/velikonocni-zpovidani/\n\n
+ Zdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/velikonocni-zpovidani/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-2dfd5f0ab1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260406
+SUMMARY:Velikonoce 2026
+DESCRIPTION:https://farnostvb.cz/akce/velikonoce-2026/\n\nZdroj: Římskokat
+ olická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/velikonoce-2026/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-e43f82e2e9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260407T160000Z
+DTEND:20260407T180000Z
+SUMMARY:Přednáška UMĚNÍ ŽÍT – MAREK ORKO VÁCHA
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Marek Orko Vácha – katolický kněz\, teolog\, molekulární biolo
+ g\, pedagog\, spisovatel a skaut.\n\nZveme vás na jeho přenášku s názvem 
+ Umění žít\n\nČlověk je zrozen\, aby žil\, a ne aby se připravoval na živo
+ t. A život sám\, je něco důležitějšího\, něco opojnějšího? Jaká je tedy o
+ dpovědnost člověka za jeho životní příběh? Je třeba s pokorou přijmout vl
+ astní velikost\, dojít k poznání že symfonie\, které nenapíšeme my\, nevz
+ niknou nikdy… obrazy\, které nenamalujeme my\, nebudou nikdy … a dobré pr
+ ojekty\, které neuvedeme v život my\, také nebudou nikdy.\n\nPo přednášce
+  (cca 90 minut) bude následovat krátká diskuse\,…\n\nhttps://farnostvb.cz
+ /akce/prednaska-umeni-zit-marek-orko-vacha/\n\nZdroj: Římskokatolická far
+ nost Valašská Bystřice
+URL:https://farnostvb.cz/akce/prednaska-umeni-zit-marek-orko-vacha/
+CATEGORIES:cirkev,vzdelavani
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-1ab95da9a3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260415T160000Z
+DTEND:20260415T180000Z
+SUMMARY:Setkání nad 1. pilířem PROPOJENI
+DESCRIPTION:Slavení neděle – 18.00 na faře\n\nhttps://farnostvb.cz/akce/se
+ tkani-nad-1-pilirem-propojeni/\n\nZdroj: Římskokatolická farnost Valašská
+  Bystřice
+URL:https://farnostvb.cz/akce/setkani-nad-1-pilirem-propojeni/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-719284469b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260429T163000Z
+DTEND:20260429T180000Z
+SUMMARY:Setkání nad 2. pilířem PROPOJENI – téma 1
+DESCRIPTION:https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni/\n\n
+ Zdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-2462922e04@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260520T160000Z
+DTEND:20260520T180000Z
+SUMMARY:Setkání nad 2. pilířem PROPOJENI – téma 2 a 3
+DESCRIPTION:bude ve středu 20. 5. v 18:00 na faře\n\n2. TÉMA – DUCHOVNÍ RŮ
+ ST\n\n2. pilíř – Brožura pro členy skupinek – 2. téma\n\n2. pilíř – Předs
+ tavení tématu – 2. téma – video online\n\n3. TÉMA – SPRÁVA FARNOSTI\n\n2.
+  pilíř – Brožura pro členy skupinek – 3. téma\n\n2. pilíř – Představení t
+ ématu – 3. téma – video online\n\nhttps://farnostvb.cz/akce/setkani-nad-2
+ -pilirem-propojeni-cast-2-a-3/\n\nZdroj: Římskokatolická farnost Valašská
+  Bystřice
+URL:https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni-cast-2-a-3/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-3582ec9521@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Slavnost Seslání Ducha Svatého
+DESCRIPTION:https://farnostvb.cz/akce/slavnost-seslani-ducha-svateho-4/\n\
+ nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/slavnost-seslani-ducha-svateho-4/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-667f498762@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260603T150000Z
+DTEND:20260603T163000Z
+SUMMARY:Zpovídání pro děti jdoucí k 1. sv. přijímání a jejich rodiče
+LOCATION:Farní kostel ve Valašské Bystřici
+DESCRIPTION:https://farnostvb.cz/akce/zpovidani-pro-deti-jdouci-k-1-sv-pri
+ jimani-a-jejich-rodice/\n\nZdroj: Římskokatolická farnost Valašská Bystři
+ ce
+URL:https://farnostvb.cz/akce/zpovidani-pro-deti-jdouci-k-1-sv-prijimani-a
+ -jejich-rodice/
+CATEGORIES:cirkev,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-cd8b8435ba@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260605T161000Z
+DTEND:20260605T170000Z
+SUMMARY:Nácvik 1. sv. přijímání pro děti (po mši)
+LOCATION:Farní kostel ve Valašské Bystřici
+DESCRIPTION:https://farnostvb.cz/akce/nacvik-1-sv-prijimani-pro-deti-po-ms
+ i/\n\nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/nacvik-1-sv-prijimani-pro-deti-po-msi/
+CATEGORIES:cirkev,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-5254fa2b16@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260607T073000Z
+DTEND:20260607T083000Z
+SUMMARY:1. sv. přijímání
+LOCATION:Farní kostel ve Valašské Bystřici
+DESCRIPTION:https://farnostvb.cz/akce/1-sv-prijimani-2/\n\nZdroj: Římskoka
+ tolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/1-sv-prijimani-2/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-ff0135d8f8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260621T140000Z
+DTEND:20260621T170000Z
+SUMMARY:Táborák
+DESCRIPTION:https://farnostvb.cz/akce/taborak/\n\nZdroj: Římskokatolická f
+ arnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/taborak/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-08040a0cd0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260626T150000Z
+DTEND:20260626T160000Z
+SUMMARY:Zastupitelsvo
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:obec
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-93d6a17ce4@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260626T160000Z
+DTEND:20260626T163000Z
+SUMMARY:Setkání farní rady – elektroinstalace v kostele
+DESCRIPTION:po večerní mši sv. v kostele\n\nhttps://farnostvb.cz/akce/setk
+ ani-farni-rady-elektroinstalace-v-kostele/\n\nZdroj: Římskokatolická farn
+ ost Valašská Bystřice
+URL:https://farnostvb.cz/akce/setkani-farni-rady-elektroinstalace-v-kostel
+ e/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-395a94c759@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260702T170000Z
+DTEND:20260702T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-16ddb2d756@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Slavnost sv. Cyrila a Metoděje
+DESCRIPTION:U nás pouze ranní mše svatá v 7:40!\n\nhttps://farnostvb.cz/ak
+ ce/slavnost-sv-cyrila-a-metodeje-2/\n\nZdroj: Římskokatolická farnost Val
+ ašská Bystřice
+URL:https://farnostvb.cz/akce/slavnost-sv-cyrila-a-metodeje-2/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-66818e7858@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260706T170000Z
+DTEND:20260706T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9c3f0293bc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260709T170000Z
+DTEND:20260709T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3e2677247d@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:Portášské slavnosti
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8438b745cf@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Portášské slavnosti
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-360228ad27@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260713T170000Z
+DTEND:20260713T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f801bfbff9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260716T170000Z
+DTEND:20260716T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6c16195061@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260717T181500Z
+DTEND:20260717T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9e14b141b3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260720T170000Z
+DTEND:20260720T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f12b5dd515@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260723T170000Z
+DTEND:20260723T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-fb4072abe5@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260724T150000Z
+DTEND:20260724T220000Z
+SUMMARY:Hudební podvečer - restaurace\, amfik
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-90e02f2441@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260724T181500Z
+DTEND:20260724T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f65a9c81ba@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260724T190000Z
+DTEND:20260724T213000Z
+SUMMARY:Kino
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-894e8447ff@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260727T170000Z
+DTEND:20260727T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f793da5c84@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260730T170000Z
+DTEND:20260730T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-58e78f8b9a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260731T181500Z
+DTEND:20260731T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-c74225f416@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260803T170000Z
+DTEND:20260803T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-bf187751eb@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260805T160000Z
+DTEND:20260805T180000Z
+SUMMARY:1. předpouťová brigáda za kostelem
+DESCRIPTION:https://farnostvb.cz/akce/1-predpoutova-brigada-za-kostelem/\n
+ \nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/1-predpoutova-brigada-za-kostelem/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-c6449a6d02@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Šachy turnaj / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f321736ad5@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260806T150000Z
+DTEND:20260806T160000Z
+SUMMARY:Zastupitelstvo
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:obec
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7ff673073a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260806T170000Z
+DTEND:20260806T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1e495b1589@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260807T181500Z
+DTEND:20260807T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0c6cc5e642@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260810T170000Z
+DTEND:20260810T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-bf011aaefd@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260813T160000Z
+DTEND:20260813T180000Z
+SUMMARY:2. předpouťová brigáda za kostelem
+DESCRIPTION:https://farnostvb.cz/akce/2-predpoutova-brigada-za-kostelem/\n
+ \nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/2-predpoutova-brigada-za-kostelem/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d15ec4c815@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260813T170000Z
+DTEND:20260813T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3716f73865@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260814T181500Z
+DTEND:20260814T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0ed8630cd4@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260817
+SUMMARY:Pouť
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-c626f28e41@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:Pouť 2026
+DESCRIPTION:Bohoslužby na pouť :\n\nranní v 7:40 v kostele\n\nhrubá v 9:30
+  na louce za kostelem\n\nhttps://farnostvb.cz/akce/pout-2026/\n\nZdroj: Ř
+ ímskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/pout-2026/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1f35014c95@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260817T170000Z
+DTEND:20260817T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a60802f4b9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260820T170000Z
+DTEND:20260820T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-10c8702bcb@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260824T170000Z
+DTEND:20260824T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d6de87dc01@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260827T170000Z
+DTEND:20260827T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-33d5aad6c1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260828T180000Z
+DTEND:20260828T220000Z
+SUMMARY:Kino
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-88938e3fe1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260828T181500Z
+DTEND:20260828T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-ea2e51b710@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260831T170000Z
+DTEND:20260831T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-10d0a9352c@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260901T140000Z
+DTEND:20260901T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f9a6aeb533@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260901T150000Z
+DTEND:20260901T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-92f7d0cca0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Zastupitelstvo
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:obec
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2a97b026c8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260903T130000Z
+DTEND:20260903T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-de2e4faa96@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260903T170000Z
+DTEND:20260903T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f17a9b64d7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260904T181500Z
+DTEND:20260904T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5d4243d78b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260913
+SUMMARY:Šachový mezinárodní turnaj
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-88355a05f2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260914T170000Z
+DTEND:20260914T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9bee828685@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260915T140000Z
+DTEND:20260915T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-744b5bac4b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260915T150000Z
+DTEND:20260915T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-efeb8eb81b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260916T123000Z
+DTEND:20260916T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-4a9c2abc26@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260917T130000Z
+DTEND:20260917T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e0be80201f@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260917T170000Z
+DTEND:20260917T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-067079e0b8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260918T150000Z
+DTEND:20260918T180000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-67ffe97098@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260918T181500Z
+DTEND:20260918T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3599f1e79b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260921T110000Z
+DTEND:20260921T120000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-603d2baef9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260921T170000Z
+DTEND:20260921T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-97d8157df5@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260922T140000Z
+DTEND:20260922T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-4bf2cd8438@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260922T150000Z
+DTEND:20260922T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a6b6f7015f@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260923T123000Z
+DTEND:20260923T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-aa51e2d0ca@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260924T130000Z
+DTEND:20260924T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-11c84fac8b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260924T163000Z
+DTEND:20260924T200000Z
+SUMMARY:Šachy - turnaj/klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-aa568b4bba@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260924T170000Z
+DTEND:20260924T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5e4d1aa498@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260925T181500Z
+DTEND:20260925T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-65170c4058@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:Chaos divadlo ČR+SR
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9000a8a5ed@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260928T110000Z
+DTEND:20260928T120000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-93ea2799a0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260928T170000Z
+DTEND:20260928T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9dbc7d4b66@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260929T140000Z
+DTEND:20260929T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3fea262cb7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260929T150000Z
+DTEND:20260929T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-594ccd4d31@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20260930T123000Z
+DTEND:20260930T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-67e3a3e17d@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261001T130000Z
+DTEND:20261001T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-60cf2837ff@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261001T170000Z
+DTEND:20261001T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b29e0ecf1a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261002T150000Z
+DTEND:20261002T180000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5c7a3ee99c@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261002T181500Z
+DTEND:20261002T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-592380f0dc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b4530e5bef@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Rodinné odpoledne\, předvolební akce KDU-ČSL / amfik+ sál
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:ostatni
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-09f12cad97@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261005T110000Z
+DTEND:20261005T120000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d106ba4de3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261005T170000Z
+DTEND:20261005T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b96ff9481a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261006T140000Z
+DTEND:20261006T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-81992f7753@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261006T150000Z
+DTEND:20261006T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1b4434eb99@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261007T123000Z
+DTEND:20261007T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-4549e37275@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261008T130000Z
+DTEND:20261008T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-191eef8b43@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261008T170000Z
+DTEND:20261008T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-904448e586@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261009T150000Z
+DTEND:20261009T180000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2ed29b3580@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261009T181500Z
+DTEND:20261009T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-55e220c4d1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261011T063000Z
+DTEND:20261011T120000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6d683130cc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261012T110000Z
+DTEND:20261012T120000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1145940ae8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261012T170000Z
+DTEND:20261012T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-69996afd45@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Přednáška MAS
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:vzdelavani
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-19e70b4462@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261014T123000Z
+DTEND:20261014T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-59c0804bf7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261015T130000Z
+DTEND:20261015T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2bd4b0ee0a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261015T170000Z
+DTEND:20261015T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-16837fc118@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261016T150000Z
+DTEND:20261016T180000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0fbfd3cc28@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261016T181500Z
+DTEND:20261016T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-c516a28a71@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Hodová zábava a výročí Trojáku
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-c3f7f50f52@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Posvícení
+DESCRIPTION:https://farnostvb.cz/akce/posviceni-3/\n\nZdroj: Římskokatolic
+ ká farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/posviceni-3/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d9e1fe92f9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261018T063000Z
+DTEND:20261018T120000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-23cd97b253@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261019T110000Z
+DTEND:20261019T120000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a79182d267@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261019T170000Z
+DTEND:20261019T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a19dfe45fc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261020T140000Z
+DTEND:20261020T150000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b3e2455d80@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261020T150000Z
+DTEND:20261020T160000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a1305ab35a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261021T123000Z
+DTEND:20261021T143000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a8ab853998@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261022T130000Z
+DTEND:20261022T150000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0980d54eff@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261022T170000Z
+DTEND:20261022T180000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f1443424fc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Vítání občánků
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f744306126@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261023T150000Z
+DTEND:20261023T180000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0968a31ebd@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261023T181500Z
+DTEND:20261023T203000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6bbf4ec189@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261026T120000Z
+DTEND:20261026T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-cc1a0dab06@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261026T180000Z
+DTEND:20261026T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b9430e0dee@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261027T150000Z
+DTEND:20261027T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8b827e686e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261027T160000Z
+DTEND:20261027T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-00231e6248@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261028T133000Z
+DTEND:20261028T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-bdc7b2f2a0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261029T140000Z
+DTEND:20261029T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-81ac85ea27@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261029T180000Z
+DTEND:20261029T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-82a14e8c55@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261030T160000Z
+DTEND:20261030T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-c75152c298@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261030T191500Z
+DTEND:20261030T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8422a23e54@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Divadelní podzim
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-af640c3c6e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Slavnost všech svatých
+DESCRIPTION:13.30 Modlitba za zemřelé na hřbitově\n\nhttps://farnostvb.cz/
+ akce/slavnost-vsech-svatych-2/\n\nZdroj: Římskokatolická farnost Valašská
+  Bystřice
+URL:https://farnostvb.cz/akce/slavnost-vsech-svatych-2/
+CATEGORIES:cirkev,kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5770ff3b3a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261101T073000Z
+DTEND:20261101T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-59b12fd013@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Vzpomínka na všechny věrné zemřelé
+DESCRIPTION:https://farnostvb.cz/akce/vzpominka-na-vsechny-verne-zemrele-2
+ /\n\nZdroj: Římskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/vzpominka-na-vsechny-verne-zemrele-2/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e5d4723652@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261102T120000Z
+DTEND:20261102T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e34a8ce0d3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261102T180000Z
+DTEND:20261102T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d3beefebde@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261103T150000Z
+DTEND:20261103T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2e0d436f42@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261103T160000Z
+DTEND:20261103T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8db4f24820@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261104T133000Z
+DTEND:20261104T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-b009831500@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261104T171500Z
+DTEND:20261104T190000Z
+SUMMARY:PROPOJENI
+LOCATION:Fara
+DESCRIPTION:3. PILÍŘ\n\nhttps://farnostvb.cz/akce/propojeni/\n\nZdroj: Řím
+ skokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/propojeni/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-bd4b22ed7d@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261105T140000Z
+DTEND:20261105T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e5b148fd7f@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261105T160000Z
+DTEND:20261105T170000Z
+SUMMARY:Zastupitelstvo
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:obec
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b6613769c3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261105T180000Z
+DTEND:20261105T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-73c5263fd6@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261106T160000Z
+DTEND:20261106T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a2a918eb9b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261106T191500Z
+DTEND:20261106T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-db6702fc01@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261108T073000Z
+DTEND:20261108T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-99dbf69177@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261109T120000Z
+DTEND:20261109T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-10cc658cc9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261109T180000Z
+DTEND:20261109T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6bfae8a5d6@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261110T150000Z
+DTEND:20261110T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6f02f3e924@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261110T160000Z
+DTEND:20261110T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7748a55621@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261111T133000Z
+DTEND:20261111T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-07a1b8c1c8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261112T140000Z
+DTEND:20261112T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-96824f15de@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261112T180000Z
+DTEND:20261112T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f3f2d5458b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261113T160000Z
+DTEND:20261113T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-69402d4646@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261113T191500Z
+DTEND:20261113T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d1e5f32eef@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Dechovky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-37a9e46c63@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261116T120000Z
+DTEND:20261116T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6442ffe2bc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261116T180000Z
+DTEND:20261116T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3f82ae9318@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261117T150000Z
+DTEND:20261117T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1087e4bc88@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261117T160000Z
+DTEND:20261117T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b642e6d382@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261118T133000Z
+DTEND:20261118T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-95458cfdc0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261118T171500Z
+DTEND:20261118T190000Z
+SUMMARY:PROPOJENI
+LOCATION:Fara
+DESCRIPTION:4. PILÍŘ\n\nhttps://farnostvb.cz/akce/propojeni-2/\n\nZdroj: Ř
+ ímskokatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/propojeni-2/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0e31c755ec@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261119T140000Z
+DTEND:20261119T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-76d483ac6e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261119T180000Z
+DTEND:20261119T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-196a4d7bf2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261120T160000Z
+DTEND:20261120T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9b8eef2548@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261120T191500Z
+DTEND:20261120T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6465a261d2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Divadelní podzim
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-921b250adf@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261122T073000Z
+DTEND:20261122T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2a04d61a7a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261123T120000Z
+DTEND:20261123T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-fdc5b70048@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261123T180000Z
+DTEND:20261123T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7b6b7610fc@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261124T150000Z
+DTEND:20261124T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1b1d787ec2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261124T160000Z
+DTEND:20261124T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-78407cb9f3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261125T133000Z
+DTEND:20261125T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-19480d758e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261126T140000Z
+DTEND:20261126T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0ddd792bab@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261126T180000Z
+DTEND:20261126T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-9812532aa7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Kateřinský jarmark
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-ad5d60e039@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261127T160000Z
+DTEND:20261127T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-cf38dd5faf@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261127T191500Z
+DTEND:20261127T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-ec0c04d487@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:1. neděle adventní
+DESCRIPTION:https://farnostvb.cz/akce/1-nedele-adventni-5/\n\nZdroj: Římsk
+ okatolická farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/1-nedele-adventni-5/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-394226f152@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261129T073000Z
+DTEND:20261129T130000Z
+SUMMARY:Šachové souteže - sál
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-3c0aa0ba66@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261130T120000Z
+DTEND:20261130T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-d60425498b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261130T180000Z
+DTEND:20261130T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-1b3107d25e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261201T150000Z
+DTEND:20261201T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-cba24da2a8@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261201T160000Z
+DTEND:20261201T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-71617570d9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261202T133000Z
+DTEND:20261202T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-91b7022960@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261202T171500Z
+DTEND:20261202T190000Z
+SUMMARY:PROPOJENI
+LOCATION:Fara
+DESCRIPTION:https://farnostvb.cz/akce/propojeni-3/\n\nZdroj: Římskokatolic
+ ká farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/propojeni-3/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-ebb4a0ed3e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261203T140000Z
+DTEND:20261203T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-104216e28e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261203T180000Z
+DTEND:20261203T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7d8957c494@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261204T160000Z
+DTEND:20261204T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-20262bc53d@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261204T191500Z
+DTEND:20261204T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5fef7a64a1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261206T073000Z
+DTEND:20261206T130000Z
+SUMMARY:Šachové turnaje - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e057315067@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261207T120000Z
+DTEND:20261207T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-784ed82d64@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261207T180000Z
+DTEND:20261207T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-79a021094a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261208T150000Z
+DTEND:20261208T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-4d8b05d9f9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261208T160000Z
+DTEND:20261208T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5de971bb80@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261209T133000Z
+DTEND:20261209T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-5b3886d107@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261210T140000Z
+DTEND:20261210T160000Z
+SUMMARY:Malý Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7fd39fc3a7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261210T180000Z
+DTEND:20261210T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8a452cb6da@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261211T160000Z
+DTEND:20261211T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b3c7035c88@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261211T191500Z
+DTEND:20261211T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e297353071@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Divadelní podzim
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-961b7193d2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261214T120000Z
+DTEND:20261214T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-11bf537fa9@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261214T180000Z
+DTEND:20261214T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-99f5824711@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261215T150000Z
+DTEND:20261215T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-54c6560a43@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261215T160000Z
+DTEND:20261215T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-7f96ffea05@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261216T133000Z
+DTEND:20261216T153000Z
+SUMMARY:H2B taneční kroužek
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-4d62f56cee@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Zuš koncert
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-e79bb18c03@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261218T070000Z
+DTEND:20261218T110000Z
+SUMMARY:Zuš koncert
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-689bbc98b2@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261218T160000Z
+DTEND:20261218T190000Z
+SUMMARY:Šachy / klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-36d6fe3f50@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261218T191500Z
+DTEND:20261218T213000Z
+SUMMARY:Troják
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-af60037a0b@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261221T120000Z
+DTEND:20261221T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8d06a798a3@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261221T180000Z
+DTEND:20261221T190000Z
+SUMMARY:Joga
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-96c8980d31@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261222T150000Z
+DTEND:20261222T160000Z
+SUMMARY:Cvičení seniorky
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport,seniori
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-cd74d68da7@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261222T160000Z
+DTEND:20261222T170000Z
+SUMMARY:Kondiční cvičení
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:farnost-5cc6f169b1@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261227
+SUMMARY:Vánoce 2026
+DESCRIPTION:https://farnostvb.cz/akce/vanoce-2026/\n\nZdroj: Římskokatolic
+ ká farnost Valašská Bystřice
+URL:https://farnostvb.cz/akce/vanoce-2026/
+CATEGORIES:cirkev
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-19f49736cb@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Akce Rally
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-0f8e1da096@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20261228T120000Z
+DTEND:20261228T130000Z
+SUMMARY:Dětská kapela Aimela
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-226adf8936@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270110T073000Z
+DTEND:20270110T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-08228e88f0@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270117T073000Z
+DTEND:20270117T130000Z
+SUMMARY:Šachové soutěže - sál
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-accaf2d51f@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Maškarní ples
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,deti
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-71421161be@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270124T073000Z
+DTEND:20270124T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f15d3f1325@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Sportovní ples
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-584bc49f63@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Končinový ples
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-b161c0ec04@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270207T073000Z
+DTEND:20270207T130000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-76c77e96d5@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270214T073000Z
+DTEND:20270214T130000Z
+SUMMARY:Šachové soutěže - sál
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-ef51619326@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270222
+SUMMARY:Chaos premiéra
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-a33cfad899@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270221T073000Z
+DTEND:20270221T130000Z
+SUMMARY:Šachové soutěžě
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-8ba4af5b20@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270321T073000Z
+DTEND:20270321T130000Z
+SUMMARY:Šachové soutěže - sál
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-94be0fe76e@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART:20270418T063000Z
+DTEND:20270418T120000Z
+SUMMARY:Šachové soutěže - klubovna
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-81f417d366@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Zlatá včela - soutěž
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-2fd808c54a@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Kácení máje
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-6826923634@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270614
+SUMMARY:Chaos derniéra
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-03b0c4c5cf@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Obecní slavnosti
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura,obec
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-f5d60b3184@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Ariel rally ČR
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-06e0588998@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Ariel rally ČR
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:sport
+END:VEVENT
+BEGIN:VEVENT
+UID:pernicti-baceca6ac5@kalendar-vb
+DTSTAMP:20261114T071549Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:Hodová
+LOCATION:Společenský dům U Pernických
+DESCRIPTION:Zdroj: Společenský dům U Pernických
+CATEGORIES:kultura
+END:VEVENT
+END:VCALENDAR

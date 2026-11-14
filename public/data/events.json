@@ -1,0 +1,4327 @@
+{
+ "calendarName": "Kalendář akcí ve Valašské Bystřici",
+ "sources": [
+  {
+   "id": "pernicti",
+   "name": "U Pernických",
+   "fullName": "Společenský dům U Pernických",
+   "color": "#b5452b",
+   "link": "https://spolakupernickych.cz/index.html#kalendar",
+   "display": "events"
+  },
+  {
+   "id": "farnost",
+   "name": "Farnost",
+   "fullName": "Římskokatolická farnost Valašská Bystřice",
+   "color": "#8a6d1f",
+   "link": "https://farnostvb.cz/akce/",
+   "display": "events"
+  },
+  {
+   "id": "svatky",
+   "name": "Státní svátky",
+   "fullName": "Státní svátky ČR",
+   "color": "#7a7f87",
+   "link": null,
+   "display": "dayLabel"
+  }
+ ],
+ "categories": [
+  {
+   "id": "kultura",
+   "label": "Kultura",
+   "color": "#8a3a66"
+  },
+  {
+   "id": "sport",
+   "label": "Sport",
+   "color": "#2f6b47"
+  },
+  {
+   "id": "deti",
+   "label": "Pro děti",
+   "color": "#b06b12"
+  },
+  {
+   "id": "seniori",
+   "label": "Senioři",
+   "color": "#6b4ea0"
+  },
+  {
+   "id": "vzdelavani",
+   "label": "Vzdělávání",
+   "color": "#0f6e8c"
+  },
+  {
+   "id": "obec",
+   "label": "Obec",
+   "color": "#1f5c99"
+  },
+  {
+   "id": "cirkev",
+   "label": "Církev",
+   "color": "#8a6d1f"
+  },
+  {
+   "id": "ostatni",
+   "label": "Ostatní",
+   "color": "#6b6b6b"
+  }
+ ],
+ "events": [
+  {
+   "id": "svatky-b7a774306b",
+   "source": "svatky",
+   "title": "Den boje za svobodu a demokracii",
+   "start": "2025-11-17",
+   "end": "2025-11-17",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-3489359320",
+   "source": "farnost",
+   "title": "Slavnost Ježíše Krista Krále",
+   "start": "2025-11-23",
+   "end": "2025-11-23",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/slavnost-jezise-krista-krale-3/",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": []
+  },
+  {
+   "id": "farnost-9fc04cfe21",
+   "source": "farnost",
+   "title": "1. neděle adventní",
+   "start": "2025-11-30",
+   "end": "2025-11-30",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/1-nedele-adventni-4/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "id": "farnost-3b786f2876",
+   "source": "farnost",
+   "title": "2. neděle adventní",
+   "start": "2025-12-07",
+   "end": "2025-12-07",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/2-nedele-adventni-4/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "id": "farnost-084b4e8954",
+   "source": "farnost",
+   "title": "3. neděle adventní",
+   "start": "2025-12-14",
+   "end": "2025-12-14",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/3-nedele-adventni-4/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "id": "farnost-f540effae7",
+   "source": "farnost",
+   "title": "Vánoční zpovídání 2025",
+   "start": "2025-12-19",
+   "end": "2025-12-19",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/vanocni-zpovidani-2025/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/vanocni-zpovidani-2025-pdf.jpg",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "děkanát",
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "farnost-7754636975",
+   "source": "farnost",
+   "title": "Chystání vánočních stromů v kostele",
+   "start": "2025-12-20T08:00",
+   "end": "2025-12-20T12:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/chystani-vanocnich-stromu-v-kostele-2/",
+   "description": "Sraz po 8. hodině u kostela, s sebou rukavice a pracovní oblečení",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "farnost-dcf16b8055",
+   "source": "farnost",
+   "title": "4. neděle adventní",
+   "start": "2025-12-21",
+   "end": "2025-12-21",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/4-nedele-adventni-4/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "id": "svatky-622a727371",
+   "source": "svatky",
+   "title": "Štědrý den",
+   "start": "2025-12-24",
+   "end": "2025-12-24",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-fe0c5fcae4",
+   "source": "farnost",
+   "title": "Vánoce 2025",
+   "start": "2025-12-24",
+   "end": "2025-12-26",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/vanoce-2/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "slavnosti a svátky",
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-e0500ec4c8",
+   "source": "svatky",
+   "title": "1. svátek vánoční",
+   "start": "2025-12-25",
+   "end": "2025-12-25",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "farnost-d681e94396",
+   "source": "farnost",
+   "title": "Vánoční varhanní koncert",
+   "start": "2025-12-25T15:00",
+   "end": "2025-12-25T16:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/vanocni-varhanni-koncert/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/vanocno-koncert-2025-500x489.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": [
+    "vánoce",
+    "koncert",
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-6e04b701f8",
+   "source": "svatky",
+   "title": "2. svátek vánoční",
+   "start": "2025-12-26",
+   "end": "2025-12-26",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-bb11329145",
+   "source": "svatky",
+   "title": "Den obnovy samostatného českého státu, Nový rok",
+   "start": "2026-01-01",
+   "end": "2026-01-01",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-6a16575a08",
+   "source": "farnost",
+   "title": "Nad horama vyšla hvězda – scholička",
+   "start": "2026-01-02T18:00",
+   "end": "2026-01-02T19:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/nad-horama-vysla-hvezda-scholicka/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/Nad-horama-vysla-hvezda-14_2025.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura",
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "farnost-a68078265d",
+   "source": "farnost",
+   "title": "Tříkrálová sbírka 2026",
+   "start": "2026-01-09",
+   "end": "2026-01-09",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/trikralova-sbirka-2026/",
+   "description": "V naší farnosti bude tříkrálová sbírka probíhat v pátek 9. ledna 2026.\n\nKoordinátorem pro naši farnost je Marie Hruškovská.",
+   "image": "https://farnostvb.cz/wp-content/uploads/2025/12/trikralove2026-500x207.jpg",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "charita",
+    "tříkrálová sbírka"
+   ]
+  },
+  {
+   "id": "farnost-dfbf708b28",
+   "source": "farnost",
+   "title": "Popeleční středa",
+   "start": "2026-02-18",
+   "end": "2026-02-18",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/popelecni-streda-6/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "slavnosti a svátky"
+   ]
+  },
+  {
+   "id": "farnost-2c21dc1988",
+   "source": "farnost",
+   "title": "Velikonoční zpovídání",
+   "start": "2026-03-27T13:00",
+   "end": "2026-03-27T17:00",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/velikonocni-zpovidani/",
+   "description": "P. Stanislav Matyáš (13:10-15:00) v zákristii\n\nP. Pavel Jombík (13:10-15:00) ve zpovědnici\n\nP. Bedřich Horák (15:00-17:00) ve zpovědnici\n\na P. Jan Vláčil 13:20-16:50 na faře, pak 17:00-17:20 a po mši sv. ve zpovědnici.",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "děkanát",
+    "velikonoce"
+   ]
+  },
+  {
+   "id": "farnost-2dfd5f0ab1",
+   "source": "farnost",
+   "title": "Velikonoce 2026",
+   "start": "2026-04-02",
+   "end": "2026-04-05",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/velikonoce-2026/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "slavnosti a svátky",
+    "velikonoce"
+   ]
+  },
+  {
+   "id": "svatky-c0edf7fb56",
+   "source": "svatky",
+   "title": "Velký pátek",
+   "start": "2026-04-03",
+   "end": "2026-04-03",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-f16625e8f5",
+   "source": "svatky",
+   "title": "Velikonoční pondělí",
+   "start": "2026-04-06",
+   "end": "2026-04-06",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-e43f82e2e9",
+   "source": "farnost",
+   "title": "Přednáška UMĚNÍ ŽÍT – MAREK ORKO VÁCHA",
+   "start": "2026-04-07T18:00",
+   "end": "2026-04-07T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "url": "https://farnostvb.cz/akce/prednaska-umeni-zit-marek-orko-vacha/",
+   "description": "Marek Orko Vácha – katolický kněz, teolog, molekulární biolog, pedagog, spisovatel a skaut.\n\nZveme vás na jeho přenášku s názvem Umění žít\n\nČlověk je zrozen, aby žil, a ne aby se připravoval na život. A život sám, je něco důležitějšího, něco opojnějšího? Jaká je tedy odpovědnost člověka za jeho životní příběh? Je třeba s pokorou přijmout vlastní velikost, dojít k poznání že symfonie, které nenapíšeme my, nevzniknou nikdy… obrazy, které nenamalujeme my, nebudou nikdy … a dobré projekty, které neuvedeme v život my, také nebudou nikdy.\n\nPo přednášce (cca 90 minut) bude následovat krátká diskuse,…",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "vzdelavani"
+   ],
+   "tags": [
+    "přednášky"
+   ]
+  },
+  {
+   "id": "farnost-1ab95da9a3",
+   "source": "farnost",
+   "title": "Setkání nad 1. pilířem PROPOJENI",
+   "start": "2026-04-15T18:00",
+   "end": "2026-04-15T20:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/setkani-nad-1-pilirem-propojeni/",
+   "description": "Slavení neděle – 18.00 na faře",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "farnost-719284469b",
+   "source": "farnost",
+   "title": "Setkání nad 2. pilířem PROPOJENI – téma 1",
+   "start": "2026-04-29T18:30",
+   "end": "2026-04-29T20:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "svatky-da69c4eaf2",
+   "source": "svatky",
+   "title": "Svátek práce",
+   "start": "2026-05-01",
+   "end": "2026-05-01",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-574d6fab8b",
+   "source": "svatky",
+   "title": "Den vítězství",
+   "start": "2026-05-08",
+   "end": "2026-05-08",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-2462922e04",
+   "source": "farnost",
+   "title": "Setkání nad 2. pilířem PROPOJENI – téma 2 a 3",
+   "start": "2026-05-20T18:00",
+   "end": "2026-05-20T20:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/setkani-nad-2-pilirem-propojeni-cast-2-a-3/",
+   "description": "bude ve středu 20. 5. v 18:00 na faře\n\n2. TÉMA – DUCHOVNÍ RŮST\n\n2. pilíř – Brožura pro členy skupinek – 2. téma\n\n2. pilíř – Představení tématu – 2. téma – video online\n\n3. TÉMA – SPRÁVA FARNOSTI\n\n2. pilíř – Brožura pro členy skupinek – 3. téma\n\n2. pilíř – Představení tématu – 3. téma – video online",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "farnost-3582ec9521",
+   "source": "farnost",
+   "title": "Slavnost Seslání Ducha Svatého",
+   "start": "2026-05-24",
+   "end": "2026-05-24",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/slavnost-seslani-ducha-svateho-4/",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": [
+    "slavnosti a svátky"
+   ]
+  },
+  {
+   "id": "farnost-667f498762",
+   "source": "farnost",
+   "title": "Zpovídání pro děti jdoucí k 1. sv. přijímání a jejich rodiče",
+   "start": "2026-06-03T17:00",
+   "end": "2026-06-03T18:30",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/zpovidani-pro-deti-jdouci-k-1-sv-prijimani-a-jejich-rodice/",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "farnost-cd8b8435ba",
+   "source": "farnost",
+   "title": "Nácvik 1. sv. přijímání pro děti (po mši)",
+   "start": "2026-06-05T18:10",
+   "end": "2026-06-05T19:00",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/nacvik-1-sv-prijimani-pro-deti-po-msi/",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "farnost-5254fa2b16",
+   "source": "farnost",
+   "title": "1. sv. přijímání",
+   "start": "2026-06-07T09:30",
+   "end": "2026-06-07T10:30",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/1-sv-prijimani-2/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "slavnosti a svátky"
+   ]
+  },
+  {
+   "id": "farnost-ff0135d8f8",
+   "source": "farnost",
+   "title": "Táborák",
+   "start": "2026-06-21T16:00",
+   "end": "2026-06-21T19:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/taborak/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-08040a0cd0",
+   "source": "pernicti",
+   "title": "Zastupitelsvo",
+   "start": "2026-06-26T17:00",
+   "end": "2026-06-26T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "obec"
+   ],
+   "tags": [
+    "zastupitelstvo"
+   ]
+  },
+  {
+   "id": "farnost-93d6a17ce4",
+   "source": "farnost",
+   "title": "Setkání farní rady – elektroinstalace v kostele",
+   "start": "2026-06-26T18:00",
+   "end": "2026-06-26T18:30",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/setkani-farni-rady-elektroinstalace-v-kostele/",
+   "description": "po večerní mši sv. v kostele",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-395a94c759",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-02T19:00",
+   "end": "2026-07-02T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "svatky-1d82aa8fa3",
+   "source": "svatky",
+   "title": "Den slovanských věrozvěstů Cyrila a Metoděje",
+   "start": "2026-07-05",
+   "end": "2026-07-05",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-16ddb2d756",
+   "source": "farnost",
+   "title": "Slavnost sv. Cyrila a Metoděje",
+   "start": "2026-07-05",
+   "end": "2026-07-05",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/slavnost-sv-cyrila-a-metodeje-2/",
+   "description": "U nás pouze ranní mše svatá v 7:40!",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": []
+  },
+  {
+   "id": "svatky-63930b6713",
+   "source": "svatky",
+   "title": "Den upálení mistra Jana Husa",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-66818e7858",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-06T19:00",
+   "end": "2026-07-06T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-9c3f0293bc",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-09T19:00",
+   "end": "2026-07-09T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-3e2677247d",
+   "source": "pernicti",
+   "title": "Portášské slavnosti",
+   "start": "2026-07-11",
+   "end": "2026-07-11",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-8438b745cf",
+   "source": "pernicti",
+   "title": "Portášské slavnosti",
+   "start": "2026-07-12",
+   "end": "2026-07-12",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-360228ad27",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-13T19:00",
+   "end": "2026-07-13T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f801bfbff9",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-16T19:00",
+   "end": "2026-07-16T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-6c16195061",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-07-17T20:15",
+   "end": "2026-07-17T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-9e14b141b3",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-20T19:00",
+   "end": "2026-07-20T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f12b5dd515",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-23T19:00",
+   "end": "2026-07-23T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-fb4072abe5",
+   "source": "pernicti",
+   "title": "Hudební podvečer - restaurace, amfik",
+   "start": "2026-07-24T17:00",
+   "end": "2026-07-25T00:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "venku"
+   ]
+  },
+  {
+   "id": "pernicti-90e02f2441",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-07-24T20:15",
+   "end": "2026-07-24T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-f65a9c81ba",
+   "source": "pernicti",
+   "title": "Kino",
+   "start": "2026-07-24T21:00",
+   "end": "2026-07-24T23:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "kino"
+   ]
+  },
+  {
+   "id": "pernicti-894e8447ff",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-27T19:00",
+   "end": "2026-07-27T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f793da5c84",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-07-30T19:00",
+   "end": "2026-07-30T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-58e78f8b9a",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-07-31T20:15",
+   "end": "2026-07-31T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-c74225f416",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-03T19:00",
+   "end": "2026-08-03T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "farnost-bf187751eb",
+   "source": "farnost",
+   "title": "1. předpouťová brigáda za kostelem",
+   "start": "2026-08-05T18:00",
+   "end": "2026-08-05T20:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/1-predpoutova-brigada-za-kostelem/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-c6449a6d02",
+   "source": "pernicti",
+   "title": "Šachy turnaj / klubovna",
+   "start": "2026-08-06",
+   "end": "2026-08-06",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj"
+   ]
+  },
+  {
+   "id": "pernicti-f321736ad5",
+   "source": "pernicti",
+   "title": "Zastupitelstvo",
+   "start": "2026-08-06T17:00",
+   "end": "2026-08-06T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "obec"
+   ],
+   "tags": [
+    "zastupitelstvo"
+   ]
+  },
+  {
+   "id": "pernicti-7ff673073a",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-06T19:00",
+   "end": "2026-08-06T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-1e495b1589",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-08-07T20:15",
+   "end": "2026-08-07T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-0c6cc5e642",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-10T19:00",
+   "end": "2026-08-10T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "farnost-bf011aaefd",
+   "source": "farnost",
+   "title": "2. předpouťová brigáda za kostelem",
+   "start": "2026-08-13T18:00",
+   "end": "2026-08-13T20:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/2-predpoutova-brigada-za-kostelem/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-d15ec4c815",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-13T19:00",
+   "end": "2026-08-13T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-3716f73865",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-08-14T20:15",
+   "end": "2026-08-14T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-0ed8630cd4",
+   "source": "pernicti",
+   "title": "Pouť",
+   "start": "2026-08-15",
+   "end": "2026-08-16",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "pouť"
+   ]
+  },
+  {
+   "id": "farnost-c626f28e41",
+   "source": "farnost",
+   "title": "Pouť 2026",
+   "start": "2026-08-16",
+   "end": "2026-08-16",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/pout-2026/",
+   "description": "Bohoslužby na pouť :\n\nranní v 7:40 v kostele\n\nhrubá v 9:30 na louce za kostelem",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": [
+    "pouť"
+   ]
+  },
+  {
+   "id": "pernicti-1f35014c95",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-17T19:00",
+   "end": "2026-08-17T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-a60802f4b9",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-20T19:00",
+   "end": "2026-08-20T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-10c8702bcb",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-24T19:00",
+   "end": "2026-08-24T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-d6de87dc01",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-27T19:00",
+   "end": "2026-08-27T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-33d5aad6c1",
+   "source": "pernicti",
+   "title": "Kino",
+   "start": "2026-08-28T20:00",
+   "end": "2026-08-29T00:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "kino"
+   ]
+  },
+  {
+   "id": "pernicti-88938e3fe1",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-08-28T20:15",
+   "end": "2026-08-28T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-ea2e51b710",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-08-31T19:00",
+   "end": "2026-08-31T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-10d0a9352c",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-09-01T16:00",
+   "end": "2026-09-01T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-f9a6aeb533",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-09-01T17:00",
+   "end": "2026-09-01T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-92f7d0cca0",
+   "source": "pernicti",
+   "title": "Zastupitelstvo",
+   "start": "2026-09-03",
+   "end": "2026-09-03",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "obec"
+   ],
+   "tags": [
+    "zastupitelstvo"
+   ]
+  },
+  {
+   "id": "pernicti-2a97b026c8",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-09-03T15:00",
+   "end": "2026-09-03T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-de2e4faa96",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-03T19:00",
+   "end": "2026-09-03T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f17a9b64d7",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-09-04T20:15",
+   "end": "2026-09-04T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-5d4243d78b",
+   "source": "pernicti",
+   "title": "Šachový mezinárodní turnaj",
+   "start": "2026-09-05",
+   "end": "2026-09-12",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj"
+   ]
+  },
+  {
+   "id": "pernicti-88355a05f2",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-14T19:00",
+   "end": "2026-09-14T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-9bee828685",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-09-15T16:00",
+   "end": "2026-09-15T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-744b5bac4b",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-09-15T17:00",
+   "end": "2026-09-15T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-efeb8eb81b",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-09-16T14:30",
+   "end": "2026-09-16T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-4a9c2abc26",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-09-17T15:00",
+   "end": "2026-09-17T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-e0be80201f",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-17T19:00",
+   "end": "2026-09-17T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-067079e0b8",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-09-18T17:00",
+   "end": "2026-09-18T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-67ffe97098",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-09-18T20:15",
+   "end": "2026-09-18T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-3599f1e79b",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-09-21T13:00",
+   "end": "2026-09-21T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-603d2baef9",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-21T19:00",
+   "end": "2026-09-21T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-97d8157df5",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-09-22T16:00",
+   "end": "2026-09-22T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-4bf2cd8438",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-09-22T17:00",
+   "end": "2026-09-22T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-a6b6f7015f",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-09-23T14:30",
+   "end": "2026-09-23T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-aa51e2d0ca",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-09-24T15:00",
+   "end": "2026-09-24T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-11c84fac8b",
+   "source": "pernicti",
+   "title": "Šachy - turnaj/klubovna",
+   "start": "2026-09-24T18:30",
+   "end": "2026-09-24T22:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj"
+   ]
+  },
+  {
+   "id": "pernicti-aa568b4bba",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-24T19:00",
+   "end": "2026-09-24T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-5e4d1aa498",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-09-25T20:15",
+   "end": "2026-09-25T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-65170c4058",
+   "source": "pernicti",
+   "title": "Chaos divadlo ČR+SR",
+   "start": "2026-09-26",
+   "end": "2026-09-27",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "svatky-ef5b7e5789",
+   "source": "svatky",
+   "title": "Den české státnosti",
+   "start": "2026-09-28",
+   "end": "2026-09-28",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-9000a8a5ed",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-09-28T13:00",
+   "end": "2026-09-28T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-93ea2799a0",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-09-28T19:00",
+   "end": "2026-09-28T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-9dbc7d4b66",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-09-29T16:00",
+   "end": "2026-09-29T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-3fea262cb7",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-09-29T17:00",
+   "end": "2026-09-29T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-594ccd4d31",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-09-30T14:30",
+   "end": "2026-09-30T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-67e3a3e17d",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-10-01T15:00",
+   "end": "2026-10-01T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-60cf2837ff",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-01T19:00",
+   "end": "2026-10-01T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-b29e0ecf1a",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-10-02T17:00",
+   "end": "2026-10-02T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-5c7a3ee99c",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-02T20:15",
+   "end": "2026-10-02T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-592380f0dc",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-03",
+   "end": "2026-10-03",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-b4530e5bef",
+   "source": "pernicti",
+   "title": "Rodinné odpoledne, předvolební akce KDU-ČSL / amfik+ sál",
+   "start": "2026-10-04",
+   "end": "2026-10-04",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "ostatni"
+   ],
+   "tags": [
+    "venku"
+   ]
+  },
+  {
+   "id": "pernicti-09f12cad97",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-10-05T13:00",
+   "end": "2026-10-05T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-d106ba4de3",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-05T19:00",
+   "end": "2026-10-05T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-b96ff9481a",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-10-06T16:00",
+   "end": "2026-10-06T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-81992f7753",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-10-06T17:00",
+   "end": "2026-10-06T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-1b4434eb99",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-10-07T14:30",
+   "end": "2026-10-07T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-4549e37275",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-10-08T15:00",
+   "end": "2026-10-08T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-191eef8b43",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-08T19:00",
+   "end": "2026-10-08T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-904448e586",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-10-09T17:00",
+   "end": "2026-10-09T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-2ed29b3580",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-09T20:15",
+   "end": "2026-10-09T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-55e220c4d1",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2026-10-11T08:30",
+   "end": "2026-10-11T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-6d683130cc",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-10-12T13:00",
+   "end": "2026-10-12T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-1145940ae8",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-12T19:00",
+   "end": "2026-10-12T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-69996afd45",
+   "source": "pernicti",
+   "title": "Přednáška MAS",
+   "start": "2026-10-13",
+   "end": "2026-10-13",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "vzdelavani"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-19e70b4462",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-10-14T14:30",
+   "end": "2026-10-14T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-59c0804bf7",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-10-15T15:00",
+   "end": "2026-10-15T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-2bd4b0ee0a",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-15T19:00",
+   "end": "2026-10-15T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-16837fc118",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-10-16T17:00",
+   "end": "2026-10-16T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-0fbfd3cc28",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-16T20:15",
+   "end": "2026-10-16T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-c516a28a71",
+   "source": "pernicti",
+   "title": "Hodová zábava a výročí Trojáku",
+   "start": "2026-10-17",
+   "end": "2026-10-17",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor",
+    "hody"
+   ]
+  },
+  {
+   "id": "farnost-c3f7f50f52",
+   "source": "farnost",
+   "title": "Posvícení",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/posviceni-3/",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-d9e1fe92f9",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2026-10-18T08:30",
+   "end": "2026-10-18T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-23cd97b253",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-10-19T13:00",
+   "end": "2026-10-19T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-a79182d267",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-19T19:00",
+   "end": "2026-10-19T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-a19dfe45fc",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-10-20T16:00",
+   "end": "2026-10-20T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-b3e2455d80",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-10-20T17:00",
+   "end": "2026-10-20T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-a1305ab35a",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-10-21T14:30",
+   "end": "2026-10-21T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-a8ab853998",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-10-22T15:00",
+   "end": "2026-10-22T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-0980d54eff",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-22T19:00",
+   "end": "2026-10-22T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f1443424fc",
+   "source": "pernicti",
+   "title": "Vítání občánků",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-f744306126",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-10-23T17:00",
+   "end": "2026-10-23T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-0968a31ebd",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-23T20:15",
+   "end": "2026-10-23T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-6bbf4ec189",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-10-26T13:00",
+   "end": "2026-10-26T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-cc1a0dab06",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-26T19:00",
+   "end": "2026-10-26T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-b9430e0dee",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-10-27T16:00",
+   "end": "2026-10-27T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-8b827e686e",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-10-27T17:00",
+   "end": "2026-10-27T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "svatky-3c0cb4da59",
+   "source": "svatky",
+   "title": "Den vzniku samostatného československého státu",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-00231e6248",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-10-28T14:30",
+   "end": "2026-10-28T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-bdc7b2f2a0",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-10-29T15:00",
+   "end": "2026-10-29T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-81ac85ea27",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-10-29T19:00",
+   "end": "2026-10-29T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-82a14e8c55",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-10-30T17:00",
+   "end": "2026-10-30T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-c75152c298",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-10-30T20:15",
+   "end": "2026-10-30T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-8422a23e54",
+   "source": "pernicti",
+   "title": "Divadelní podzim",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "farnost-af640c3c6e",
+   "source": "farnost",
+   "title": "Slavnost všech svatých",
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/slavnost-vsech-svatych-2/",
+   "description": "13.30 Modlitba za zemřelé na hřbitově",
+   "recurring": false,
+   "categories": [
+    "cirkev",
+    "kultura"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-5770ff3b3a",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2026-11-01T08:30",
+   "end": "2026-11-01T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "farnost-59b12fd013",
+   "source": "farnost",
+   "title": "Vzpomínka na všechny věrné zemřelé",
+   "start": "2026-11-02",
+   "end": "2026-11-02",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/vzpominka-na-vsechny-verne-zemrele-2/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-e5d4723652",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-11-02T13:00",
+   "end": "2026-11-02T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-e34a8ce0d3",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-02T19:00",
+   "end": "2026-11-02T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-d3beefebde",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-11-03T16:00",
+   "end": "2026-11-03T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-2e0d436f42",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-11-03T17:00",
+   "end": "2026-11-03T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-8db4f24820",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-11-04T14:30",
+   "end": "2026-11-04T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "farnost-b009831500",
+   "source": "farnost",
+   "title": "PROPOJENI",
+   "start": "2026-11-04T18:15",
+   "end": "2026-11-04T20:00",
+   "allDay": false,
+   "location": "Fara",
+   "url": "https://farnostvb.cz/akce/propojeni/",
+   "description": "3. PILÍŘ",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "pernicti-bd4b22ed7d",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-11-05T15:00",
+   "end": "2026-11-05T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-e5b148fd7f",
+   "source": "pernicti",
+   "title": "Zastupitelstvo",
+   "start": "2026-11-05T17:00",
+   "end": "2026-11-05T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "obec"
+   ],
+   "tags": [
+    "zastupitelstvo"
+   ]
+  },
+  {
+   "id": "pernicti-b6613769c3",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-05T19:00",
+   "end": "2026-11-05T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-73c5263fd6",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-11-06T17:00",
+   "end": "2026-11-06T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-a2a918eb9b",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-11-06T20:15",
+   "end": "2026-11-06T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-db6702fc01",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2026-11-08T08:30",
+   "end": "2026-11-08T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-99dbf69177",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-11-09T13:00",
+   "end": "2026-11-09T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-10cc658cc9",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-09T19:00",
+   "end": "2026-11-09T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-6bfae8a5d6",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-11-10T16:00",
+   "end": "2026-11-10T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-6f02f3e924",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-11-10T17:00",
+   "end": "2026-11-10T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-7748a55621",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-11-11T14:30",
+   "end": "2026-11-11T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-07a1b8c1c8",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-11-12T15:00",
+   "end": "2026-11-12T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-96824f15de",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-12T19:00",
+   "end": "2026-11-12T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-f3f2d5458b",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-11-13T17:00",
+   "end": "2026-11-13T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-69402d4646",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-11-13T20:15",
+   "end": "2026-11-13T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-d1e5f32eef",
+   "source": "pernicti",
+   "title": "Dechovky",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "dechovka"
+   ]
+  },
+  {
+   "id": "pernicti-37a9e46c63",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-11-16T13:00",
+   "end": "2026-11-16T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-6442ffe2bc",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-16T19:00",
+   "end": "2026-11-16T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "svatky-a41af25181",
+   "source": "svatky",
+   "title": "Den boje za svobodu a demokracii",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-3f82ae9318",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-11-17T16:00",
+   "end": "2026-11-17T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-1087e4bc88",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-11-17T17:00",
+   "end": "2026-11-17T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-b642e6d382",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-11-18T14:30",
+   "end": "2026-11-18T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "farnost-95458cfdc0",
+   "source": "farnost",
+   "title": "PROPOJENI",
+   "start": "2026-11-18T18:15",
+   "end": "2026-11-18T20:00",
+   "allDay": false,
+   "location": "Fara",
+   "url": "https://farnostvb.cz/akce/propojeni-2/",
+   "description": "4. PILÍŘ",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "pernicti-0e31c755ec",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-11-19T15:00",
+   "end": "2026-11-19T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-76d483ac6e",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-19T19:00",
+   "end": "2026-11-19T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-196a4d7bf2",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-11-20T17:00",
+   "end": "2026-11-20T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-9b8eef2548",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-11-20T20:15",
+   "end": "2026-11-20T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-6465a261d2",
+   "source": "pernicti",
+   "title": "Divadelní podzim",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "pernicti-921b250adf",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2026-11-22T08:30",
+   "end": "2026-11-22T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-2a04d61a7a",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-11-23T13:00",
+   "end": "2026-11-23T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-fdc5b70048",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-23T19:00",
+   "end": "2026-11-23T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-7b6b7610fc",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-11-24T16:00",
+   "end": "2026-11-24T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-1b1d787ec2",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-11-24T17:00",
+   "end": "2026-11-24T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-78407cb9f3",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-11-25T14:30",
+   "end": "2026-11-25T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-19480d758e",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-11-26T15:00",
+   "end": "2026-11-26T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-0ddd792bab",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-26T19:00",
+   "end": "2026-11-26T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-9812532aa7",
+   "source": "pernicti",
+   "title": "Kateřinský jarmark",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "jarmark"
+   ]
+  },
+  {
+   "id": "pernicti-ad5d60e039",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-11-27T17:00",
+   "end": "2026-11-27T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-cf38dd5faf",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-11-27T20:15",
+   "end": "2026-11-27T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "farnost-ec0c04d487",
+   "source": "farnost",
+   "title": "1. neděle adventní",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/1-nedele-adventni-5/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "id": "pernicti-394226f152",
+   "source": "pernicti",
+   "title": "Šachové souteže - sál",
+   "start": "2026-11-29T08:30",
+   "end": "2026-11-29T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-3c0aa0ba66",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-11-30T13:00",
+   "end": "2026-11-30T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-d60425498b",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-11-30T19:00",
+   "end": "2026-11-30T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-1b3107d25e",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-12-01T16:00",
+   "end": "2026-12-01T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-cba24da2a8",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-12-01T17:00",
+   "end": "2026-12-01T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-71617570d9",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-12-02T14:30",
+   "end": "2026-12-02T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "farnost-91b7022960",
+   "source": "farnost",
+   "title": "PROPOJENI",
+   "start": "2026-12-02T18:15",
+   "end": "2026-12-02T20:00",
+   "allDay": false,
+   "location": "Fara",
+   "url": "https://farnostvb.cz/akce/propojeni-3/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "propojeni",
+    "mládež"
+   ]
+  },
+  {
+   "id": "pernicti-ebb4a0ed3e",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-12-03T15:00",
+   "end": "2026-12-03T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-104216e28e",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-12-03T19:00",
+   "end": "2026-12-03T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-7d8957c494",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-12-04T17:00",
+   "end": "2026-12-04T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-20262bc53d",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-12-04T20:15",
+   "end": "2026-12-04T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-5fef7a64a1",
+   "source": "pernicti",
+   "title": "Šachové turnaje - klubovna",
+   "start": "2026-12-06T08:30",
+   "end": "2026-12-06T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj"
+   ]
+  },
+  {
+   "id": "pernicti-e057315067",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-12-07T13:00",
+   "end": "2026-12-07T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-784ed82d64",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-12-07T19:00",
+   "end": "2026-12-07T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-79a021094a",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-12-08T16:00",
+   "end": "2026-12-08T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-4d8b05d9f9",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-12-08T17:00",
+   "end": "2026-12-08T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-5de971bb80",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-12-09T14:30",
+   "end": "2026-12-09T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-5b3886d107",
+   "source": "pernicti",
+   "title": "Malý Troják",
+   "start": "2026-12-10T15:00",
+   "end": "2026-12-10T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-7fd39fc3a7",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-12-10T19:00",
+   "end": "2026-12-10T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-8a452cb6da",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-12-11T17:00",
+   "end": "2026-12-11T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-b3c7035c88",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-12-11T20:15",
+   "end": "2026-12-11T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-e297353071",
+   "source": "pernicti",
+   "title": "Divadelní podzim",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "pernicti-961b7193d2",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-12-14T13:00",
+   "end": "2026-12-14T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-11bf537fa9",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-12-14T19:00",
+   "end": "2026-12-14T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-99f5824711",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-12-15T16:00",
+   "end": "2026-12-15T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-54c6560a43",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-12-15T17:00",
+   "end": "2026-12-15T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-7f96ffea05",
+   "source": "pernicti",
+   "title": "H2B taneční kroužek",
+   "start": "2026-12-16T14:30",
+   "end": "2026-12-16T16:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": [
+    "tanec"
+   ]
+  },
+  {
+   "id": "pernicti-4d62f56cee",
+   "source": "pernicti",
+   "title": "Zuš koncert",
+   "start": "2026-12-17",
+   "end": "2026-12-17",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "koncert"
+   ]
+  },
+  {
+   "id": "pernicti-e79bb18c03",
+   "source": "pernicti",
+   "title": "Zuš koncert",
+   "start": "2026-12-18T08:00",
+   "end": "2026-12-18T12:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "koncert"
+   ]
+  },
+  {
+   "id": "pernicti-689bbc98b2",
+   "source": "pernicti",
+   "title": "Šachy / klubovna",
+   "start": "2026-12-18T17:00",
+   "end": "2026-12-18T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-36d6fe3f50",
+   "source": "pernicti",
+   "title": "Troják",
+   "start": "2026-12-18T20:15",
+   "end": "2026-12-18T22:30",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
+  },
+  {
+   "id": "pernicti-af60037a0b",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-12-21T13:00",
+   "end": "2026-12-21T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "pernicti-8d06a798a3",
+   "source": "pernicti",
+   "title": "Joga",
+   "start": "2026-12-21T19:00",
+   "end": "2026-12-21T20:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "jóga"
+   ]
+  },
+  {
+   "id": "pernicti-96c8980d31",
+   "source": "pernicti",
+   "title": "Cvičení seniorky",
+   "start": "2026-12-22T16:00",
+   "end": "2026-12-22T17:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport",
+    "seniori"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "pernicti-cd74d68da7",
+   "source": "pernicti",
+   "title": "Kondiční cvičení",
+   "start": "2026-12-22T17:00",
+   "end": "2026-12-22T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "cvičení"
+   ]
+  },
+  {
+   "id": "svatky-063b7b6014",
+   "source": "svatky",
+   "title": "Štědrý den",
+   "start": "2026-12-24",
+   "end": "2026-12-24",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "farnost-5cc6f169b1",
+   "source": "farnost",
+   "title": "Vánoce 2026",
+   "start": "2026-12-24",
+   "end": "2026-12-26",
+   "allDay": true,
+   "url": "https://farnostvb.cz/akce/vanoce-2026/",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-79439f392e",
+   "source": "svatky",
+   "title": "1. svátek vánoční",
+   "start": "2026-12-25",
+   "end": "2026-12-25",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-8796802dc6",
+   "source": "svatky",
+   "title": "2. svátek vánoční",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "pernicti-19f49736cb",
+   "source": "pernicti",
+   "title": "Akce Rally",
+   "start": "2026-12-28",
+   "end": "2026-12-28",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "motorsport"
+   ]
+  },
+  {
+   "id": "pernicti-0f8e1da096",
+   "source": "pernicti",
+   "title": "Dětská kapela Aimela",
+   "start": "2026-12-28T13:00",
+   "end": "2026-12-28T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": true,
+   "categories": [
+    "deti"
+   ],
+   "tags": []
+  },
+  {
+   "id": "svatky-0086ca8b10",
+   "source": "svatky",
+   "title": "Den obnovy samostatného českého státu, Nový rok",
+   "start": "2027-01-01",
+   "end": "2027-01-01",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-226adf8936",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2027-01-10T08:30",
+   "end": "2027-01-10T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-08228e88f0",
+   "source": "pernicti",
+   "title": "Šachové soutěže - sál",
+   "start": "2027-01-17T08:30",
+   "end": "2027-01-17T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-accaf2d51f",
+   "source": "pernicti",
+   "title": "Maškarní ples",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura",
+    "deti"
+   ],
+   "tags": [
+    "ples",
+    "maškarní"
+   ]
+  },
+  {
+   "id": "pernicti-71421161be",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2027-01-24T08:30",
+   "end": "2027-01-24T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-f15d3f1325",
+   "source": "pernicti",
+   "title": "Sportovní ples",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "ples"
+   ]
+  },
+  {
+   "id": "pernicti-584bc49f63",
+   "source": "pernicti",
+   "title": "Končinový ples",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "ples"
+   ]
+  },
+  {
+   "id": "pernicti-b161c0ec04",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2027-02-07T08:30",
+   "end": "2027-02-07T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-76c77e96d5",
+   "source": "pernicti",
+   "title": "Šachové soutěže - sál",
+   "start": "2027-02-14T08:30",
+   "end": "2027-02-14T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-ef51619326",
+   "source": "pernicti",
+   "title": "Chaos premiéra",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "pernicti-a33cfad899",
+   "source": "pernicti",
+   "title": "Šachové soutěžě",
+   "start": "2027-02-21T08:30",
+   "end": "2027-02-21T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-8ba4af5b20",
+   "source": "pernicti",
+   "title": "Šachové soutěže - sál",
+   "start": "2027-03-21T08:30",
+   "end": "2027-03-21T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "svatky-9d3d463470",
+   "source": "svatky",
+   "title": "Velký pátek",
+   "start": "2027-03-26",
+   "end": "2027-03-26",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-b3098bfeba",
+   "source": "svatky",
+   "title": "Velikonoční pondělí",
+   "start": "2027-03-29",
+   "end": "2027-03-29",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-94be0fe76e",
+   "source": "pernicti",
+   "title": "Šachové soutěže - klubovna",
+   "start": "2027-04-18T08:30",
+   "end": "2027-04-18T14:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy"
+   ]
+  },
+  {
+   "id": "pernicti-81f417d366",
+   "source": "pernicti",
+   "title": "Zlatá včela - soutěž",
+   "start": "2027-04-24",
+   "end": "2027-04-24",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": []
+  },
+  {
+   "id": "svatky-3c110541e3",
+   "source": "svatky",
+   "title": "Svátek práce",
+   "start": "2027-05-01",
+   "end": "2027-05-01",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-60bb1eb205",
+   "source": "svatky",
+   "title": "Den vítězství",
+   "start": "2027-05-08",
+   "end": "2027-05-08",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-2fd808c54a",
+   "source": "pernicti",
+   "title": "Kácení máje",
+   "start": "2027-05-30",
+   "end": "2027-05-30",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "tradice"
+   ]
+  },
+  {
+   "id": "pernicti-6826923634",
+   "source": "pernicti",
+   "title": "Chaos derniéra",
+   "start": "2027-06-12",
+   "end": "2027-06-13",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "divadlo"
+   ]
+  },
+  {
+   "id": "pernicti-03b0c4c5cf",
+   "source": "pernicti",
+   "title": "Obecní slavnosti",
+   "start": "2027-06-19",
+   "end": "2027-06-19",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura",
+    "obec"
+   ],
+   "tags": []
+  },
+  {
+   "id": "svatky-fe7619c8f5",
+   "source": "svatky",
+   "title": "Den slovanských věrozvěstů Cyrila a Metoděje",
+   "start": "2027-07-05",
+   "end": "2027-07-05",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-6a9f879ddc",
+   "source": "svatky",
+   "title": "Den upálení mistra Jana Husa",
+   "start": "2027-07-06",
+   "end": "2027-07-06",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-f5d60b3184",
+   "source": "pernicti",
+   "title": "Ariel rally ČR",
+   "start": "2027-07-30",
+   "end": "2027-07-30",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "motorsport"
+   ]
+  },
+  {
+   "id": "pernicti-06e0588998",
+   "source": "pernicti",
+   "title": "Ariel rally ČR",
+   "start": "2027-07-31",
+   "end": "2027-07-31",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "motorsport"
+   ]
+  },
+  {
+   "id": "svatky-331d4f3158",
+   "source": "svatky",
+   "title": "Den české státnosti",
+   "start": "2027-09-28",
+   "end": "2027-09-28",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "pernicti-baceca6ac5",
+   "source": "pernicti",
+   "title": "Hodová",
+   "start": "2027-10-16",
+   "end": "2027-10-16",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "hody"
+   ]
+  },
+  {
+   "id": "svatky-8cc5d06d54",
+   "source": "svatky",
+   "title": "Den vzniku samostatného československého státu",
+   "start": "2027-10-28",
+   "end": "2027-10-28",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-d03cfe70b3",
+   "source": "svatky",
+   "title": "Den boje za svobodu a demokracii",
+   "start": "2027-11-17",
+   "end": "2027-11-17",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-c855bf8df3",
+   "source": "svatky",
+   "title": "Štědrý den",
+   "start": "2027-12-24",
+   "end": "2027-12-24",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": []
+  },
+  {
+   "id": "svatky-9376b01598",
+   "source": "svatky",
+   "title": "1. svátek vánoční",
+   "start": "2027-12-25",
+   "end": "2027-12-25",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  },
+  {
+   "id": "svatky-305d40b8da",
+   "source": "svatky",
+   "title": "2. svátek vánoční",
+   "start": "2027-12-26",
+   "end": "2027-12-26",
+   "allDay": true,
+   "recurring": false,
+   "categories": [],
+   "tags": [
+    "Vánoce"
+   ]
+  }
+ ]
+}

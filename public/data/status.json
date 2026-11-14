@@ -1,0 +1,29 @@
+{
+ "generatedAt": "2026-11-14T07:15:49.770Z",
+ "sources": [
+  {
+   "id": "pernicti",
+   "ok": true,
+   "error": null,
+   "count": 207,
+   "excluded": 106,
+   "lastSuccess": "2026-11-14T07:15:49.123Z"
+  },
+  {
+   "id": "farnost",
+   "ok": true,
+   "error": null,
+   "count": 39,
+   "excluded": 0,
+   "lastSuccess": "2026-11-14T07:15:49.764Z"
+  },
+  {
+   "id": "svatky",
+   "ok": true,
+   "error": null,
+   "count": 39,
+   "excluded": 0,
+   "lastSuccess": "2026-11-14T07:15:49.766Z"
+  }
+ ]
+}

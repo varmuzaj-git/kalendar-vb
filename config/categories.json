@@ -1,0 +1,28 @@
+{
+  "$comment": "keywords = regulární výrazy porovnávané s názvem a popisem akce BEZ diakritiky a malými písmeny. Akce může mít víc kategorií; bez shody dostane 'ostatni'. tags = štítky (klíčové slovo -> štítek).",
+  "categories": [
+    { "id": "kultura", "label": "Kultura", "color": "#8a3a66",
+      "keywords": ["divadl", "divadel", "koncert", "\\bzus\\b", "\\bples", "jarmark", "\\bkino\\b", "festival", "slavnost", "\\bhod(y|ova|ove)", "posviceni", "vystav", "vernisaz", "folklor", "\\bkoled", "\\bdechovk", "trojak", "portas", "premier", "dernier", "hudebni", "\\bmaj[ei]\\b", "zabava", "\\bpout\\b", "zlata vcela"] },
+    { "id": "sport", "label": "Sport", "color": "#2f6b47",
+      "keywords": ["sach", "turnaj", "\\bzapas", "\\bliga\\b", "fotbal", "florbal", "volejbal", "\\bbeh\\b", "zavod", "cviceni", "\\bjog", "rally", "cyklo", "pochod", "\\bski"] },
+    { "id": "deti", "label": "Pro děti", "color": "#b06b12",
+      "keywords": ["pro deti", "detsk", "\\bdeti\\b", "maskarn", "karneval", "mikulas", "pohad", "vitani obcank", "krouz", "aimela", "maly trojak", "scholick", "mladez"] },
+    { "id": "seniori", "label": "Senioři", "color": "#6b4ea0",
+      "keywords": ["senior", "duchodc"] },
+    { "id": "vzdelavani", "label": "Vzdělávání", "color": "#0f6e8c",
+      "keywords": ["prednask", "beseda", "\\bkurz", "\\bdiln", "seminar"] },
+    { "id": "obec", "label": "Obec", "color": "#1f5c99",
+      "keywords": ["zastupitel", "obecni slavnost", "\\bvolb"] },
+    { "id": "cirkev", "label": "Církev", "color": "#8a6d1f",
+      "keywords": ["\\bmse\\b", "\\bmse ", "bohosluzb", "adventni", "vanoce", "velikonoc", "\\bfarn", "poutni", "adorac", "\\bschol"] },
+    { "id": "ostatni", "label": "Ostatní", "color": "#6b6b6b", "keywords": [] }
+  ],
+  "tags": {
+    "\\bples": "ples", "divadl|divadel": "divadlo", "\\bchaos\\b": "divadlo", "koncert": "koncert", "\\bzus\\b": "koncert",
+    "\\bdechovk": "dechovka", "jarmark": "jarmark", "\\bkino\\b": "kino", "sach": "šachy", "rally": "motorsport",
+    "trojak": "folklor", "portas": "folklor", "folklor": "folklor", "\\bhod(y|ova|ove)": "hody", "\\bpout\\b": "pouť",
+    "\\bmaj[ei]\\b": "tradice", "mikulas": "Mikuláš", "advent": "advent", "vanoc": "Vánoce", "maskarn": "maškarní",
+    "\\bjog": "jóga", "cviceni": "cvičení", "tanecn": "tanec", "\\bh2b\\b": "tanec", "zastupitel": "zastupitelstvo",
+    "turnaj": "turnaj", "propojeni": "mládež", "venku|amfik|amfiteatr": "venku"
+  }
+}
