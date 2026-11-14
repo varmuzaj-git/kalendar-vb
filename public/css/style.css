@@ -23,7 +23,7 @@ h2 { font-size: 1.15rem; margin: 0 0 .4em; color: var(--navy); }
 .muted { color: var(--muted); }
 body.embedded { background: transparent; }
 body.embedded .head { display: none; }
-body.embedded .wrap { padding-top: 0; }
+body.embedded .wrap { padding: 0 0 16px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 1px 3px rgba(20, 40, 80, .06); }
 .link { font: inherit; background: none; border: 0; color: var(--accent); cursor: pointer; text-decoration: underline; padding: 0; }
 
