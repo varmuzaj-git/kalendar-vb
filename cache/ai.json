@@ -1,4 +1,5 @@
 {
+ "dup-300f999eb7": false,
  "dup-34ad053cd9": false,
  "dup-6e046dbd9c": false,
  "dup-7a652a09c3": false,
@@ -206,6 +207,10 @@
    }
   ]
  },
+ "ex-1442b0f01a": {
+  "at": "2026-11-15T05:58:21.490Z",
+  "events": []
+ },
  "ex-21c238b336": {
   "at": "2026-11-14T07:46:02.967Z",
   "events": [
@@ -375,6 +380,10 @@
     "quote": "30. 9. Vycházka: Bumbálka, Masarykova chata – 3,3 km (auta, bus)"
    }
   ]
+ },
+ "ex-353f606dee": {
+  "at": "2026-11-15T05:58:25.104Z",
+  "events": []
  },
  "ex-3579d5599f": {
   "at": "2026-11-14T07:35:13.931Z",
@@ -939,6 +948,35 @@
     ],
     "image": null,
     "quote": "první repríza v neděli 27. září (ve 14.00 hodin)."
+   }
+  ]
+ },
+ "ex-8c56bd30a0": {
+  "at": "2026-11-15T05:58:22.176Z",
+  "events": []
+ },
+ "ex-8ccec4d13c": {
+  "at": "2026-11-15T05:58:20.912Z",
+  "events": [
+   {
+    "title": "Selský práh",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra valašského dramatu Selský práh v nové režii Iva Oravy. Hra se uvádí v Společenském domě U Pernických a bude součástí Rožnovských slavností 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "selskýpráh"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
    }
   ]
  },
@@ -2012,6 +2050,31 @@
     ],
     "image": null,
     "quote": "Prošli okresním kolem 26. 2. 2026 ve Vsetíně."
+   }
+  ]
+ },
+ "ex-feb77d196d": {
+  "at": "2026-11-15T05:58:24.517Z",
+  "events": [
+   {
+    "title": "CHAOSácký kabaret – divadelní scénky",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky v rámci CHAOSáckého kabaretu budou představeny ve Valašské Bystřici 7. a 8. března 2026.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "divadlo",
+     "40 let"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
    }
   ]
  }
