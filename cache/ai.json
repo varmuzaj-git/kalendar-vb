@@ -574,6 +574,10 @@
    }
   ]
  },
+ "ex-44461ef1fb": {
+  "at": "2026-11-16T06:27:37.191Z",
+  "events": []
+ },
  "ex-4bb14f618a": {
   "at": "2026-11-14T07:33:02.678Z",
   "events": []
@@ -1691,6 +1695,10 @@
    }
   ]
  },
+ "ex-d23467eb6e": {
+  "at": "2026-11-16T06:27:34.665Z",
+  "events": []
+ },
  "ex-d2f76de1f4": {
   "at": "2026-11-14T07:33:01.385Z",
   "events": [
@@ -1739,6 +1747,35 @@
  "ex-d478767609": {
   "at": "2026-11-14T07:35:45.777Z",
   "events": []
+ },
+ "ex-d62295afed": {
+  "at": "2026-11-16T06:27:34.006Z",
+  "events": []
+ },
+ "ex-e12ac5205b": {
+  "at": "2026-11-16T06:27:36.411Z",
+  "events": [
+   {
+    "title": "CHAOSácký kabaret",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky v rámci CHAOSáckého kabaretu v Valašské Bystřici.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "chaos",
+     "bystřice"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
+   }
+  ]
  },
  "ex-e306bc81fd": {
   "at": "2026-11-14T07:43:06.851Z",
@@ -1815,6 +1852,31 @@
     ],
     "image": null,
     "quote": "Od 5. do 12. září se zde uskutečnil již 17. ročník Mezinárodního šachového festivalu."
+   }
+  ]
+ },
+ "ex-ed94e0845c": {
+  "at": "2026-11-16T06:27:33.376Z",
+  "events": [
+   {
+    "title": "Selský práh",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní soubor CHAOS uvádí valašské drama Selský práh v nové režii Iva Oravy. Premiéra se koná v Společenském domě U Pernických.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "chaos"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
    }
   ]
  },
