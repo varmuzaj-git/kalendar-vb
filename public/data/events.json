@@ -3916,6 +3916,24 @@
    "tags": []
   },
   {
+   "organizers": [],
+   "id": "pernicti-a48d9cc3f1",
+   "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
+   "title": "Obec - změny územního plánu",
+   "start": "2027-01-05T15:30",
+   "end": "2027-01-05T18:00",
+   "allDay": false,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "ostatni"
+   ],
+   "tags": []
+  },
+  {
    "organizers": [
     "sokol"
    ],
