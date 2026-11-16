@@ -13,7 +13,10 @@
 
   if (new URLSearchParams(location.search).has('embed') || window.self !== window.top) document.body.classList.add('embedded');
 
-  const state = { q: '', cats: new Set(), srcs: new Set(), recurring: true, past: false, month: null, limit: 80 };
+  const state = { q: '', cats: new Set(), srcs: new Set(), recurring: true, past: false, month: null, limit: 80, months: 2 };
+  // nadcházející akce: seznam končí na konci `months`-tého měsíce (aktuální + další), pak odkaz „Zobrazit další akce – Měsíc rok“
+  const monthEnd = (n) => { const t = new Date(); return ymd(new Date(t.getFullYear(), t.getMonth() + n, 1)); }; // první den měsíce za hranicí
+  const monthsUntil = (k) => { const t = new Date(), [y, m] = k.split('-').map(Number); return (y - t.getFullYear()) * 12 + (m - 1 - t.getMonth()) + 1; };
   let DATA, SRC, CAT, ORG, holidays;
   const todayStr = ymd(new Date());
 
@@ -65,7 +68,9 @@
   function renderList(list) {
     const shownList = state.past ? list.filter((e) => e.end.slice(0, 10) < todayStr).reverse() : list.filter((e) => e.end.slice(0, 10) >= todayStr);
     if (!shownList.length) return `<div class="card empty muted">${state.past ? 'Žádné proběhlé akce neodpovídají výběru.' : 'Žádné nadcházející akce neodpovídají výběru.'}</div>`;
-    const shown = shownList.slice(0, state.limit);
+    const cutoff = monthEnd(state.months);
+    const shown = state.past ? shownList.slice(0, state.limit) : shownList.filter((e) => e.start.slice(0, 10) < cutoff);
+    const nextEv = state.past ? null : shownList.find((e) => e.start.slice(0, 10) >= cutoff);
     const byDay = new Map();
     for (const e of shown) {
       const k = !state.past && e.start.slice(0, 10) < todayStr ? todayStr : e.start.slice(0, 10); // probíhající vícedenní akce
@@ -77,7 +82,9 @@
       const hl = holidays.get(day);
       html += `<h3 class="dayh" id="d-${day}">${day === todayStr ? '<span class="today">DNES</span>' : ''}<span>${esc(dayLabel(day))}</span>${hl ? `<span class="holiday">${esc(hl)}</span>` : ''}</h3>${evs.map(eventHtml).join('')}`;
     }
-    if (shownList.length > shown.length) html += `<p class="more"><button type="button" class="btn ghost" id="more">Zobrazit další akce (${shownList.length - shown.length})</button></p>`;
+    if (state.past && shownList.length > shown.length) html += `<p class="more"><button type="button" class="btn ghost" id="more">Zobrazit další akce (${shownList.length - shown.length})</button></p>`;
+    // další měsíc = měsíc nejbližší dosud nezobrazené akce (prázdné měsíce se přeskočí)
+    if (nextEv) { const [y, m] = nextEv.start.slice(0, 7).split('-').map(Number); html += `<p class="more"><button type="button" class="btn ghost" id="more" data-months="${monthsUntil(nextEv.start.slice(0, 10))}">Zobrazit další akce – ${MONTHS[m - 1]} ${y}</button></p>`; }
     return html;
   }
 
@@ -114,6 +121,7 @@
     const past = k < todayStr;
     if (past !== state.past) { state.past = past; state.limit = 400; render(); }
     let el = document.getElementById('d-' + k);
+    if (!el && !past && monthsUntil(k) > state.months) { state.months = monthsUntil(k); render(); el = document.getElementById('d-' + k); }
     if (!el && state.limit < 2000) { state.limit = 2000; render(); el = document.getElementById('d-' + k); }
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -131,7 +139,7 @@
     const pastN = list.filter((e) => e.end.slice(0, 10) < todayStr).length;
     $('#pastBtn').textContent = state.past ? '← Zpět na nadcházející akce' : `Již proběhlé (${pastN})`;
     $('#reset').hidden = !(state.q || state.cats.size || state.srcs.size || !state.recurring);
-    $('#more')?.addEventListener('click', () => { state.limit += 80; render(); });
+    $('#more')?.addEventListener('click', (ev) => { if (state.past) state.limit += 80; else state.months = Math.max(state.months + 1, +ev.currentTarget.dataset.months || 0); render(); });
     $('#prev').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
     $('#next').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1); render(); });
     $('#todayBtn').addEventListener('click', () => { state.month = new Date(new Date().getFullYear(), new Date().getMonth(), 1); render(); });
