@@ -1,6 +1,7 @@
 #!/bin/bash
 # Zpravodaj obce se z GitHubu (servery v zahraničí) nedá stáhnout → sbírá se odsud a výsledek se pushne.
 set -euo pipefail
+export PATH="$HOME/.local/bin:$PATH"   # cron má minimální PATH (node je v ~/.local/bin)
 cd "$(dirname "$0")/.."
 export GIT_SSH_COMMAND="ssh -i $HOME/.config/kalendar-vb/deploy_key -o IdentitiesOnly=yes"
 git pull -q --rebase
