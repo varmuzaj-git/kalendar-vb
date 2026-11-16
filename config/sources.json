@@ -137,14 +137,14 @@
     {
       "id": "rucne",
       "name": "Ručně přidané",
-      "fullName": "Ručně přidané akce (srdceprobystrici.cz)",
+      "fullName": "Ručně přidané akce (kalendar-bystrice.cz)",
       "color": "#555",
       "link": null,
       "type": "wp-manual",
       "priority": 4,
       "categories": [],
       "organizer": false,
-      "url": "https://srdceprobystrici.cz/wp-json/kalendar-vb/v1/akce"
+      "url": "https://kalendar-bystrice.cz/wp-json/kalendar-vb/v1/akce"
     },
     {
       "id": "svatky",

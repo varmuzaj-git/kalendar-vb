@@ -58,7 +58,7 @@
   {
    "id": "rucne",
    "name": "Ručně přidané",
-   "fullName": "Ručně přidané akce (srdceprobystrici.cz)",
+   "fullName": "Ručně přidané akce (kalendar-bystrice.cz)",
    "color": "#555",
    "link": null,
    "display": "events",
@@ -3163,7 +3163,7 @@
    "organizers": [
     "obec"
    ],
-   "id": "rucne-38a04c8cd6",
+   "id": "rucne-6ad288a6c3",
    "source": "rucne",
    "sources": [
     "rucne"
@@ -3174,7 +3174,7 @@
    "allDay": false,
    "location": "Prostranství před Obecním úřadem Valašská Bystřice",
    "description": "Program: koledy, Divadlo Koloběžka, dopis Ježíškovi, Mikulášská nadílka, rozsvícení vánočního stromečku, ohňostroj.",
-   "image": "https://srdceprobystrici.cz/wp-content/uploads/2026/11/2026-11-27-rozsviceni-stromu-mikulas-724x1024.jpg",
+   "image": "https://kalendar-bystrice.cz/wp-content/uploads/2026/11/2026-11-27-rozsviceni-stromu-mikulas-724x1024.jpg",
    "recurring": false,
    "categories": [
     "kultura",

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T10:44:52.609Z",
+ "generatedAt": "2026-11-16T13:43:51.123Z",
  "sources": [
   {
    "id": "pernicti",
@@ -55,7 +55,7 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T09:27:42.480Z"
+   "lastSuccess": "2026-11-16T13:43:51.108Z"
   },
   {
    "id": "svatky",

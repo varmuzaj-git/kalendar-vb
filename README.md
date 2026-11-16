@@ -13,7 +13,7 @@ zdroje → scripts/collect.mjs (Node, GitHub Action) → public/data/events.json
 | Divadlo CHAOS | `ai-html` | bloky úvodní stránky, akce a plakát vybere AI |
 | Troják | `ai-wp` | články WordPressu, plakát = náhledový obrázek |
 | Zpravodaj obce | `zpravodaj` | PDF z archivu zpravodaje, akce vybere AI (každé vydání jen jednou) |
-| Ručně přidané | `wp-manual` | plugin `wp-plugin/kalendar-akci` na srdceprobystrici.cz (Kalendář akcí → Přidat akci), JSON `/wp-json/kalendar-vb/v1/akce` |
+| Ručně přidané | `wp-manual` | plugin `wp-plugin/kalendar-akci` na kalendar-bystrice.cz (Kalendář akcí → Přidat akci), JSON `/wp-json/kalendar-vb/v1/akce` |
 | Fotbal (TJ Sokol) | `static` | ruční rozpis `config/manual/fotbal.json` (fotbal.cz blokuje roboty) |
 | Státní svátky | `holidays` | výpočet |
 
