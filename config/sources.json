@@ -1,5 +1,5 @@
 {
-  "$comment": "Zdroje akcí. type = adaptér ve scripts/adapters. exclude/recurringTitles = regulární výrazy porovnávané s názvem BEZ diakritiky a malými písmeny. Vyloučené akce se nikam neukládají ani nevypisují (repozitář i logy jsou veřejné).",
+  "$comment": "Zdroje akcí. type = adaptér ve scripts/adapters. exclude/excludeRecurring/recurringTitles = regulární výrazy porovnávané s názvem BEZ diakritiky a malými písmeny. Vyloučené akce se nikam neukládají ani nevypisují (repozitář i logy jsou veřejné). excludeRecurring = vyloučit jen pravidelné výskyty (kroužky, zkoušky pro členy).",
   "historyFrom": "2026-07-01",
   "sources": [
     {
@@ -41,6 +41,13 @@
         "\\bporada\\b",
         "\\bskoleni\\b"
       ],
+      "excludeRecurring": [
+        "aimela",
+        "\\bh2b\\b",
+        "maly trojak",
+        "^trojak\\s*$",
+        "^sachy\\s*/\\s*klubovna"
+      ],
       "recurringTitles": [
         "\\bjog",
         "cviceni",
@@ -54,16 +61,7 @@
       "categories": [],
       "priority": 2,
       "organizer": false,
-      "categoryRules": [
-        {
-          "$comment": "pravidelné zkoušky souborů nejsou kulturní akce",
-          "title": "trojak",
-          "recurringOnly": true,
-          "remove": [
-            "kultura"
-          ]
-        }
-      ]
+      "categoryRules": []
     },
     {
       "id": "farnost",

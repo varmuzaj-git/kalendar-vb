@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-16T06:27:54.220Z",
+ "generatedAt": "2026-11-16T09:27:42.494Z",
  "sources": [
   {
    "id": "pernicti",
    "ok": true,
    "error": null,
-   "count": 213,
-   "excluded": 98,
-   "lastSuccess": "2026-11-16T06:27:28.517Z"
+   "count": 136,
+   "excluded": 175,
+   "lastSuccess": "2026-11-16T09:27:37.567Z"
   },
   {
    "id": "farnost",
@@ -15,7 +15,7 @@
    "error": null,
    "count": 15,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:30.202Z"
+   "lastSuccess": "2026-11-16T09:27:38.317Z"
   },
   {
    "id": "chaos",
@@ -23,7 +23,7 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:37.191Z"
+   "lastSuccess": "2026-11-16T09:27:40.434Z"
   },
   {
    "id": "trojak",
@@ -31,12 +31,12 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:39.302Z"
+   "lastSuccess": "2026-11-16T09:27:41.335Z"
   },
   {
    "id": "zpravodaj",
    "ok": false,
-   "error": "https://www.valasskabystrice.cz/zpravodaj-obce/ds-1005/archiv=0: fetch failed",
+   "error": "na stránce archivu nejsou žádná vydání",
    "count": 39,
    "lastSuccess": "2026-11-14T15:11:47.477Z",
    "failingSince": "2026-11-15T05:58:40.128Z"
@@ -47,7 +47,7 @@
    "error": null,
    "count": 7,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:52.346Z"
+   "lastSuccess": "2026-11-16T09:27:41.493Z"
   },
   {
    "id": "rucne",
@@ -55,7 +55,7 @@
    "error": null,
    "count": 1,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:54.204Z"
+   "lastSuccess": "2026-11-16T09:27:42.480Z"
   },
   {
    "id": "svatky",
@@ -63,7 +63,7 @@
    "error": null,
    "count": 39,
    "excluded": 0,
-   "lastSuccess": "2026-11-16T06:27:54.207Z"
+   "lastSuccess": "2026-11-16T09:27:42.483Z"
   }
  ]
 }

@@ -98,9 +98,11 @@ function recurringOf(ev, source) {
   return ev.recurring || (!ev.allDay && rx(source.recurringTitles).some((p) => p.test(normalize(ev.title))));
 }
 
-const isExcluded = (title, source) => {
-  const t = normalize(title).trim();
-  return !t || rx(source.exclude).some((p) => p.test(t));
+// exclude = vždy; excludeRecurring = jen pravidelné výskyty (kroužky, zkoušky), jednorázové akce se stejným názvem zůstanou
+const isExcluded = (ev, source) => {
+  const t = normalize(ev.title).trim();
+  if (!t || rx(source.exclude).some((p) => p.test(t))) return true;
+  return rx(source.excludeRecurring).some((p) => p.test(t)) && recurringOf(ev, source);
 };
 
 const today = todayWall();
@@ -121,20 +123,20 @@ for (const source of sourcesCfg.sources) {
     let excluded = 0;
     const fresh = [];
     for (const ev of raw) {
-      if (isExcluded(ev.title, source)) { excluded++; continue; }
+      if (isExcluded(ev, source)) { excluded++; continue; }
       fresh.push(enrich(ev, source));
     }
     // archiv: proběhlé akce, které zdroj už nevrací, si necháme (rok zpět)
     const ids = new Set(fresh.map((e) => e.id));
     const todayStr = fmt(today, true);
-    const archived = prevOfSource.filter((e) => !ids.has(e.id) && e.end.slice(0, 10) < todayStr && !isExcluded(e.title, source));
+    const archived = prevOfSource.filter((e) => !ids.has(e.id) && e.end.slice(0, 10) < todayStr && !isExcluded(e, source));
     all.push(...fresh, ...archived);
     status.push({ id: source.id, ok: true, error: null, count: fresh.length, excluded, lastSuccess: new Date().toISOString() });
     // názvy vyloučených akcí záměrně nevypisujeme – logy veřejného repozitáře vidí kdokoli
     console.log(`✓ ${source.id}: ${fresh.length} akcí, vyloučeno ${excluded}, archiv ${archived.length}`);
   } catch (e) {
-    // při chybě zdroje necháme jeho poslední známé akce
-    all.push(...prevOfSource);
+    // při chybě zdroje necháme jeho poslední známé akce (bez nově vyloučených)
+    all.push(...prevOfSource.filter((e) => !isExcluded(e, source)));
     status.push({ id: source.id, ok: false, error: String(e.message || e), count: prevOfSource.length, lastSuccess: prevSt.lastSuccess || null, failingSince: prevSt.ok === false ? prevSt.failingSince : new Date().toISOString() });
     console.error(`✗ ${source.id}: ${e.message || e}`);
   }
