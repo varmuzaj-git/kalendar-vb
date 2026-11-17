@@ -4115,20 +4115,20 @@
    "organizers": [
     "chaos"
    ],
-   "id": "chaos-0764e1e839",
+   "id": "chaos-acb15bb0a8",
    "source": "chaos",
    "sources": [
     "chaos",
     "pernicti",
     "zpravodaj"
    ],
-   "title": "Selský práh",
+   "title": "Selský práh – premiéra",
    "start": "2027-02-20",
    "end": "2027-02-20",
    "allDay": true,
    "location": "Společenský dům U Pernických",
    "url": "https://divadlochaos.cz/",
-   "description": "Divadelní soubor CHAOS uvádí valašské drama Selský práh v nové režii Iva Oravy. Premiéra se koná v Společenském domě U Pernických.",
+   "description": "Divadelní soubor CHAOS uvádí valašské drama Selský práh v nové režii Iva Oravy. Premiéra je součástí Rožnovských slavností 2027.",
    "image": "https://divadlochaos.cz/wp-content/uploads/2026/10/chaos-3-scaled.jpg",
    "recurring": false,
    "categories": [

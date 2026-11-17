@@ -110,6 +110,31 @@
    }
   ]
  },
+ "ex-065d6f72c6": {
+  "at": "2026-11-17T06:08:48.303Z",
+  "events": [
+   {
+    "title": "CHAOSácký kabaret",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky souboru CHAOS budou představeny v sobotu 7. a neděli 8. března 2026 v rámci CHAOSáckého kabaretu ve Valašské Bystřici.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "40let",
+     "výstava"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026."
+   }
+  ]
+ },
  "ex-06a59b3c67": {
   "at": "2026-11-14T07:34:03.242Z",
   "events": []
@@ -694,6 +719,14 @@
    }
   ]
  },
+ "ex-62efec5c35": {
+  "at": "2026-11-17T06:08:49.201Z",
+  "events": []
+ },
+ "ex-6988ab7020": {
+  "at": "2026-11-17T06:08:45.154Z",
+  "events": []
+ },
  "ex-7314d245c2": {
   "at": "2026-11-14T07:45:05.751Z",
   "events": [
@@ -952,6 +985,31 @@
     ],
     "image": null,
     "quote": "první repríza v neděli 27. září (ve 14.00 hodin)."
+   }
+  ]
+ },
+ "ex-8c240b0afe": {
+  "at": "2026-11-17T06:08:44.721Z",
+  "events": [
+   {
+    "title": "Selský práh – premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní soubor CHAOS uvádí valašské drama Selský práh v nové režii Iva Oravy. Premiéra je součástí Rožnovských slavností 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "chaos"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027"
    }
   ]
  },
@@ -1750,6 +1808,10 @@
  },
  "ex-d62295afed": {
   "at": "2026-11-16T06:27:34.006Z",
+  "events": []
+ },
+ "ex-d73dee2397": {
+  "at": "2026-11-17T06:08:46.102Z",
   "events": []
  },
  "ex-e12ac5205b": {
