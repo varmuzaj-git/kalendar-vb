@@ -53,7 +53,9 @@ input[type=search] { flex: 0 1 360px; min-width: 0; width: 100%; font: inherit; 
 .mhead { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
 .mhead h2 { margin: 0; font-size: 1.3rem; }
 .mnav { display: flex; gap: 6px; }
-.mnav button { font: inherit; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 5px 12px; cursor: pointer; min-width: 36px; }
+.mnav button { font: inherit; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 0 14px; cursor: pointer; min-width: 36px; height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+.mnav #prev, .mnav #next { min-width: 52px; font-size: 1.9rem; line-height: 1; font-weight: 600; color: var(--navy); padding: 0 0 4px; }
+.mnav button:hover { background: #f3f6fa; }
 .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); overflow: hidden; }
 .grid .wd { font-size: .78rem; font-weight: 700; color: var(--accent); padding: 7px 8px; background: #eef2f8; border-bottom: 1px solid var(--line); }
 .grid .wd.we { color: var(--holiday-text); }
