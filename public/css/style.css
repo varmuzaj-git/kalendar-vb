@@ -47,6 +47,7 @@ input[type=search] { flex: 0 1 360px; min-width: 0; width: 100%; font: inherit; 
 .addbox span { max-width: 330px; }
 .addbtn { flex: none; background: var(--accent); color: #fff; border-radius: 6px; padding: 6px 14px; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .addbtn:hover { background: var(--navy); }
+.addbox-m { display: none; }
 
 /* měsíc */
 .mhead { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
@@ -115,5 +116,6 @@ input[type=search] { flex: 0 1 360px; min-width: 0; width: 100%; font: inherit; 
   .pill.more { display: none; }
   .ev { grid-template-columns: 1fr; gap: 2px; padding: 10px 12px; }
   .ev .time { font-size: .9rem; }
-  .addbox { flex-basis: 100%; }
+  .fbottom .addbox { display: none; }
+  .addbox-m { display: flex; margin: 12px 0 0; }
 }
