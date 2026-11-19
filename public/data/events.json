@@ -3704,6 +3704,29 @@
    ]
   },
   {
+   "organizers": [
+    "sokol"
+   ],
+   "id": "pernicti-27d21767c7",
+   "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
+   "title": "Šachový turnaj - klubovna , sál",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "sport"
+   ],
+   "tags": [
+    "šachy",
+    "turnaj"
+   ]
+  },
+  {
    "organizers": [],
    "id": "pernicti-8d06a798a3",
    "source": "pernicti",
@@ -4387,6 +4410,28 @@
    "recurring": false,
    "categories": [],
    "tags": []
+  },
+  {
+   "organizers": [
+    "portasi"
+   ],
+   "id": "pernicti-c95fb4bf31",
+   "source": "pernicti",
+   "sources": [
+    "pernicti"
+   ],
+   "title": "Portášské slavnosti",
+   "start": "2027-07-09",
+   "end": "2027-07-11",
+   "allDay": true,
+   "location": "Společenský dům U Pernických",
+   "recurring": false,
+   "categories": [
+    "kultura"
+   ],
+   "tags": [
+    "folklor"
+   ]
   },
   {
    "organizers": [],
