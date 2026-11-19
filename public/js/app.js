@@ -21,6 +21,8 @@
   const todayStr = ymd(new Date());
 
   const dateOf = (s) => { const [y, m, d] = s.slice(0, 10).split('-').map(Number); return new Date(y, m - 1, d); };
+  // poslední den akce; konec přesně o půlnoci patří k předchozímu dni (např. kino 20:00–00:00)
+  const endDay = (e) => { if (!e.allDay && e.end.slice(11, 16) === '00:00' && e.end.slice(0, 10) > e.start.slice(0, 10)) { const d = dateOf(e.end); d.setDate(d.getDate() - 1); return ymd(d); } return e.end.slice(0, 10); };
   const timeOf = (s) => (s.length > 10 ? s.slice(11, 16) : '');
   const dayLabel = (s) => { const d = dateOf(s); return `${WD[d.getDay()]} ${d.getDate()}. ${MONTHS_GEN[d.getMonth()]}${d.getFullYear() !== new Date().getFullYear() ? ' ' + d.getFullYear() : ''}`; };
   const srcsOf = (e) => e.sources || [e.source];
@@ -41,8 +43,10 @@
   // ---- karta akce ----
   function timeText(e) {
     if (e.allDay) return e.end > e.start ? `do ${dateOf(e.end).getDate()}. ${dateOf(e.end).getMonth() + 1}.` : 'celý den';
-    const sameDay = e.end.slice(0, 10) === e.start.slice(0, 10);
-    return `${timeOf(e.start)}${sameDay && timeOf(e.end) ? '–' + timeOf(e.end) : ''}`;
+    const sameDay = endDay(e) === e.start.slice(0, 10);
+    // vícedenní akce s časem: „18:00 – do 22. 11. 12:00“
+    if (!sameDay) { const d = dateOf(e.end); return `${timeOf(e.start)} – do ${d.getDate()}. ${d.getMonth() + 1}.${timeOf(e.end) ? ' ' + timeOf(e.end) : ''}`; }
+    return `${timeOf(e.start)}${timeOf(e.end) ? '–' + timeOf(e.end) : ''}`;
   }
   function eventHtml(e) {
     const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
@@ -95,7 +99,7 @@
     const start = new Date(first); start.setDate(1 - ((first.getDay() + 6) % 7));
     const byDay = new Map();
     for (const e of list) {
-      for (let d = dateOf(e.start), end = dateOf(e.end), i = 0; d <= end && i < 62; d.setDate(d.getDate() + 1), i++) {
+      for (let d = dateOf(e.start), end = dateOf(endDay(e)), i = 0; d <= end && i < 62; d.setDate(d.getDate() + 1), i++) {
         const k = ymd(d); if (!byDay.has(k)) byDay.set(k, []); byDay.get(k).push(e);
       }
     }
@@ -105,8 +109,16 @@
       if (i === 35 && d.getMonth() !== m.getMonth()) break;
       const k = ymd(d), hl = holidays.get(k);
       // nejdřív jednorázové akce, pravidelné až za nimi
-      const evs = (byDay.get(k) || []).slice().sort((a, b) => a.recurring - b.recurring || a.start.localeCompare(b.start));
-      const pills = evs.slice(0, MAX_PILLS).map((e) => `<span class="pill${e.recurring ? ' rec' : ''}" style="--c:${eventColor(e)}" title="${esc(e.title)}">${e.allDay ? '' : timeOf(e.start) + ' '}${esc(e.title)}</span>`).join('');
+      // vícedenní akce první (ať pruhy navazují ve stejném řádku), pak jednorázové, pravidelné nakonec
+      const isMulti = (e) => endDay(e) > e.start.slice(0, 10);
+      const evs = (byDay.get(k) || []).slice().sort((a, b) => a.recurring - b.recurring || isMulti(b) - isMulti(a) || a.start.localeCompare(b.start));
+      const dow = i % 7; // 0 = pondělí
+      const pills = evs.slice(0, MAX_PILLS).map((e) => {
+        const multi = isMulti(e), first = k === e.start.slice(0, 10), last = k === endDay(e);
+        // vícedenní akce jako souvislý pruh (jako Google Kalendář); název na začátku a na začátku týdne
+        const cls = [e.recurring && 'rec', multi && 'multi', multi && !first && dow > 0 && 'ml', multi && !last && dow < 6 && 'mr', multi && !first && dow > 0 && 'cont'].filter(Boolean).map((c) => ' ' + c).join('');
+        return `<span class="pill${cls}" style="--c:${eventColor(e)}" title="${esc(e.title)}">${e.allDay || !first ? '' : timeOf(e.start) + ' '}${esc(e.title)}</span>`;
+      }).join('');
       const more = evs.length > MAX_PILLS ? `<span class="pill more">+ ${evs.length - MAX_PILLS} další</span>` : '';
       const cls = ['cell', d.getMonth() !== m.getMonth() && 'other', k === todayStr && 'is-today', hl && 'hol', (d.getDay() === 0 || d.getDay() === 6) && 'we'].filter(Boolean).join(' ');
       cells += `<div class="${cls}" data-day="${k}" role="button" tabindex="0" aria-label="${esc(dayLabel(k))}: ${evs.length} akcí">

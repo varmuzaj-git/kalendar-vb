@@ -73,6 +73,10 @@ input[type=search] { flex: 0 1 360px; min-width: 0; width: 100%; font: inherit; 
 .pill.rec { background: none; color: var(--muted); padding-left: 2px; }
 .pill.rec::before { content: "↻ "; }
 .pill.more { background: none; color: var(--muted); }
+/* vícedenní akce: pruh přes sousední dny (padding buňky 5 px + okraj 1 px) */
+.pill.ml { margin-left: -5px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.pill.mr { margin-right: -6px; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.pill.cont { color: transparent; }
 
 /* seznam */
 .toggles { text-align: center; margin: 12px 0 4px; }
@@ -116,6 +120,8 @@ input[type=search] { flex: 0 1 360px; min-width: 0; width: 100%; font: inherit; 
   .pill.rec { height: 3px; background: color-mix(in srgb, var(--c) 45%, #fff); }
   .pill.rec::before { content: none; }
   .pill.more { display: none; }
+  .pill.ml { margin-left: -3px; }
+  .pill.mr { margin-right: -4px; }
   .ev { grid-template-columns: 1fr; gap: 2px; padding: 10px 12px; }
   .ev .time { font-size: .9rem; }
   .fbottom .addbox { display: none; }
