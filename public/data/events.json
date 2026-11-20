@@ -4150,7 +4150,7 @@
    "end": "2027-02-20",
    "allDay": true,
    "url": "https://divadlochaos.cz/",
-   "description": "Divadelní soubor CHAOS uvádí válečnou drama Selský práh v nové režii Iva Oravy. Premiéra je součástí Rožnovských slavností 2027.",
+   "description": "Divadelní soubor CHAOS představí novou premiéru po čtyřech letech, s mladšími herci a průměrným věkem přes dvacet let.",
    "image": "https://divadlochaos.cz/wp-content/uploads/2026/11/plakat_nove_posily_CHAOS-scaled.jpg",
    "recurring": false,
    "categories": [
@@ -4159,8 +4159,8 @@
    "tags": [
     "premiéra",
     "divadlo",
+    "nové",
     "chaos",
-    "selský práh",
     "drama"
    ],
    "location": "Společenský dům U Pernických",

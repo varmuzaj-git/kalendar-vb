@@ -298,6 +298,31 @@
    }
   ]
  },
+ "ex-23bc794e57": {
+  "at": "2026-11-20T06:14:54.843Z",
+  "events": [
+   {
+    "title": "Premiéra nového představení",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní soubor CHAOS představí novou premiéru po čtyřech letech, s mladšími herci a průměrným věkem přes dvacet let.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "premiéra",
+     "divadlo",
+     "nové"
+    ],
+    "image": 1,
+    "quote": "PREMIÉRU 20. ÚNORA 2027"
+   }
+  ]
+ },
  "ex-25178849c5": {
   "at": "2026-11-14T07:34:13.153Z",
   "events": [
@@ -632,6 +657,31 @@
    }
   ]
  },
+ "ex-3ae516fe15": {
+  "at": "2026-11-20T06:14:59.250Z",
+  "events": [
+   {
+    "title": "CHAOSácký kabaret – divadelní scénky",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických, Valašská Bystřice",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky v rámci CHAOSáckého kabaretu budou představeny v sobotu 7. a neděli 8. března 2026 ve Valašské Bystřici.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "divadlo",
+     "chaos"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
+   }
+  ]
+ },
  "ex-3b9aa91358": {
   "at": "2026-11-14T07:46:03.451Z",
   "events": []
@@ -836,6 +886,10 @@
  },
  "ex-6988ab7020": {
   "at": "2026-11-17T06:08:45.154Z",
+  "events": []
+ },
+ "ex-7290ff0156": {
+  "at": "2026-11-20T06:14:56.637Z",
   "events": []
  },
  "ex-7314d245c2": {
@@ -1147,6 +1201,31 @@
      "divadlo",
      "premiéra",
      "selskýpráh"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
+   }
+  ]
+ },
+ "ex-99e208ddc0": {
+  "at": "2026-11-20T06:14:56.087Z",
+  "events": [
+   {
+    "title": "Selský práh – premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní soubor CHAOS uvádí valašské drama Selský práh v nové režii Iva Oravy.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "chaos"
     ],
     "image": 1,
     "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
@@ -1982,6 +2061,10 @@
   "at": "2026-11-17T06:08:46.102Z",
   "events": []
  },
+ "ex-dd625b0f9a": {
+  "at": "2026-11-20T06:14:57.351Z",
+  "events": []
+ },
  "ex-e12ac5205b": {
   "at": "2026-11-16T06:27:36.411Z",
   "events": [
@@ -2061,6 +2144,10 @@
     "quote": "PREMIÉRU 20. ÚNORA 2027 SI PROSTĚ NEMŮŽETE NECHAT UJÍT"
    }
   ]
+ },
+ "ex-ec80b5084a": {
+  "at": "2026-11-20T06:14:59.926Z",
+  "events": []
  },
  "ex-ecd71389c1": {
   "at": "2026-11-14T07:36:50.920Z",
