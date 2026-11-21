@@ -248,6 +248,31 @@
   "at": "2026-11-18T06:14:53.526Z",
   "events": []
  },
+ "ex-1cee1f5f1d": {
+  "at": "2026-11-21T06:02:06.835Z",
+  "events": [
+   {
+    "title": "Divadelní scénky – CHAOSácký kabaret",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických, Valašská Bystřice",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky budou součástí CHAOSáckého kabaretu a budou k vidění v sobotu 7. a neděli 8. března 2026.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "chaos",
+     "divadlo"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
+   }
+  ]
+ },
  "ex-1f31ffb1b1": {
   "at": "2026-11-18T06:14:48.160Z",
   "events": [
@@ -467,6 +492,10 @@
     "quote": "30. 9. Vycházka: Bumbálka, Masarykova chata – 3,3 km (auta, bus)"
    }
   ]
+ },
+ "ex-2b19645e6e": {
+  "at": "2026-11-21T06:02:03.715Z",
+  "events": []
  },
  "ex-353f606dee": {
   "at": "2026-11-15T05:58:25.104Z",
@@ -1109,6 +1138,31 @@
    }
   ]
  },
+ "ex-7eca7755cf": {
+  "at": "2026-11-21T06:02:03.220Z",
+  "events": [
+   {
+    "title": "Selský práh",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra valašského dramatu Selský práh v nové režii Iva Oravy. Hra se koná v Společenském domě U Pernických a bude součástí Rožnovských slavností 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "selskýpráh"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027, Společenský dům U Pernických."
+   }
+  ]
+ },
  "ex-7f783956cb": {
   "at": "2026-11-14T07:40:47.258Z",
   "events": [
@@ -1456,6 +1510,31 @@
    }
   ]
  },
+ "ex-b4add48f59": {
+  "at": "2026-11-21T06:02:02.009Z",
+  "events": [
+   {
+    "title": "Premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": null,
+    "summary": "Premiéra nového představení Divadelního souboru CHAOS se koná 20. února 2027.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "premiéra",
+     "chaos",
+     "divadlo"
+    ],
+    "image": 1,
+    "quote": "PREMIÉRU 20. ÚNORA 2027"
+   }
+  ]
+ },
  "ex-bb3cdfa6eb": {
   "at": "2026-11-14T07:38:21.122Z",
   "events": [
@@ -1649,6 +1728,10 @@
     "quote": "29.10. Posezení v klubovně"
    }
   ]
+ },
+ "ex-be8af2793f": {
+  "at": "2026-11-21T06:02:07.445Z",
+  "events": []
  },
  "ex-c069dd5d62": {
   "at": "2026-11-14T07:42:43.951Z",
@@ -2460,6 +2543,10 @@
     "quote": "Prošli okresním kolem 26. 2. 2026 ve Vsetíně."
    }
   ]
+ },
+ "ex-f9839e8570": {
+  "at": "2026-11-21T06:02:04.517Z",
+  "events": []
  },
  "ex-feb77d196d": {
   "at": "2026-11-15T05:58:24.517Z",
