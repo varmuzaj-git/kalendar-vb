@@ -2,8 +2,10 @@ name: Aktualizace akcí a nasazení
 
 on:
   schedule:
-    # UTC: 5:15, 11:15, 17:15 (v zimě 6:15, 12:15, 18:15 pražského času)
-    - cron: '15 5,11,17 * * *'
+    # plný sběr 1× denně: 5:15 UTC (v zimě 6:15, v létě 7:15 pražského času)
+    - cron: '15 5 * * *'
+    # ručně zadané akce z WordPressu (zdroj „rucne“) každou hodinu, bez AI
+    - cron: '45 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -38,30 +40,42 @@ jobs:
       - name: Stažení akcí ze zdrojů
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: node scripts/collect.mjs
+        run: |
+          if [ "${{ github.event.schedule }}" = "45 * * * *" ]; then
+            node scripts/collect.mjs --only=rucne
+          else
+            node scripts/collect.mjs
+          fi
 
       - name: Uložení dat do repozitáře
+        id: save
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
           git add public/data cache
           if ! git diff --cached --quiet -- public/data/events.json cache; then
             git commit -m "Aktualizace akcí $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 45 * 86400 )) ]; then
             # GitHub vypíná plánované workflow po 60 dnech bez aktivity
             git commit --allow-empty -m "Udržovací commit"
           else
             git reset -q
+            git checkout -q -- public/data cache 2>/dev/null || true
             echo "Akce se nezměnily."
           fi
           git pull --rebase --autostash -X theirs && git push || true
 
       - name: Verze souborů (cache)
+        if: github.event.schedule != '45 * * * *' || steps.save.outputs.changed == 'true'
         run: sed -i "s/?v=dev/?v=${GITHUB_SHA::7}/g" public/*.html
 
       - uses: actions/configure-pages@v5
+        if: github.event.schedule != '45 * * * *' || steps.save.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event.schedule != '45 * * * *' || steps.save.outputs.changed == 'true'
         with:
           path: public
       - id: deployment
+        if: github.event.schedule != '45 * * * *' || steps.save.outputs.changed == 'true'
         uses: actions/deploy-pages@v4
