@@ -4138,19 +4138,19 @@
    "organizers": [
     "chaos"
    ],
-   "id": "chaos-8145e59233",
+   "id": "chaos-45dc96f147",
    "source": "chaos",
    "sources": [
     "chaos",
     "pernicti",
     "zpravodaj"
    ],
-   "title": "Premiéra nového představení",
+   "title": "Premiéra divadelního souboru CHAOS",
    "start": "2027-02-20",
    "end": "2027-02-20",
    "allDay": true,
    "url": "https://divadlochaos.cz/",
-   "description": "Divadelní soubor CHAOS uvede premiéru nového představení po čtyřech letech omlazení souboru.",
+   "description": "Divadelní soubor CHAOS uvádí nové zpracování valašského dramatu Selský práh. Premiéra proběhne v sobotu 20. února 2027 v Společenském domě U Pernických.",
    "image": "https://divadlochaos.cz/wp-content/uploads/2026/11/plakat_nove_posily_CHAOS-scaled.jpg",
    "recurring": false,
    "categories": [
@@ -4160,12 +4160,12 @@
     "premiéra",
     "divadlo",
     "chaos",
-    "selský práh",
+    "selskýpráh",
     "drama"
    ],
    "location": "Společenský dům U Pernických",
    "altTitles": [
-    "Selský práh",
+    "Premiéra Selský práh",
     "Chaos premiéra",
     "Premiéra Selského prahu"
    ]
