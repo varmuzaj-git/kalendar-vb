@@ -3685,6 +3685,31 @@
    "organizers": [
     "farnost"
    ],
+   "id": "farnost-c11260ad50",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "Vánoční zpovídání 2026",
+   "start": "2026-12-18T13:00",
+   "end": "2026-12-18T17:30",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/vanocni-zpovidani-2026/",
+   "description": "P. Matyáš (13:00-15:00); P. Jombík (13:00-15:00); P. Horák (15:00-17:00)",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent",
+    "vánoce"
+   ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-f4e63e6ff2",
    "source": "farnost",
    "sources": [
