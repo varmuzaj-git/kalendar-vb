@@ -2572,7 +2572,7 @@
    "allDay": false,
    "location": "Fara",
    "url": "https://farnostvb.cz/akce/propojeni/",
-   "description": "3. PILÍŘ",
+   "description": "3. PILÍŘ – Propojeni ve službě evangelizaci\n\n3. pilíř – Představení tématu – video online\n\n3. pilíř – Brožura pro členy skupinek",
    "recurring": false,
    "categories": [
     "cirkev"
@@ -2901,7 +2901,7 @@
    "allDay": false,
    "location": "Fara",
    "url": "https://farnostvb.cz/akce/propojeni-2/",
-   "description": "4. PILÍŘ",
+   "description": "4. PILÍŘ – Propojeni v kněžském společenství\n\n4. pilíř – Představení tématu – video online\n\n4. pilíř – Formulář – k vytištění pro práci ve skupině",
    "recurring": false,
    "categories": [
     "cirkev"
@@ -3296,6 +3296,30 @@
    "organizers": [
     "farnost"
    ],
+   "id": "farnost-e29083380e",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "Roráty",
+   "start": "2026-12-02T06:30",
+   "end": "2026-12-02T07:00",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/roraty-8/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2026/11/roraty-2026-348x500.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": [
+    "advent"
+   ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
    "id": "farnost-91b7022960",
    "source": "farnost",
    "sources": [
@@ -3307,6 +3331,7 @@
    "allDay": false,
    "location": "Fara",
    "url": "https://farnostvb.cz/akce/propojeni-3/",
+   "description": "5. pilíř – Propojeni ve správě majetku\n\n5. pilíř – Video – Představení tématu\n\n5. pilíř – Formulář – k vytištění pro práci ve skupině",
    "recurring": false,
    "categories": [
     "cirkev"
@@ -3465,6 +3490,27 @@
    "tags": [
     "cvičení"
    ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-f993d52714",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "Roráty",
+   "start": "2026-12-09T06:30",
+   "end": "2026-12-09T07:00",
+   "allDay": false,
+   "url": "https://farnostvb.cz/akce/roraty-9/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2026/11/roraty-2026-348x500.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
   },
   {
    "organizers": [
@@ -3636,6 +3682,28 @@
    "tags": [
     "cvičení"
    ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-3ace1e0858",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "Roráty",
+   "start": "2026-12-16T06:30",
+   "end": "2026-12-16T07:00",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/roraty-10/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2026/11/roraty-2026-348x500.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
   },
   {
    "organizers": [
@@ -3811,6 +3879,28 @@
    "tags": [
     "cvičení"
    ]
+  },
+  {
+   "organizers": [
+    "farnost"
+   ],
+   "id": "farnost-8ae3c5c50e",
+   "source": "farnost",
+   "sources": [
+    "farnost"
+   ],
+   "title": "Roráty",
+   "start": "2026-12-23T08:00",
+   "end": "2026-12-23T08:30",
+   "allDay": false,
+   "location": "Farní kostel ve Valašské Bystřici",
+   "url": "https://farnostvb.cz/akce/roraty-11/",
+   "image": "https://farnostvb.cz/wp-content/uploads/2026/11/roraty-2026-348x500.webp",
+   "recurring": false,
+   "categories": [
+    "cirkev"
+   ],
+   "tags": []
   },
   {
    "organizers": [],
@@ -4163,19 +4253,19 @@
    "organizers": [
     "chaos"
    ],
-   "id": "chaos-8145e59233",
+   "id": "chaos-3fe72443b8",
    "source": "chaos",
    "sources": [
     "chaos",
     "pernicti",
     "zpravodaj"
    ],
-   "title": "Premiéra nového představení",
+   "title": "Premiéra divadelního představení",
    "start": "2027-02-20",
    "end": "2027-02-20",
    "allDay": true,
    "url": "https://divadlochaos.cz/",
-   "description": "Divadelní soubor CHAOS uvádí premiéru nového představení po čtyřech letech omlazení souboru.",
+   "description": "Premiéra nového divadelního představení souboru CHAOS, který po čtyřech letech omlazení představí novou generaci herců.",
    "image": "https://divadlochaos.cz/wp-content/uploads/2026/11/plakat_nove_posily_CHAOS-scaled.jpg",
    "recurring": false,
    "categories": [
@@ -4184,13 +4274,13 @@
    "tags": [
     "premiéra",
     "divadlo",
-    "nové",
-    "selskýpráh",
+    "chaos",
+    "selský práh",
     "drama"
    ],
    "location": "Společenský dům U Pernických",
    "altTitles": [
-    "Selský práh",
+    "Selský práh – premiéra",
     "Chaos premiéra",
     "Premiéra Selského prahu"
    ]
