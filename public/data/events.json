@@ -753,6 +753,7 @@
     "kultura"
    ],
    "tags": [
+    "slavnosti a svátky",
     "pouť",
     "valaske"
    ],
@@ -2067,7 +2068,7 @@
    "sources": [
     "farnost"
    ],
-   "title": "Posvícení",
+   "title": "Posvícení 2026",
    "start": "2026-10-18",
    "end": "2026-10-18",
    "allDay": true,
@@ -2077,7 +2078,9 @@
     "cirkev",
     "kultura"
    ],
-   "tags": []
+   "tags": [
+    "slavnosti a svátky"
+   ]
   },
   {
    "organizers": [
@@ -3771,6 +3774,7 @@
    ],
    "tags": [
     "advent",
+    "děkanát",
     "vánoce"
    ]
   },
@@ -3936,6 +3940,7 @@
     "cirkev"
    ],
    "tags": [
+    "slavnosti a svátky",
     "Vánoce"
    ]
   },
@@ -4253,19 +4258,19 @@
    "organizers": [
     "chaos"
    ],
-   "id": "chaos-3fe72443b8",
+   "id": "chaos-8145e59233",
    "source": "chaos",
    "sources": [
     "chaos",
     "pernicti",
     "zpravodaj"
    ],
-   "title": "Premiéra divadelního představení",
+   "title": "Premiéra nového představení",
    "start": "2027-02-20",
    "end": "2027-02-20",
    "allDay": true,
    "url": "https://divadlochaos.cz/",
-   "description": "Premiéra nového divadelního představení souboru CHAOS, který po čtyřech letech omlazení představí novou generaci herců.",
+   "description": "Premiéra divadelního dramatu Selský práh v nové režii Iva Oravy. Hra se koná ve Společenském domě U Pernických ve Valašské Bystřici.",
    "image": "https://divadlochaos.cz/wp-content/uploads/2026/11/plakat_nove_posily_CHAOS-scaled.jpg",
    "recurring": false,
    "categories": [
@@ -4274,7 +4279,6 @@
    "tags": [
     "premiéra",
     "divadlo",
-    "chaos",
     "selský práh",
     "drama"
    ],
