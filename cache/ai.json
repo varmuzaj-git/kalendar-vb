@@ -385,6 +385,10 @@
   "at": "2026-11-27T06:09:01.737Z",
   "events": []
  },
+ "ex-20d5e30f91": {
+  "at": "2026-11-28T06:04:12.104Z",
+  "events": []
+ },
  "ex-21c238b336": {
   "at": "2026-11-14T07:46:02.967Z",
   "events": [
@@ -1057,6 +1061,10 @@
   "at": "2026-11-27T06:09:03.928Z",
   "events": []
  },
+ "ex-59b43a0295": {
+  "at": "2026-11-28T06:04:08.802Z",
+  "events": []
+ },
  "ex-61e3a79252": {
   "at": "2026-11-24T06:07:33.848Z",
   "events": [
@@ -1446,6 +1454,31 @@
   "at": "2026-11-23T06:13:48.021Z",
   "events": []
  },
+ "ex-84d6460cb6": {
+  "at": "2026-11-28T06:04:08.377Z",
+  "events": [
+   {
+    "title": "Selský práh – premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": "Společenský dům U Pernických",
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra divadelního dramatu Selský práh v nové režii Iva Oravy. Hra se odehrává ve Valašské Bystřici v Společenském domě U Pernických.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "divadlo",
+     "premiéra",
+     "selský práh"
+    ],
+    "image": 1,
+    "quote": "Premiéra: sobota 20. února 2027"
+   }
+  ]
+ },
  "ex-8542f78021": {
   "at": "2026-11-22T06:04:14.394Z",
   "events": []
@@ -1794,6 +1827,10 @@
    }
   ]
  },
+ "ex-ae54fd06e7": {
+  "at": "2026-11-28T06:04:09.512Z",
+  "events": []
+ },
  "ex-b1fdb90ad6": {
   "at": "2026-11-14T07:40:17.607Z",
   "events": [
@@ -2100,6 +2137,30 @@
    }
   ]
  },
+ "ex-bb8f24386e": {
+  "at": "2026-11-28T06:04:06.858Z",
+  "events": [
+   {
+    "title": "Premiéra",
+    "date": "2027-02-20",
+    "endDate": null,
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Premiéra nového představení Divadelního souboru CHAOS.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "premiéra",
+     "divadlo"
+    ],
+    "image": 1,
+    "quote": "PREMIÉRU 20. ÚNORA 2027"
+   }
+  ]
+ },
  "ex-bc20dc7e1f": {
   "at": "2026-11-27T06:09:00.677Z",
   "events": []
@@ -2173,6 +2234,31 @@
     ],
     "image": null,
     "quote": "Velké vyhodnocení soutěže pak proběhlo v úterý 5. května."
+   }
+  ]
+ },
+ "ex-c0ff8585f7": {
+  "at": "2026-11-28T06:04:11.507Z",
+  "events": [
+   {
+    "title": "Divadelní scénky v CHAOSáckém kabaretu",
+    "date": "2026-03-07",
+    "endDate": "2026-03-08",
+    "time": null,
+    "endTime": null,
+    "location": null,
+    "organizer": "Divadelní soubor CHAOS",
+    "summary": "Divadelní scénky budou ve Valašské Bystřici v sobotu 7. a neděli 8. března 2026 v rámci CHAOSáckého kabaretu.",
+    "categories": [
+     "kultura"
+    ],
+    "tags": [
+     "kabaret",
+     "divadlo",
+     "chaos"
+    ],
+    "image": 1,
+    "quote": "Divadelní scénky budou ve Valašské Bystřici k vidění v sobotu 7. a neděli 8. března 2026"
    }
   ]
  },
